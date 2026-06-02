@@ -12,6 +12,15 @@
 - **Acesso:** Via OpenClaw (canal configurado)
 - **Tópico Marketing:** 📢 Marketing (topic_id: 8)
 
+
+### 3. STT local — Mensagens de Voz
+- **Uso:** Transcrever voice notes do Telegram para o agente entender áudio.
+- **Modo:** Local no VPS, via `faster-whisper` + `ffmpeg`.
+- **Script:** `/root/cerebro-minhaempresa/scripts/transcribe_audio.py`
+- **Ambiente:** `/root/cerebro-minhaempresa/.venv-stt/`
+- **Doc:** `cerebro/agentes/marketing/rotinas/stt-mensagens-de-voz.md`
+- **Config:** `tools.media.audio` em `/root/.openclaw/openclaw.json`
+
 ## Ferramentas Planejadas
 
 | Ferramenta | O que falta | Prioridade |

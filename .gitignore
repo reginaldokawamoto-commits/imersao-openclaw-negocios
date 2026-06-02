@@ -2,3 +2,5 @@
 __pycache__/
 *.pyc
 .~lock.*
+.venv-stt/
+scripts_transcribe_test.py
