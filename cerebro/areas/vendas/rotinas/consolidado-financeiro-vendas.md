@@ -132,12 +132,31 @@ Começar simples:
 4. O agente consolida em arquivo/planilha.
 5. Após 7 dias, revisar campos e ajustar o processo.
 
-## Próximo passo técnico
+## Google Sheets
 
-Definir onde a base consolidada ficará:
+Decisão em 2026-06-02: consolidar em **Google Sheets**.
 
-- opção A: arquivo CSV/planilha dentro do workspace;
-- opção B: Google Sheets;
-- opção C: Notion/Airtable/CRM, se houver ferramenta oficial.
+Conta de serviço disponível no VPS:
 
-Recomendação: começar com CSV/planilha controlada e depois integrar com Google Sheets se o fluxo validar.
+`finx-scraper@finx-scraper.iam.gserviceaccount.com`
+
+Observação operacional: a conta de serviço autentica, mas não conseguiu criar uma planilha nova por cota de Drive excedida. Fluxo recomendado:
+
+1. Reginaldo cria uma planilha vazia no Google Drive.
+2. Compartilha a planilha como **Editor** com `finx-scraper@finx-scraper.iam.gserviceaccount.com`.
+3. Informar o link/ID da planilha ao agente.
+4. Agente roda:
+
+```bash
+FINANCE_SHEET_ID=<id_da_planilha> python scripts/init_financial_google_sheet.py
+```
+
+Isso cria/limpa e estrutura as abas:
+
+- `Lançamentos`
+- `Pendências`
+- `Resumo Diário`
+- `Resumo Semanal`
+- `Resumo Mensal`
+- `Validações`
+- `Modelo Telegram`
