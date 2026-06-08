@@ -136,6 +136,12 @@ Começar simples:
 
 Decisão em 2026-06-02: consolidar em **Google Sheets**.
 
+Planilha oficial:
+
+https://docs.google.com/spreadsheets/d/122ARYktTi1RsuCnJNXIV_Bhzg-8lmofOb64yxydmxX8
+
+Inicializada em 2026-06-08 com abas de lançamentos, pendências, resumos e validações.
+
 Conta de serviço disponível no VPS:
 
 `finx-scraper@finx-scraper.iam.gserviceaccount.com`
