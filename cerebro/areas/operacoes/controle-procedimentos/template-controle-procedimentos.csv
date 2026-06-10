@@ -1,0 +1,2 @@
+ID,Paciente,Procedimento,Tipo de fluxo,Convenio,Responsavel interno,Data indicacao,Data envio proposta,Valor honorarios/proposta,Data envio convenio,Protocolo convenio,Status atual,Ultimo contato,Proximo follow-up,Dias sem atualizacao,Proxima acao,Observacoes,Motivo perda/negativa
+PROC-0001,Nome do paciente,Ex: bloqueio lombar,particular|convenio|misto,Ex: Bradesco,Paola,AAAA-MM-DD,AAAA-MM-DD,R$ 0,AAAA-MM-DD,protocolo,novo,AAAA-MM-DD,AAAA-MM-DD,0,Definir próxima ação,,
