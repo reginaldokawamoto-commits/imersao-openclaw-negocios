@@ -1,0 +1,3 @@
+tipo_salvo_iclinic,condicao,status_iclinic,criar_tarefa_em,responsavel,acao,segunda_tarefa_em,segunda_acao,observacoes
+Programa Medicina do Estilo de Vida,consulta realizada,realizado,D+25 ou D+30,Paola,Entrar em contato para agendar proxima consulta,,,Confirmar prazo ideal com Dra. Ligia
+Procedimento,procedimento realizado,realizado,D+1 manha,Paola,Enviar mensagem perguntando como o paciente esta,D+15,Verificar/agendar retorno,Confirmar regra por tipo de procedimento
