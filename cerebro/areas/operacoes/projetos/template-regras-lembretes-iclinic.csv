@@ -1,3 +1,19 @@
-tipo_salvo_iclinic,condicao,status_iclinic,criar_tarefa_em,responsavel,acao,segunda_tarefa_em,segunda_acao,observacoes
-Programa Medicina do Estilo de Vida,consulta realizada,realizado,D+25 ou D+30,Paola,Entrar em contato para agendar proxima consulta,,,Confirmar prazo ideal com Dra. Ligia
-Procedimento,procedimento realizado,realizado,D+1 manha,Paola,Enviar mensagem perguntando como o paciente esta,D+15,Verificar/agendar retorno,Confirmar regra por tipo de procedimento
+tipo_salvo_iclinic,condicao,status_iclinic,ciclo_dias,criar_tarefa_em,responsavel,acao,segunda_tarefa_em,segunda_acao,observacoes
+Retorno - Bloqueio,atendimento realizado,realizado,30,D+16,Paola,Verificar evolução e lembrar/agendar retorno dentro da janela de 30 dias,,,Nome enviado pelo Reginaldo em 2026-06-15
+1ª Consulta - Programa MEV,atendimento realizado,realizado,30,D+16,Paola,Contatar paciente para organizar próxima consulta do programa MEV,,,Nome enviado pelo Reginaldo em 2026-06-15
+Consulta - Reembolso Convênio,atendimento realizado,realizado,30,D+16,Paola,Verificar necessidade de retorno e orientar/agendar próximo passo,,,Nome enviado pelo Reginaldo em 2026-06-15
+Bioimpedância,atendimento realizado,realizado,7,D+0,Paola,Fazer acompanhamento/orientação no mesmo dia conforme fluxo da bioimpedância,,,Nome enviado pelo Reginaldo em 2026-06-15
+Curativo,atendimento realizado,realizado,7,D+0,Paola,Fazer acompanhamento/orientação no mesmo dia e verificar evolução do curativo,,,Nome enviado pelo Reginaldo em 2026-06-15
+Consulta _Domiciliar,atendimento realizado,realizado,30,D+16,Paola,Verificar necessidade de retorno e lembrar/agendar próxima consulta,,,Manter grafia exata enviada: Consulta _Domiciliar
+Consulta - HPS,atendimento realizado,realizado,30,D+16,Paola,Verificar necessidade de retorno e lembrar/agendar próxima consulta,,,Nome enviado pelo Reginaldo em 2026-06-15
+Consulta - Programa MEV,atendimento realizado,realizado,30,D+16,Paola,Contatar paciente para organizar próxima consulta do programa MEV,,,Nome enviado pelo Reginaldo em 2026-06-15
+Retorno - Procedimento,atendimento realizado,realizado,30,D+16,Paola,Verificar evolução e lembrar/agendar próximo retorno,,,Nome enviado pelo Reginaldo em 2026-06-15
+Consulta,atendimento realizado,realizado,30,D+16,Paola,Verificar necessidade de retorno e lembrar/agendar próxima consulta,,,Nome enviado pelo Reginaldo em 2026-06-15
+Consulta 1ª vez - GLM,atendimento realizado,realizado,30,D+16,Paola,Verificar necessidade de continuidade e lembrar/agendar próxima consulta,,,Nome enviado pelo Reginaldo em 2026-06-15
+Procedimento,procedimento realizado,realizado,15,D+1,Paola,Enviar mensagem perguntando como o paciente está após o procedimento,D+15,Verificar/agendar retorno,Nome enviado pelo Reginaldo em 2026-06-15
+Bloqueio,procedimento realizado,realizado,15,D+1,Paola,Enviar mensagem perguntando como o paciente está após o bloqueio,D+15,Verificar/agendar retorno,Nome enviado pelo Reginaldo em 2026-06-15
+Avaliação Pré Anestésica,atendimento realizado,realizado,30,D+16,Paola,Verificar pendências e próximos passos após avaliação pré-anestésica,,,Nome enviado pelo Reginaldo em 2026-06-15
+Bloqueio Botox,procedimento realizado,realizado,15,D+1,Paola,Enviar mensagem perguntando como o paciente está após o bloqueio com botox,D+15,Verificar/agendar retorno,Nome enviado pelo Reginaldo em 2026-06-15
+Laser,atendimento/procedimento realizado,realizado,7,D+0,Paola,Fazer acompanhamento/orientação no mesmo dia conforme fluxo do laser,,,Nome enviado pelo Reginaldo em 2026-06-15
+31602118 - Bloqueio de nervo periférico - bloqueios anes...,procedimento realizado,realizado,15,D+1,Paola,Enviar mensagem perguntando como o paciente está após o bloqueio de nervo periférico,D+15,Verificar/agendar retorno,Manter nome truncado/exato como aparece na exportação se vier assim
+Retorno,atendimento realizado,realizado,30,D+16,Paola,Verificar evolução e lembrar/agendar próximo retorno,,,Nome enviado pelo Reginaldo em 2026-06-15

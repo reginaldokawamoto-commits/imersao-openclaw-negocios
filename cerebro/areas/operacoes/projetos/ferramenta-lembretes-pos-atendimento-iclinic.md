@@ -67,13 +67,26 @@ Para montar a automação, precisamos que cada registro tenha, se possível:
 - Status da consulta, ex.: realizado, faltou, cancelado, remarcado;
 - Observações relevantes, se existirem.
 
-## Tabela de regras — modelo inicial
+## Tabela de regras — versão inicial preenchida
 
-| Tipo salvo no iClinic | Condição | Quando criar tarefa | Responsável | Ação | Observação |
-|---|---|---:|---|---|---|
-| Programa Medicina do Estilo de Vida | Consulta realizada | D+25 ou D+30 | Paola | Contatar para agendar próxima consulta | Confirmar prazo ideal com Dra. Lígia |
-| Procedimento realizado | Procedimento realizado hoje | D+1, manhã | Paola | Perguntar como está e orientar próximos passos | Pode gerar segunda tarefa de retorno |
-| Procedimento realizado | Procedimento realizado hoje | D+15 | Paola | Verificar/agendar consulta de retorno | Confirmar prazo por tipo de procedimento |
+A primeira matriz foi preenchida com os nomes enviados pelo Reginaldo em 15/06/2026.
+
+Arquivo operacional: `cerebro/areas/operacoes/projetos/template-regras-lembretes-iclinic.csv`.
+
+Interpretação dos campos enviados:
+
+- **Nome:** nome exato do tipo salvo no iClinic.
+- **Dias:** ciclo/intervalo de referência do atendimento, retorno ou procedimento.
+- **Lembrar em (dias):** quando a tarefa deve ser criada após o evento realizado no iClinic.
+
+Regras consolidadas:
+
+| Grupo | Tipos | Ciclo | Criar tarefa | Ação principal |
+|---|---|---:|---:|---|
+| Consultas e retornos | Consulta, Retorno, Retorno - Bloqueio, Retorno - Procedimento, Consulta - HPS, Consulta - Reembolso Convênio, Consulta _Domiciliar, Consulta 1ª vez - GLM, Avaliação Pré Anestésica | 30 dias | D+16 | Verificar evolução/necessidade de retorno e lembrar/agendar próxima consulta |
+| Programa MEV | 1ª Consulta - Programa MEV, Consulta - Programa MEV | 30 dias | D+16 | Organizar próxima consulta do programa MEV |
+| Procedimentos e bloqueios | Procedimento, Bloqueio, Bloqueio Botox, 31602118 - Bloqueio de nervo periférico - bloqueios anes... | 15 dias | D+1 | Mensagem pós-procedimento perguntando como está; segunda tarefa em D+15 para retorno |
+| Acompanhamentos curtos | Bioimpedância, Curativo, Laser | 7 dias | D+0 | Acompanhamento/orientação no mesmo dia conforme fluxo específico |
 
 ## Saída esperada da ferramenta
 
