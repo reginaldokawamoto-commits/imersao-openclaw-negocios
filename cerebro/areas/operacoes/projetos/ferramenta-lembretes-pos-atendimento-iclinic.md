@@ -82,6 +82,7 @@ Interpretação dos campos enviados:
 
 Fonte de dados operacional:
 
+- Ferramenta de agendamento: https://app.iclinic.com.br/agenda/
 - A ferramenta de agendamento usada pela clínica deverá ser consultada para identificar os dias em que consultas/procedimentos foram realizados.
 - A data realizada será a base para calcular o prazo de criação da tarefa de follow-up.
 
