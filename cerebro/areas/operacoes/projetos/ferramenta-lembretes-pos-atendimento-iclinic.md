@@ -76,8 +76,14 @@ Arquivo operacional: `cerebro/areas/operacoes/projetos/template-regras-lembretes
 Interpretação dos campos enviados:
 
 - **Nome:** nome exato do tipo salvo no iClinic.
-- **Dias:** ciclo/intervalo de referência do atendimento, retorno ou procedimento.
-- **Lembrar em (dias):** quando a tarefa deve ser criada após o evento realizado no iClinic.
+- **Dias:** prazo esperado para o paciente retornar, contado a partir da data em que a consulta/procedimento foi realizado.
+- **Lembrar em (dias):** quando a tarefa deve ser criada para a Paola, também contado a partir da data realizada no agendamento.
+- **Objetivo da tarefa:** Paola deve verificar se o retorno/próxima consulta já está agendado. Se não estiver, deve entrar em contato com o paciente para efetuar ou estimular o agendamento dentro do prazo correto.
+
+Fonte de dados operacional:
+
+- A ferramenta de agendamento usada pela clínica deverá ser consultada para identificar os dias em que consultas/procedimentos foram realizados.
+- A data realizada será a base para calcular o prazo de criação da tarefa de follow-up.
 
 Regras consolidadas:
 
