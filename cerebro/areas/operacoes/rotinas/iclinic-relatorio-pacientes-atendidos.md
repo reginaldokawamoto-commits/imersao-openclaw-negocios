@@ -35,11 +35,42 @@ Criar rotina diária que:
 6. Salva o arquivo em pasta padronizada.
 7. Opcionalmente analisa/resume/envia alerta.
 
-## Pendência crítica
+## Credenciais e acesso automatizado
 
-Ainda falta habilitar o login no navegador automatizado.
+O acesso automatizado foi configurado via 1Password Service Account.
 
-Recomendação: criar usuário dedicado para automação no iClinic, com permissões mínimas necessárias para visualizar/exportar o relatório.
+- Cofre: **Openclaw**
+- Item: **Iclinic**
+- Usuário: `draligiatoledo.dor@gmail.com`
+- Token do Service Account salvo no servidor em: `/root/.openclaw/secrets/1password-service-account-token`
+- Para ler a senha real pelo CLI, usar `--reveal`.
+
+Comando-base para recuperar credenciais sem imprimir senha:
+
+```bash
+export OP_SERVICE_ACCOUNT_TOKEN="$(cat /root/.openclaw/secrets/1password-service-account-token)"
+op item get 'Iclinic' --vault 'Openclaw' --fields username --reveal
+op item get 'Iclinic' --vault 'Openclaw' --fields password --reveal
+```
+
+## Teste realizado
+
+Em 2026-06-16, o fluxo foi testado com sucesso:
+
+1. Login automático no iClinic com credenciais do 1Password.
+2. Seleção da clínica **Clinica Dr. Ligia Toledo SP** quando solicitado.
+3. Navegação para **Relatórios → Pacientes por período**.
+4. Tela final confirmada em: `/v2/relatorios/atendimento/dia/`.
+5. Botão **Exportar em .XLS** localizado.
+6. Exportação testada com sucesso.
+7. Arquivo gerado em:
+   `/root/cerebro-minhaempresa/cerebro/areas/operacoes/relatorios/iclinic/downloads/pacientes_periodo_16_06_2026.xlsx`
+
+## Observações técnicas
+
+- O botão informa `.XLS`, mas o arquivo baixado no teste veio como `.xlsx`.
+- O Chrome headless precisa ter a pasta de download liberada via CDP antes de clicar em exportar.
+- Se a sessão expirar, a rotina deve refazer login usando 1Password.
 
 
 ## Campos do relatório
