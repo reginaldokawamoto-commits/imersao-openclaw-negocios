@@ -42,15 +42,28 @@ Ainda falta habilitar o login no navegador automatizado.
 Recomendação: criar usuário dedicado para automação no iClinic, com permissões mínimas necessárias para visualizar/exportar o relatório.
 
 
-## Campos relevantes para follow-up
+## Campos do relatório
 
-O relatório contém campos de referência para follow-up, incluindo:
+O relatório exportado em `.xls` contém os seguintes campos principais:
 
-- Data do atendimento/procedimento.
-- Nome do paciente.
-- Procedimento realizado.
+- **Data**
+- **Horário**
+- **Paciente**
+- **Procedimento**
+- **Convênio**
 
-Esses campos serão usados para montar uma rotina de acompanhamento pós-atendimento, com mensagens/ações diferentes conforme o procedimento realizado e o intervalo desde a data do atendimento.
+## Uso para follow-up
+
+Os campos **Data**, **Horário**, **Paciente** e **Procedimento** serão usados para montar a rotina de acompanhamento pós-atendimento.
+
+O campo **Convênio** pode ser usado como contexto adicional, por exemplo para diferenciar pacientes particulares, convênios ou regras comerciais específicas.
+
+A regra principal de follow-up deve considerar:
+
+- data do atendimento/procedimento;
+- tipo de procedimento realizado;
+- paciente atendido;
+- prazo de contato definido para cada procedimento.
 
 ## Próxima definição necessária
 
