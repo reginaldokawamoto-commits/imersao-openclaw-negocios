@@ -29,3 +29,13 @@ Receber, organizar e consolidar materiais da imersão de marketing sobre conteú
 
 - `08 - TERRITÓRIOS DE MARCA` recebido e preservado em `originais/`.
 - Consolidação principal criada em `posicionamento/territorios-de-marca.md`.
+## Materiais recebidos — 2026-06-18 — lote 01 a 07
+
+Originais e textos pesquisáveis preservados em `originais/`. Consolidações criadas em:
+
+- `contexto/perfil-estrategico-negocio.md`
+- `persona/icp.md`
+- `persona/persona-renata.md`
+- `posicionamento/posicionamento-estrategico.md`
+- `posicionamento/brand-persona.md`
+- `posicionamento/manifesto-da-marca.md`

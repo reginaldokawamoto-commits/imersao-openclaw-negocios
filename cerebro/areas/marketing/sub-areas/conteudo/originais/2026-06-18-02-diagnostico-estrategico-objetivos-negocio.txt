@@ -1,0 +1,72 @@
+Faz sentido usar R$ 30.000 como referência de qualificação, mas eu não trataria esse número como um filtro rígido e visível para o paciente.
+Eu usaria como critério interno de ICP, não necessariamente como mensagem direta de entrada.
+Minha recomendação
+Manteria:
+Paciente qualificado = tem capacidade de investir aproximadamente R$ 30.000 em tratamento, se houver indicação clínica.
+Mas com uma nuance estratégica:
+Paciente altamente qualificado = capacidade de investir entre R$ 30.000 e R$ 50.000.Paciente minimamente qualificado = capacidade de investir a partir de R$ 10.000 a R$ 15.000.
+Por quê?
+Porque o bloqueio terapêutico pode girar em torno de R$ 10.000 e, em alguns casos, já resolver. Se você filtra somente por R$ 30.000 ou mais, pode excluir pacientes bons que teriam capacidade de começar pelo primeiro tratamento, ter resultado e depois evoluir, caso necessário.
+Ao mesmo tempo, se você baixa demais o critério, volta para o problema atual: pacientes interessados, mas sem capacidade real de avançar.
+Como eu estruturaria o ICP financeiro
+1. ICP ideal
+Paciente com capacidade de investir R$ 30.000 a R$ 50.000 em tratamento, caso haja indicação clínica.
+Esse é o perfil mais alinhado ao modelo econômico do negócio, porque suporta tratamentos mais complexos, especialmente radiofrequência.
+2. ICP aceitável
+Paciente com capacidade de investir a partir de R$ 10.000 a R$ 15.000, desde que tenha alta dor, alta urgência, clareza de prioridade e abertura para um plano progressivo.
+Esse paciente pode começar com bloqueio terapêutico e, se houver necessidade de radiofrequência, avaliar o próximo passo.
+3. ICP não prioritário
+Paciente que deseja resolver a dor, mas não consegue investir nem no primeiro nível de tratamento particular.
+Esse perfil pode gerar boa intenção, mas tende a manter o gargalo de conversão.
+Por que eu não reduziria o ICP principal para R$ 10.000
+Porque isso mudaria a estratégia.
+Se o critério principal for “capacidade de investir R$ 10.000”, o conteúdo tende a atrair pessoas interessadas em uma solução pontual. Isso pode aumentar volume, mas não necessariamente melhora a conversão para procedimentos de maior ticket.
+Como a ambição é sair de R$ 100.000/mês para mais de R$ 500.000/mês, o negócio precisa de pacientes com capacidade de avançar para tratamentos mais robustos quando necessário.
+Então, R$ 10.000 deve ser o piso de entrada possível, não o ICP central.
+Por que R$ 30.000 é um bom número estratégico
+R$ 30.000 funciona bem porque:
+não é tão alto quanto R$ 50.000, então não restringe demais; 
+já indica capacidade financeira real; 
+prepara o paciente para uma jornada terapêutica mais completa; 
+reduz o risco de a consulta gerar desejo sem possibilidade de execução; 
+melhora a qualidade da demanda; 
+ajuda a diferenciar paciente curioso de paciente pronto para tratar; 
+sustenta melhor o crescimento por ticket alto. 
+A lógica é: não preciso que todo paciente entre disposto a investir R$ 50.000, mas preciso que ele não trave se o tratamento indicado ultrapassar o primeiro procedimento.
+Como isso entra no objetivo de negócio
+Eu refinaria o objetivo principal assim:
+OBJETIVOS DE NEGÓCIO
+1. Objetivo Principal
+Descrição:Atrair, nos próximos 3 a 6 meses, pacientes particulares com dor crônica e maior capacidade financeira, priorizando pessoas aptas a investir aproximadamente R$ 30.000 em tratamento, caso haja indicação clínica, sem excluir pacientes com capacidade inicial a partir de R$ 10.000 a R$ 15.000 quando houver alto potencial terapêutico e clareza de decisão. 
+Prazo:3 a 6 meses. 
+Métrica principal:Percentual de consultas realizadas com pacientes financeiramente qualificados. 
+Definição de paciente qualificado:Paciente com capacidade de investir aproximadamente R$ 30.000 em tratamento, se houver indicação clínica. 
+Indicador secundário:Conversão de consultas em bloqueio terapêutico, programa de 6 meses ou radiofrequência. 
+Nível de ambição:Incremental estratégico.O objetivo não é apenas aumentar volume de consultas, mas mudar a composição do público atraído para sustentar procedimentos de maior valor e crescimento de faturamento particular. 
+
+2. Contexto Estratégico
+Situação atual:Há pacientes interessados em continuar o tratamento, mas parte deles não consegue avançar por limitação financeira. Isso reduz conversão, mesmo quando há dor relevante e necessidade clínica. 
+O que precisa mudar:A comunicação precisa atrair pacientes que não apenas sofrem com dor crônica, mas que também têm disposição e capacidade de investir em uma solução médica especializada. 
+Principal obstáculo:Desalinhamento entre interesse terapêutico e capacidade financeira. 
+Alavancas existentes:Ticket alto, margem relevante, forte indicação de pacientes, reputação baseada em resultado, acolhimento, escuta ativa, empatia, clareza e visão integral. 
+Lacunas:Ainda falta pré-qualificar melhor o paciente antes da consulta, aumentando percepção de valor e preparando-o para entender que o tratamento pode envolver investimentos progressivos, de acordo com a indicação clínica. 
+
+3. Direção Estratégica de Conteúdo
+Papel do conteúdo:Pré-qualificar, educar e elevar o valor percebido antes da consulta. 
+Tipo de narrativa necessária:Narrativa de medicina especializada, investigação profunda e retomada de vida.O conteúdo deve sair do lugar de “dicas para dor” e entrar no território de: “quando a dor crônica exige uma abordagem médica mais avançada”. 
+O que precisa ser construído na percepção:Que o tratamento não é uma despesa pontual, mas um investimento na recuperação de autonomia, sono, mobilidade, trabalho, convívio social e qualidade de vida. 
+O que deve ser evitado:Comunicação que pareça barata, genérica, emergencial ou baseada apenas em alívio rápido. Isso tende a atrair pacientes que buscam solução imediata, mas sem capacidade de seguir o plano terapêutico. 
+
+4. Objetivos Secundários
+1. Aumentar a conversão de consultas em procedimentos
+Justificativa:Com pacientes mais qualificados financeiramente, a consulta deixa de ser uma barreira econômica e passa a ser uma etapa de decisão clínica. 
+2. Fortalecer autoridade como referência em dor crônica e medicina do estilo de vida
+Justificativa:Quanto maior o ticket e mais longa a decisão, mais o paciente precisa confiar na autoridade, no método e na profundidade da abordagem. 
+
+5. Riscos Estratégicos
+Possíveis conflitos de foco:Filtrar mais pode reduzir volume de consultas no curto prazo. Mas, se bem executado, deve aumentar qualidade, conversão e faturamento por paciente. 
+Onde o objetivo pode falhar:Pode falhar se o conteúdo continuar atraindo pessoas que apenas sentem dor, mas não têm clareza sobre a complexidade e o valor de um tratamento particular especializado. 
+Ajustes recomendados:Trabalhar conteúdos que mostrem o custo invisível da dor crônica, o impacto na vida prática, os limites dos tratamentos superficiais, os sinais de que o caso precisa de uma abordagem mais avançada e a diferença entre “tratar uma crise” e “seguir um plano terapêutico”. 
+
+Minha sugestão final é: não reduzir o critério principal de R$ 30.000.Use R$ 30.000 como o norte do ICP, mas reconheça R$ 10.000 a R$ 15.000 como faixa mínima de entrada para pacientes com alto potencial e boa prontidão.
+Este objetivo de negócio servirá como base para toda a priorização do planejamento estratégico de conteúdo.
