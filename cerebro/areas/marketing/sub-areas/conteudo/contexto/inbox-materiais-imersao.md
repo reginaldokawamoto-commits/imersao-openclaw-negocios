@@ -25,3 +25,7 @@ Receber, organizar e consolidar materiais da imersão de marketing sobre conteú
    - `calendario/` para pautas e cronogramas.
 4. Atualizar o contexto de marketing quando houver diretrizes importantes.
 5. Commitar e fazer push após a consolidação.
+## Material recebido — 2026-06-18
+
+- `08 - TERRITÓRIOS DE MARCA` recebido e preservado em `originais/`.
+- Consolidação principal criada em `posicionamento/territorios-de-marca.md`.
