@@ -130,7 +130,7 @@ No relatório diário do iClinic, o robô deve enviar para Reginaldo não apenas
 - pacientes que precisam de atenção;
 - oportunidades de agendamento/retorno.
 
-Se houver mais de 15 tarefas no checklist, listar as 15 primeiras na mensagem e informar quantas adicionais ficaram no arquivo.
+A mensagem enviada no Telegram deve trazer **todas** as tarefas pendentes do checklist no corpo da mensagem, sem truncar e sem substituir por caminho de arquivo. Para cada tarefa, incluir paciente, procedimento, tipo de follow-up, data do atendimento, convênio e ação sugerida.
 
 ## Regras iniciais sugeridas
 
