@@ -117,14 +117,20 @@ Criar painel interno para Paola marcar:
 
 ## Resumo diário para Reginaldo
 
-Ao fim do dia, idealmente às 18h, o robô pode enviar:
+No relatório diário do iClinic, o robô deve enviar para Reginaldo não apenas a contagem/caminho do arquivo, mas também os dados operacionais do checklist gerado:
 
+- paciente;
+- procedimento;
+- tipo de follow-up;
+- ação sugerida;
 - total de follow-ups previstos;
 - quantos foram feitos;
 - quantos ficaram pendentes;
 - pacientes sem resposta;
 - pacientes que precisam de atenção;
 - oportunidades de agendamento/retorno.
+
+Se houver mais de 15 tarefas no checklist, listar as 15 primeiras na mensagem e informar quantas adicionais ficaram no arquivo.
 
 ## Regras iniciais sugeridas
 
