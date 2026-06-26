@@ -3,4 +3,5 @@ __pycache__/
 *.pyc
 .~lock.*
 .venv-stt/
+.venv-aios/
 scripts_transcribe_test.py
