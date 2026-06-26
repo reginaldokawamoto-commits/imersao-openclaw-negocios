@@ -19,7 +19,7 @@ Gerar resumo semanal de leads e conversão do AIOS CRM:
 
 - URL: `https://app.aioscrm.com/reports/sessions`
 - Tela esperada: **Relatório de atendimentos**.
-- Se aparecer login, parar e pedir ao Reginaldo para entrar com `reginaldo.kawamoto@gmail.com`. Não digitar senha.
+- Se aparecer login, usar o fluxo por **telefone celular do Reginaldo**. O AIOS envia uma chave/código temporário para o celular; nunca tentar senha. Se a chave for solicitada, pedir ao Reginaldo para encaminhar o código no Telegram e continuar o login.
 - A exportação do AIOS abre em Google Sheets; baixar como `.xlsx`.
 
 ## Saídas locais
@@ -62,4 +62,4 @@ Gerar resumo semanal de leads e conversão do AIOS CRM:
 
 ## Status
 
-- 2026-06-26: rotina documentada, script criado e dependências instaladas em `.venv-aios`. Checagem inicial encontrou tela de login do AIOS; Reginaldo precisa entrar manualmente no navegador OpenClaw antes da execução automática.
+- 2026-06-26: rotina documentada, script criado e dependências instaladas em `.venv-aios`. Checagem inicial encontrou tela de login do AIOS. Reginaldo orientou que o acesso correto é por telefone celular com chave temporária; próximo passo é fazer o login assistido uma vez para salvar a sessão no navegador OpenClaw.
