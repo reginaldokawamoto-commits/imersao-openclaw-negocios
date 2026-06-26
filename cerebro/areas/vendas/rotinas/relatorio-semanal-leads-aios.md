@@ -62,4 +62,4 @@ Gerar resumo semanal de leads e conversão do AIOS CRM:
 
 ## Status
 
-- 2026-06-26: rotina documentada, script criado e dependências instaladas em `.venv-aios`. Checagem inicial encontrou tela de login do AIOS. Reginaldo orientou que o acesso correto é por telefone celular com chave temporária; próximo passo é fazer o login assistido uma vez para salvar a sessão no navegador OpenClaw.
+- 2026-06-26: rotina documentada, script criado e dependências instaladas em `.venv-aios`. Login assistido por telefone + chave temporária concluído no navegador OpenClaw. Página validada: `Relatório de atendimentos`, com 7262 atendimentos encontrados. Se a sessão expirar no futuro, refazer o fluxo por telefone com código temporário enviado ao Reginaldo.
