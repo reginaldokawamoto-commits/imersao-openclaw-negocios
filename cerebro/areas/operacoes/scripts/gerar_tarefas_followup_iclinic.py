@@ -118,7 +118,16 @@ def save_tasks(csv_path: Path, tasks: list[dict[str, str]]) -> None:
 
 
 def build_checklist(path: Path, tasks: list[dict[str, str]], due_date: str) -> None:
-    due_tasks = [t for t in tasks if t["data_followup"] == due_date and t["status"] == "pendente"]
+    # Regra operacional: pendência não some.
+    # O checklist do dia deve trazer tudo que está pendente e vencido até a data
+    # do checklist, não apenas as tarefas com data exatamente igual ao dia.
+    due_tasks = sorted(
+        [
+            t for t in tasks
+            if t["status"] == "pendente" and t.get("data_followup", "") <= due_date
+        ],
+        key=lambda t: (t.get("data_followup", ""), t.get("paciente", ""), t.get("tipo_followup", "")),
+    )
     title_date = datetime.strptime(due_date, "%Y-%m-%d").strftime("%d/%m/%Y")
     lines = [
         f"# Checklist Paola — {title_date}",
@@ -132,15 +141,16 @@ def build_checklist(path: Path, tasks: list[dict[str, str]], due_date: str) -> N
         "- `reagendar <número> para DD/MM`",
         "- `atenção médica <número> - observação`",
         "",
-        "## Tarefas de hoje",
+        "## Tarefas pendentes até hoje",
         "",
     ]
     if not due_tasks:
-        lines.append("Nenhuma tarefa pendente para hoje.")
+        lines.append("Nenhuma tarefa pendente até hoje.")
     for idx, task in enumerate(due_tasks, 1):
         atendimento = datetime.strptime(task["data_atendimento"], "%Y-%m-%d").strftime("%d/%m/%Y")
         lines += [
             f'{idx}. **{task["paciente"]}** — {task["procedimento"]} — {task["tipo_followup"]}',
+            f'   - Follow-up previsto: {datetime.strptime(task["data_followup"], "%Y-%m-%d").strftime("%d/%m/%Y")}',
             f'   - Atendimento: {atendimento} às {task["horario"]}',
             f'   - Convênio: {task["convenio"]}',
             f'   - Ação: {task["acao_sugerida"]}',
@@ -160,9 +170,10 @@ def main() -> None:
 
     rows = read_xlsx(args.xlsx)
     if not rows:
-        raise SystemExit("Planilha vazia")
-    header = rows[0]
-    records = [dict(zip(header, row)) for row in rows[1:]]
+        records: list[dict[str, str]] = []
+    else:
+        header = rows[0]
+        records = [dict(zip(header, row)) for row in rows[1:]]
 
     outdir = args.workspace / "cerebro/areas/operacoes/followup"
     csv_path = outdir / "tarefas-followup.csv"
@@ -198,14 +209,16 @@ def main() -> None:
 
     if args.checklist_date:
         checklist_date = args.checklist_date
-    else:
+    elif records:
         first_date = brdate_to_date(records[0]["Data"])
         checklist_date = (first_date + timedelta(days=1)).isoformat()
+    else:
+        checklist_date = (date.today() + timedelta(days=1)).isoformat()
 
     checklist_path = outdir / f"checklist-paola-{checklist_date}.md"
     build_checklist(checklist_path, merged, checklist_date)
 
-    due_count = sum(1 for t in merged if t["data_followup"] == checklist_date and t["status"] == "pendente")
+    due_count = sum(1 for t in merged if t["data_followup"] <= checklist_date and t["status"] == "pendente")
     print(f"records={len(records)} new_tasks={len(new_tasks)} total_tasks={len(merged)} checklist_date={checklist_date} due_pending={due_count}")
     print(csv_path)
     print(checklist_path)

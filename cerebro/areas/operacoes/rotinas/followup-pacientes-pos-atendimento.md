@@ -56,6 +56,13 @@ Todo dia pela manhã, idealmente às 08h, Paola recebe um checklist do dia com:
 - ação sugerida;
 - status pendente.
 
+Regra crítica: **pendência não some automaticamente**. Se uma tarefa de sábado,
+domingo ou qualquer dia anterior não tiver sido explicitamente marcada como
+`feito`, `reagendada`, `não respondeu` ou `atenção médica`, ela continua entrando
+nos checklists seguintes como pendente acumulada. O checklist diário deve listar
+**tudo que está pendente e vencido até a data do checklist**, não apenas as
+tarefas criadas para aquele dia.
+
 Exemplo de mensagem:
 
 ```text
@@ -131,6 +138,11 @@ No relatório diário do iClinic, o robô deve enviar para Reginaldo não apenas
 - oportunidades de agendamento/retorno.
 
 A mensagem enviada no Telegram deve trazer **todas** as tarefas pendentes do checklist no corpo da mensagem, sem truncar e sem substituir por caminho de arquivo. Para cada tarefa, incluir paciente, procedimento, tipo de follow-up, data do atendimento, convênio e ação sugerida.
+
+Além das tarefas geradas pelo iClinic, o robô deve manter na mesma base os
+follow-ups manuais enviados por Reginaldo ou Paola no Telegram. Esses follow-ups
+manuais também devem acumular enquanto não houver confirmação explícita de
+resolução.
 
 ## Regras iniciais sugeridas
 
