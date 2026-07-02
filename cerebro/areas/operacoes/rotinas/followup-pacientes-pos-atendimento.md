@@ -144,6 +144,30 @@ follow-ups manuais enviados por Reginaldo ou Paola no Telegram. Esses follow-ups
 manuais também devem acumular enquanto não houver confirmação explícita de
 resolução.
 
+### Regra obrigatória para respostas da Paola no Telegram
+
+Quando Paola responder `feito 1`, `feito 1-11`, `feito 1, 2, 3` ou formato equivalente, **não basta confirmar no chat**. O agente deve, na mesma hora:
+
+1. localizar o checklist ativo mais recente (`checklist-paola-YYYY-MM-DD.md`);
+2. converter os números informados nos IDs correspondentes;
+3. atualizar `tarefas-followup.csv` com status `concluido`, observação e `concluido_em`;
+4. regenerar o checklist do dia para remover os itens concluídos;
+5. responder confirmando quantos itens foram realmente baixados da base.
+
+Script de apoio: `cerebro/areas/operacoes/scripts/atualizar_followup_paola.py`.
+
+Exemplo:
+
+```bash
+python3 cerebro/areas/operacoes/scripts/atualizar_followup_paola.py feito \
+  --checklist-date 2026-07-02 \
+  --itens 1-11 \
+  --origem "Paola via Telegram" \
+  --quando "2026-07-02T09:30:00-03:00"
+```
+
+Quando Paola ou Reginaldo enviar uma **nova tarefa manual de follow-up de paciente**, ela também deve entrar em `tarefas-followup.csv` como `Follow-up manual`, além de qualquer lembrete cron se houver data/horário.
+
 ## Regras iniciais sugeridas
 
 A confirmar com Reginaldo e equipe:
