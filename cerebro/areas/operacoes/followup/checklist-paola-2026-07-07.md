@@ -123,7 +123,15 @@ Responder no Telegram com:
    - Status: ⬜ Pendente
    - ID: `3284f9845b`
 
-15. **Wender Face** — Bloqueio Botox — D+7
+15. **Priscila Genovesi** — Follow-up manual — Manual
+   - Follow-up previsto: 07/07/2026
+   - Atendimento: 03/07/2026 às 
+   - Convênio: 
+   - Ação: Entrar em contato para saber se falou com a irmã e verificar agendamento de consulta para a mãe.
+   - Status: ⬜ Pendente
+   - ID: `7dc1cf4879`
+
+16. **Wender Face** — Bloqueio Botox — D+7
    - Follow-up previsto: 07/07/2026
    - Atendimento: 30/06/2026 às 07:00:00
    - Convênio: SUL AMÉRICA SAÚDE COMPANHIA DE SEGUROS
