@@ -12,7 +12,8 @@ operacoes/
 │   └── lessons.md         ← Lições aprendidas
 ├── rotinas/
 │   ├── heartbeat.md
-│   └── sync-github.md
+│   ├── sync-github.md
+│   └── solicitacao-procedimento-padrao.md
 ├── skills/
 │   └── _index.md
 ├── projetos/
@@ -26,6 +27,6 @@ operacoes/
 | `contexto/people.md` | Responsáveis e estrutura de decisão |
 | `contexto/decisions.md` | Decisões tomadas na área |
 | `contexto/lessons.md` | Lições aprendidas |
-| `rotinas/` | Crons configurados (heartbeat 6h, sync GitHub 00h) |
+| `rotinas/` | Rotinas operacionais e POPs, incluindo heartbeat, sync GitHub e solicitação padrão de procedimentos |
 | `skills/` | Skills da área (ver `_index.md`) |
 | `projetos/` | Projetos ativos e concluídos |

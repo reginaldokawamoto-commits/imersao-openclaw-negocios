@@ -7,4 +7,5 @@
 | `heartbeat` | A cada 1h | Loop de orquestração — checa estado, decide ações, replaneja, recupera erros |
 | `sync-github` | A cada 6h | Sincroniza alterações locais com o repositório GitHub |
 | `followup-procedimentos-semanal` | Semanal — segunda de manhã | Levanta pendências de procedimentos particulares, convênio, mistos e negativas/reclamações |
+| `solicitacao-procedimento-padrao` | Sob demanda | POP para solicitação de procedimentos, conferência de dados, procedimento principal, materiais e acompanhamento |
 | `captura-tarefas-por-audio` | Sob demanda | Transforma áudios do Telegram em tarefas, pendências e lembretes |
