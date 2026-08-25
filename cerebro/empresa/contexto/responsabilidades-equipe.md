@@ -56,6 +56,7 @@ Para cada atividade, registrar sempre que possível:
 | Atendimento e vendas | Paola | Reginaldo | Contínua | Ativa | Inclui contato com novos leads e registro de origem/indicação. |
 | Follow-up iClinic | Tamires | Reginaldo / Paola | Contínua | A detalhar | Confirmar rotina, regras e frequência. |
 | Contato com novos leads e registro de indicação | Paola / Tamires | Reginaldo | Em todo novo lead | Ativa | Sempre perguntar se veio por indicação; se sim, registrar nome completo do indicador e relação/canal. Quando o lead agendar, se o indicador for paciente da clínica, entrar em contato para informar que houve agendamento e agradecer pela indicação. |
+| Organização de documentos e exames no Google Drive | Paola | Reginaldo / equipe médica | Sob demanda / conforme recebimento | Ativa | Salvar documentos e exames recebidos e anexar/subir no Google Drive na pasta do respectivo paciente, mantendo identificação clara do arquivo. |
 | Pesquisa de Instagram de pacientes ativos | Tamires | Reginaldo / Marketing | Contínua | Ativa | Localizar perfis de Instagram dos pacientes ativos da Dra. Lígia para inclusão na lista de Close Friends do Instagram. |
 | Atendimento médico e decisões clínicas | Dra. Lígia | Reginaldo / equipe | Contínua | Ativa | Responsabilidade técnica e clínica. |
 
@@ -91,11 +92,13 @@ Para cada atividade, registrar sempre que possível:
 | Atendimento | A detalhar | A detalhar | A detalhar | A detalhar | Registrar exatamente quais etapas ficam com Paola. |
 | Vendas | A detalhar | A detalhar | A detalhar | A detalhar | Registrar abordagem, follow-up comercial e conversão. |
 | Contato com novo lead — origem/indicação | Todo novo lead | WhatsApp / telefone / CRM | Origem registrada; se houver indicação, nome completo do indicador registrado; se agendar e o indicador for paciente, indicador avisado e agradecido | Ativa | Perguntar sempre: “Você veio por indicação de alguém?” Caso sim, coletar nome completo do indicador, podendo ser paciente, amigo, médico ou outro contato. |
+| Salvar documentos e exames no Google Drive | Conforme recebimento | WhatsApp / e-mail / iClinic / Google Drive | Documento/exame salvo e anexado na pasta correta do respectivo paciente no Google Drive | Ativa | Nomear arquivos de forma identificável, conferir paciente antes de anexar e evitar deixar documentos soltos fora da pasta do paciente. |
 
 ### Histórico de mudanças
 
 | Data | Mudança | Origem da informação |
 |---|---|---|
+| 2026-08-25 | Incluída atividade da Paola: salvar documentos e exames recebidos e anexar no Google Drive na pasta do respectivo paciente. | Áudio de Reginaldo no Telegram. |
 | 2026-08-25 | Incluída atividade obrigatória no contato com novo lead: perguntar sobre indicação, registrar nome completo do indicador e agradecer paciente indicador quando o lead agendar. | Áudio de Reginaldo no Telegram. |
 | 2026-08-13 | Incluída como pessoa acompanhada no mapa de responsabilidades. | Contexto da equipe. |
 
@@ -176,6 +179,7 @@ Para cada atividade, registrar sempre que possível:
 
 | Data | Alteração | Solicitante | Observações |
 |---|---|---|---|
+| 2026-08-25 | Adicionada responsabilidade da Paola: salvar documentos e exames e anexar no Google Drive nas pastas dos respectivos pacientes. | Reginaldo | Solicitação recebida por áudio no Telegram. |
 | 2026-08-25 | Adicionada regra de atendimento para Paola e Tamires no contato com novo lead: perguntar se houve indicação, registrar nome completo do indicador e agradecer/informar o indicador quando for paciente e o lead agendar. | Reginaldo | Solicitação recebida por áudio no Telegram. |
 | 2026-08-15 | Adicionada responsabilidade da Tamires: pesquisar Instagram dos pacientes ativos da Dra. Lígia para inclusão no Close Friends do Instagram. | Reginaldo | Solicitação recebida por áudio no Telegram. |
 | 2026-08-13 | Criado documento inicial de responsabilidades da equipe. | Reginaldo | Estrutura preparada para receber áudios, documentos e atualizações futuras. |
