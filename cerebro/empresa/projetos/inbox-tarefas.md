@@ -4,6 +4,8 @@ Tarefas rápidas capturadas por áudio/texto no Telegram.
 
 | Criada em | Tarefa | Categoria | Responsável | Prazo | Status | Observações |
 |---|---|---|---|---|---|---|
+| 2026-08-25 20:00 UTC | Fazer pedido de radiofrequência lombar para o paciente Daniel Ramos | Operações/Atendimento | Reginaldo | A definir | A fazer | Capturada via áudio Telegram de Reginaldo. Ação clínica/operacional: preparar pedido, não enviar sem conferência/autorização. |
+| 2026-08-25 20:00 UTC | Fazer justificativa de negativa para a paciente Cristina Fernandes | Operações/Atendimento | Reginaldo | A definir | A fazer | Capturada via áudio Telegram de Reginaldo. Contexto: convênio negou por solicitação repetida/novo pedido; justificativa indicada: paciente continua com dor, por isso será realizado novo bloqueio. |
 | 2026-08-21 09:18 UTC | Enviar mensagem para Raquel da Target solicitando o orçamento da Magali | Operações/Financeiro | Reginaldo | 2026-08-21 | A fazer | Capturada via áudio Telegram de Reginaldo. Ação externa: não enviar sem confirmação. |
 | 2026-08-21 09:18 UTC | Corrigir orçamento | Financeiro/Operações | Reginaldo | 2026-08-21 | A fazer | Capturada via áudio Telegram; transcrição ficou ambígua, confirmar detalhes se necessário. |
 | 2026-08-21 09:18 UTC | Pagar aluguel da Sala 1605 | Financeiro | Reginaldo | 2026-08-21 | A fazer | Capturada via áudio Telegram. Tarefa financeira: apenas lembrar/organizar, não executar pagamento sem confirmação explícita. |
