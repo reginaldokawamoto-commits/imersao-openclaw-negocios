@@ -4,6 +4,7 @@ Tarefas rápidas capturadas por áudio/texto no Telegram.
 
 | Criada em | Tarefa | Categoria | Responsável | Prazo | Status | Observações |
 |---|---|---|---|---|---|---|
+| 2026-08-25 20:06 UTC | Fazer cadastro da mãe no Hospital Santa Joana | Pessoal/Operações | Reginaldo | 2026-08-25 19:00 America/Sao_Paulo | A fazer | Capturada via áudio Telegram de Reginaldo. Importante: não pode deixar de fazer hoje. Lembrete cron criado para 19:00 BRT: 37e64644-1982-47d9-96ce-faa20efd9214. |
 | 2026-08-25 20:00 UTC | Fazer pedido de radiofrequência lombar para o paciente Daniel Ramos | Operações/Atendimento | Reginaldo | A definir | A fazer | Capturada via áudio Telegram de Reginaldo. Ação clínica/operacional: preparar pedido, não enviar sem conferência/autorização. |
 | 2026-08-25 20:00 UTC | Fazer justificativa de negativa para a paciente Cristina Fernandes | Operações/Atendimento | Reginaldo | A definir | A fazer | Capturada via áudio Telegram de Reginaldo. Contexto: convênio negou por solicitação repetida/novo pedido; justificativa indicada: paciente continua com dor, por isso será realizado novo bloqueio. |
 | 2026-08-21 09:18 UTC | Enviar mensagem para Raquel da Target solicitando o orçamento da Magali | Operações/Financeiro | Reginaldo | 2026-08-21 | A fazer | Capturada via áudio Telegram de Reginaldo. Ação externa: não enviar sem confirmação. |
