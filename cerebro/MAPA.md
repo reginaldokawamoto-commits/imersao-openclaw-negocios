@@ -12,6 +12,7 @@ cerebro/
 │   ├── contexto/                   ← Quem somos, equipe, métricas, decisões, lições
 │   ├── skills/                     ← Skills cross-área
 │   ├── rotinas/                    ← Rotinas automáticas
+│   ├── ideias/                     ← Ideias capturadas antes de virarem projetos
 │   └── projetos/                   ← Projetos e pendências
 │
 ├── areas/                          ← Áreas da empresa
@@ -57,7 +58,7 @@ cerebro/
 
 | Pasta | O que o agente encontra |
 |-------|------------------------|
-| `empresa/` | Contexto global — missão, produto, equipe, métricas, decisões, lições, projetos |
+| `empresa/` | Contexto global — missão, produto, equipe, métricas, decisões, lições, ideias e projetos |
 | `areas/` | Cada área da empresa com a mesma estrutura: contexto, skills, rotinas, projetos |
 | `agentes/` | Configuração de cada agente — SOUL, AGENTS, TOOLS, permissões |
 | `seguranca/` | Quem pode acessar o quê, políticas de acesso |

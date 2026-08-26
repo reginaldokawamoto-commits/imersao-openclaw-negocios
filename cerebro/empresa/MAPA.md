@@ -13,6 +13,11 @@ empresa/
 │   └── lessons.md         ← Lições aprendidas
 ├── rotinas/
 ├── skills/
+├── ideias/                ← Repositório de ideias antes de virarem projetos
+│   ├── README.md
+│   ├── indice.md
+│   ├── template-ideia.md
+│   └── ideias/
 └── projetos/
     ├── README.md          ← Projetos ativos e concluídos
     └── pendencias.md      ← Pendências abertas
@@ -29,4 +34,5 @@ empresa/
 | `contexto/lessons.md` | Lições aprendidas com erros e acertos |
 | `rotinas/` | Rotinas automáticas (crons) |
 | `skills/` | Skills cross-área (ver `_index.md`) |
+| `ideias/` | Ideias capturadas, estruturadas e avaliadas antes de virar projeto |
 | `projetos/` | Projetos em andamento e concluídos |
