@@ -39,11 +39,11 @@ O agente verifica o `telegram_id` de quem mandou a mensagem. Se a pessoa não te
 | telegram_id | Nome | Papel | Agentes que pode acionar |
 |-------------|------|-------|--------------------------|
 | 952775153 | Reginaldo Yukio Kawamoto | Gestão de operações, financeiro, atendimento e marketing | Todos |
-| A confirmar | Dra. Lígia Toledo Kawamoto | Médica responsável e CEO | Todos |
+| 8831671698 | Dra. Lígia Toledo Kawamoto | Médica responsável e CEO | Todos |
 | 8805102969 | Paola | Atendimento e vendas | Assistente Geral, Atendimento, Vendas |
 | 1392170583 | Tamires Gomes | Atendimento/rotina de follow-up iClinic | Assistente Geral, Atendimento, Operações |
 
-> Observação: em 2026-08-27, Reginaldo solicitou acesso total para a Dra. Lígia. A política está aprovada, mas a liberação técnica no `openclaw.json` depende de confirmar o Telegram ID/contato correto dela. Não reutilizar o ID `8805102969` para a Dra. Lígia: memória local registra esse ID como sendo da Paola.
+> Observação: em 2026-08-27, Reginaldo solicitou acesso total para a Dra. Lígia. Liberação técnica realizada no `openclaw.json` com Telegram ID `8831671698`. Não reutilizar o ID `8805102969` para a Dra. Lígia: memória local registra esse ID como sendo da Paola.
 
 ### Níveis de acesso
 

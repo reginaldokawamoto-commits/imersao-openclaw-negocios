@@ -176,7 +176,7 @@ Para cada atividade, registrar sempre que possível:
 
 ## Dra. Lígia
 
-- [ ] Confirmar Telegram ID/contato da Dra. Lígia para vincular corretamente o acesso total no OpenClaw.
+- [x] Confirmar Telegram ID/contato da Dra. Lígia para vincular corretamente o acesso total no OpenClaw — ID `8831671698` liberado em 2026-08-27.
 - [ ] Detalhar responsabilidades clínicas que impactam operação.
 - [ ] Registrar quando a equipe deve escalar dúvidas para a Dra. Lígia.
 - [ ] Definir participação dela em conteúdo, aprovações e posicionamento técnico.
@@ -187,7 +187,7 @@ Para cada atividade, registrar sempre que possível:
 
 | Data | Alteração | Solicitante | Observações |
 |---|---|---|---|
-| 2026-08-27 | Atualizada Dra. Lígia como médica responsável, CEO e usuária autorizada do assistente para rotinas pessoais/familiares e empresariais; pendente confirmar Telegram ID para permissão técnica. | Reginaldo | Solicitação recebida por áudio no Telegram. |
+| 2026-08-27 | Atualizada Dra. Lígia como médica responsável, CEO e usuária autorizada do assistente para rotinas pessoais/familiares e empresariais; permissão técnica liberada para Telegram ID `8831671698`. | Reginaldo | Solicitação recebida por áudio no Telegram. |
 | 2026-08-25 | Adicionada responsabilidade da Paola: salvar documentos e exames e anexar no Google Drive nas pastas dos respectivos pacientes. | Reginaldo | Solicitação recebida por áudio no Telegram. |
 | 2026-08-25 | Adicionada regra de atendimento para Paola e Tamires no contato com novo lead: perguntar se houve indicação, registrar nome completo do indicador e agradecer/informar o indicador quando for paciente e o lead agendar. | Reginaldo | Solicitação recebida por áudio no Telegram. |
 | 2026-08-15 | Adicionada responsabilidade da Tamires: pesquisar Instagram dos pacientes ativos da Dra. Lígia para inclusão no Close Friends do Instagram. | Reginaldo | Solicitação recebida por áudio no Telegram. |
