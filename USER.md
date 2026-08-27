@@ -11,7 +11,7 @@
 
 ## Liderança
 
-- **Dra. Lígia Toledo Kawamoto** — Médica responsável, CEO da empresa e autoridade final em decisões clínicas, estratégicas e institucionais.
+- **Dra. Lígia Toledo Kawamoto** — Médica responsável, CEO da empresa e autoridade final em decisões clínicas, estratégicas e institucionais — Telegram ID `8831671698`.
 - **Reginaldo Yukio Kawamoto** — Gestão de operações, financeiro, atendimento e marketing.
 
 ## Equipe Interna
