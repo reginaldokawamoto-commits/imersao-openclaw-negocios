@@ -12,23 +12,23 @@
 ## Liderança
 
 - **Dra. Lígia Toledo Kawamoto** — Médica responsável, CEO da empresa e autoridade final em decisões clínicas, estratégicas e institucionais.
-- **Reginaldo Yukio Kawamoto** — Gestão de operações, financeiro, atendimento e marketing; esposo da Dra. Lígia e corresponsável pela centralização das informações no assistente.
+- **Reginaldo Yukio Kawamoto** — Gestão de operações, financeiro, atendimento e marketing.
 
 ## Equipe Interna
 
 - **Paola** — Atendimento e vendas
 - **Tamires Gomes** — Atendimento/rotina de follow-up iClinic — Telegram: @tamiresgomespadua / ID 1392170583
 
-## Equipe Externa
-
-- **Patricia** — Social Media: Instagram, TikTok e LinkedIn
-- **Patrícia** — Gestão de tráfego: Meta Ads e Google Ads
-
 ## Uso do assistente
 
 - Reginaldo e Dra. Lígia podem usar o assistente para demandas da empresa e para rotinas pessoais/familiares compartilhadas.
 - Exemplos: listas de farmácia, mercado e viagem; tarefas do dia a dia; compartilhamento de informações; organização centralizada; apoio em decisões e rotinas da empresa.
 - Ações externas/sensíveis continuam exigindo confirmação antes de execução, mesmo para usuários com acesso total.
+
+## Equipe Externa
+
+- **Patricia** — Social Media: Instagram, TikTok e LinkedIn
+- **Patrícia** — Gestão de tráfego: Meta Ads e Google Ads
 
 ## Produtos
 

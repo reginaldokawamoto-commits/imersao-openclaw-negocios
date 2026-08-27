@@ -3,7 +3,7 @@
 > Documento vivo para registrar atividades, obrigações e responsabilidades por pessoa.
 > Atualizar sempre que uma atividade mudar de responsável, for criada, pausada ou encerrada.
 
-**Última atualização:** 2026-08-25  
+**Última atualização:** 2026-08-27  
 **Responsável pelo registro:** Agente de Marketing / Operações, a partir dos comandos enviados por Reginaldo.
 
 ---
@@ -24,10 +24,10 @@ Este documento deve ajudar a responder rapidamente:
 
 ## Pessoas acompanhadas
 
-- **Reginaldo Yukio Kawamoto** — gestão de operações, financeiro, atendimento e marketing.
+- **Dra. Lígia Toledo Kawamoto** — médica responsável, CEO da empresa, autoridade final em decisões clínicas, estratégicas e institucionais; também usuária autorizada do assistente para rotinas pessoais/familiares e da empresa.
+- **Reginaldo Yukio Kawamoto** — gestão de operações, financeiro, atendimento e marketing; esposo da Dra. Lígia e corresponsável pela centralização das informações no assistente.
 - **Paola** — atendimento e vendas.
 - **Tamires Gomes** — atendimento e rotina de follow-up iClinic.
-- **Dra. Lígia Toledo** — médica responsável, decisões clínicas, posicionamento técnico e condução dos atendimentos médicos.
 
 ---
 
@@ -52,13 +52,15 @@ Para cada atividade, registrar sempre que possível:
 
 | Área / Atividade | Responsável principal | Apoio | Frequência | Status | Observações |
 |---|---|---|---|---|---|
-| Gestão geral da operação | Reginaldo | Equipe | Contínua | Ativa | Coordenação de rotina, prioridades e repasse de atividades. |
+| Direção clínica e executiva da empresa | Dra. Lígia | Reginaldo / equipe | Contínua | Ativa | Médica responsável e CEO; autoridade final em decisões clínicas, estratégicas e institucionais. |
+| Gestão geral da operação | Reginaldo | Dra. Lígia / equipe | Contínua | Ativa | Coordenação de rotina, prioridades e repasse de atividades. |
 | Atendimento e vendas | Paola | Reginaldo | Contínua | Ativa | Inclui contato com novos leads e registro de origem/indicação. |
 | Follow-up iClinic | Tamires | Reginaldo / Paola | Contínua | A detalhar | Confirmar rotina, regras e frequência. |
 | Contato com novos leads e registro de indicação | Paola / Tamires | Reginaldo | Em todo novo lead | Ativa | Sempre perguntar se veio por indicação; se sim, registrar nome completo do indicador e relação/canal. Quando o lead agendar, se o indicador for paciente da clínica, entrar em contato para informar que houve agendamento e agradecer pela indicação. |
 | Organização de documentos e exames no Google Drive | Paola | Reginaldo / equipe médica | Sob demanda / conforme recebimento | Ativa | Salvar documentos e exames recebidos e anexar/subir no Google Drive na pasta do respectivo paciente, mantendo identificação clara do arquivo. |
 | Pesquisa de Instagram de pacientes ativos | Tamires | Reginaldo / Marketing | Contínua | Ativa | Localizar perfis de Instagram dos pacientes ativos da Dra. Lígia para inclusão na lista de Close Friends do Instagram. |
 | Atendimento médico e decisões clínicas | Dra. Lígia | Reginaldo / equipe | Contínua | Ativa | Responsabilidade técnica e clínica. |
+| Uso do assistente para organização pessoal/familiar e empresarial | Dra. Lígia / Reginaldo | Assistente | Contínua | Ativa | Listas de mercado/farmácia/viagem, tarefas do dia a dia, compartilhamento de informações e centralização organizacional podem ser conduzidos pelos dois. |
 
 ---
 
@@ -131,14 +133,19 @@ Para cada atividade, registrar sempre que possível:
 
 | Atividade | Frequência | Ferramenta/canal | Critério de conclusão | Status | Observações |
 |---|---|---|---|---|---|
+| CEO / direção executiva | Contínua | Reuniões / Telegram / sistemas internos | Diretrizes estratégicas definidas e comunicadas | Ativa | Autoridade final sobre decisões estratégicas e institucionais da empresa. |
+| Médica responsável | Contínua | iClinic / prontuário / atendimento | Responsabilidade técnica preservada e decisões clínicas validadas | Ativa | Autoridade clínica principal da empresa. |
 | Atendimento médico | Conforme agenda | iClinic / consulta presencial ou online | Consulta realizada e registrada | Ativa | Responsabilidade clínica. |
 | Decisões clínicas | Conforme necessidade | Consulta / exames / prontuário | Conduta definida | Ativa | Inclui diagnóstico, indicação de tratamentos e procedimentos. |
-| Direcionamento técnico de conteúdo médico | Sob demanda | Marketing / social media | Orientação técnica fornecida | A detalhar | Útil para posts, vídeos, campanhas e autoridade médica. |
+| Direcionamento técnico de conteúdo médico | Sob demanda | Marketing / social media | Orientação técnica fornecida | Ativa | Útil para posts, vídeos, campanhas e autoridade médica. |
+| Uso do assistente nas rotinas do dia a dia | Contínua / sob demanda | Telegram / listas / tarefas | Informações registradas e compartilhadas de forma centralizada | Ativa | Pode usar o assistente para listas de farmácia, mercado, viagem, tarefas familiares e demandas operacionais da empresa, em cooperação com Reginaldo. |
+| Aprovação e orientação de temas sensíveis | Sob demanda | Telegram / reunião / documentos | Decisão registrada antes da execução externa | Ativa | Inclui decisões clínicas, publicações com conteúdo médico, comunicações sensíveis e diretrizes de atendimento. |
 
 ### Histórico de mudanças
 
 | Data | Mudança | Origem da informação |
 |---|---|---|
+| 2026-08-27 | Atualizada como médica responsável, CEO da empresa e usuária autorizada do assistente para rotinas pessoais/familiares e da empresa. | Áudio de Reginaldo no Telegram. |
 | 2026-08-13 | Incluída como pessoa acompanhada no mapa de responsabilidades. | Contexto da equipe. |
 
 ---
@@ -169,6 +176,7 @@ Para cada atividade, registrar sempre que possível:
 
 ## Dra. Lígia
 
+- [ ] Confirmar Telegram ID/contato da Dra. Lígia para vincular corretamente o acesso total no OpenClaw.
 - [ ] Detalhar responsabilidades clínicas que impactam operação.
 - [ ] Registrar quando a equipe deve escalar dúvidas para a Dra. Lígia.
 - [ ] Definir participação dela em conteúdo, aprovações e posicionamento técnico.
@@ -179,6 +187,7 @@ Para cada atividade, registrar sempre que possível:
 
 | Data | Alteração | Solicitante | Observações |
 |---|---|---|---|
+| 2026-08-27 | Atualizada Dra. Lígia como médica responsável, CEO e usuária autorizada do assistente para rotinas pessoais/familiares e empresariais; pendente confirmar Telegram ID para permissão técnica. | Reginaldo | Solicitação recebida por áudio no Telegram. |
 | 2026-08-25 | Adicionada responsabilidade da Paola: salvar documentos e exames e anexar no Google Drive nas pastas dos respectivos pacientes. | Reginaldo | Solicitação recebida por áudio no Telegram. |
 | 2026-08-25 | Adicionada regra de atendimento para Paola e Tamires no contato com novo lead: perguntar se houve indicação, registrar nome completo do indicador e agradecer/informar o indicador quando for paciente e o lead agendar. | Reginaldo | Solicitação recebida por áudio no Telegram. |
 | 2026-08-15 | Adicionada responsabilidade da Tamires: pesquisar Instagram dos pacientes ativos da Dra. Lígia para inclusão no Close Friends do Instagram. | Reginaldo | Solicitação recebida por áudio no Telegram. |

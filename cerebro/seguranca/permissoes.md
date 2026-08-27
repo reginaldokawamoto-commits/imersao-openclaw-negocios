@@ -34,16 +34,16 @@ Cada agente responde **somente** no(s) grupo(s) listados. Mensagem fora do mapea
 
 O agente verifica o `telegram_id` de quem mandou a mensagem. Se a pessoa não tem permissão, **ignora**.
 
-### Exemplo (dados fictícios)
+### Pessoas autorizadas / operação atual
 
 | telegram_id | Nome | Papel | Agentes que pode acionar |
 |-------------|------|-------|--------------------------|
-| 111111111 | Ana Souza | Fundadora | Todos |
-| 222222222 | Bruno Lima | CEO | Todos |
-| 333333333 | Carlos Reis | COO | Todos |
-| 444444444 | Diana Rocha | Social Media | Assistente Geral, Marketing |
-| 555555555 | Eduardo Silva | Suporte | Assistente Geral, Atendimento |
-| 666666666 | Visitante / Aluno | — | Nenhum (somente leitura) |
+| 952775153 | Reginaldo Yukio Kawamoto | Gestão de operações, financeiro, atendimento e marketing | Todos |
+| A confirmar | Dra. Lígia Toledo Kawamoto | Médica responsável e CEO | Todos |
+| 8805102969 | Paola | Atendimento e vendas | Assistente Geral, Atendimento, Vendas |
+| 1392170583 | Tamires Gomes | Atendimento/rotina de follow-up iClinic | Assistente Geral, Atendimento, Operações |
+
+> Observação: em 2026-08-27, Reginaldo solicitou acesso total para a Dra. Lígia. A política está aprovada, mas a liberação técnica no `openclaw.json` depende de confirmar o Telegram ID/contato correto dela. Não reutilizar o ID `8805102969` para a Dra. Lígia: memória local registra esse ID como sendo da Paola.
 
 ### Níveis de acesso
 
@@ -70,4 +70,4 @@ No `openclaw.json`, dentro de cada account do Telegram:
 
 ---
 
-*Atualizado: 26 de março de 2026*
+*Atualizado: 27 de agosto de 2026*
