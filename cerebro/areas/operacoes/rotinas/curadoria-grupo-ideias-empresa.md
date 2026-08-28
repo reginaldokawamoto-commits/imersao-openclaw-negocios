@@ -108,3 +108,4 @@ Enviar uma síntese semanal com:
 | Data | Alteração | Origem |
 |---|---|---|
 | 2026-08-28 | Criada proposta de rotina de curadoria para grupo compartilhado Reginaldo + Dra. Lígia + OpenClaw. | Áudio de Reginaldo no Telegram. |
+| 2026-08-28 | Grupo Diretoria criado e rotina ativada. Inbox operacional: `cerebro/empresa/gestao/curadoria-grupo-diretoria/inbox.md`. | Mensagem de Reginaldo no grupo Diretoria. |
