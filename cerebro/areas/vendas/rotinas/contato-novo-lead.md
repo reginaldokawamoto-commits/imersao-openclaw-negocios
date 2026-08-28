@@ -30,7 +30,7 @@ Se o lead agendar consulta/procedimento e o indicador for paciente da clínica:
 1. confirmar o nome completo do indicador;
 2. localizar/validar se é paciente da Dra. Lígia;
 3. entrar em contato com o indicador para informar que a pessoa indicada agendou;
-4. agradecer pela indicação.
+4. agradecer pela indicação usando os modelos em `modelos-mensagens-indicacao.md`.
 
 ## Critério de conclusão
 
@@ -50,4 +50,5 @@ O contato do novo lead só fica completo quando:
 
 | Data | Alteração | Origem |
 |---|---|---|
+| 2026-08-28 | Incluída referência aos modelos de mensagens para agradecer a pessoa que indicou. | Solicitação de Reginaldo via Telegram. |
 | 2026-08-25 | Criada rotina para perguntar indicação em novo lead, registrar nome completo do indicador e agradecer paciente indicador quando houver agendamento. | Áudio de Reginaldo no Telegram. |

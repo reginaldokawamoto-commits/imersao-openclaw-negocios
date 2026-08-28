@@ -30,7 +30,7 @@ vendas/
 | `contexto/people.md` | Responsáveis e estrutura de decisão |
 | `contexto/decisions.md` | Decisões tomadas na área |
 | `contexto/lessons.md` | Lições aprendidas |
-| `rotinas/` | Crons configurados (relatório diário 8h, follow-up 9h) |
+| `rotinas/` | Rotinas comerciais e modelos operacionais, incluindo contato com novos leads e mensagens de indicação |
 | `skills/` | Skills da área (ver `_index.md`) |
 | `projetos/` | Projetos ativos e concluídos |
 | `bot/` | Base de conhecimento do bot de vendas |
