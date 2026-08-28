@@ -61,11 +61,14 @@ Motivo: a rizotomia por radiofrequência precisa comandar o pacote de materiais,
 
 Após conferência:
 
+- conferir a regra de pagamento aplicável em `cerebro/areas/vendas/contexto/regras-pagamento-consultas-procedimentos.md`;
 - enviar ao canal correto do hospital/convênio;
 - registrar data de envio;
 - registrar protocolo, se houver;
 - salvar comprovantes/anexos relevantes;
 - atualizar status no controle de procedimentos.
+
+**Regra Porto Seguro:** por enquanto, Porto Seguro só é recebido via hospital no **Hospital Paulo Sacramento**. Em outros hospitais, procedimentos Porto Seguro devem seguir como honorários médicos via reembolso, sem promessa de aprovação/valor/prazo de reembolso.
 
 ### 5. Acompanhar retorno
 
@@ -99,4 +102,5 @@ Manter acompanhamento até concluir:
 
 ## Histórico
 
+- **2026-08-28:** incluída referência às regras de pagamento e orientação Porto Seguro/Hospital Paulo Sacramento.
 - **2026-08-20:** primeira versão criada a partir de orientação do Reginaldo. Incluída regra específica para radiofrequência no Madre Theodora.

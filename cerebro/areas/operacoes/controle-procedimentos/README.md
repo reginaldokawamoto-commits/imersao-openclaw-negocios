@@ -39,6 +39,9 @@ Quando o paciente aceita o orçamento médico, mas a parte hospitalar depende do
 - Confirmar aceite do orçamento médico.
 - Enviar/acompanhar solicitação hospitalar no convênio.
 - Manter follow-up duplo: status do convênio + prontidão para agendamento/fechamento.
+- Conferir regras de pagamento específicas em `cerebro/areas/vendas/contexto/regras-pagamento-consultas-procedimentos.md`.
+
+**Regra Porto Seguro:** por enquanto, Porto Seguro só é recebido via hospital no **Hospital Paulo Sacramento**. Em outros hospitais, tratar procedimentos Porto Seguro como honorários médicos via reembolso, registrando a observação no controle e sem prometer aprovação, prazo ou valor de reembolso.
 
 **Cadência sugerida:** 2x por semana para convênio; semanal para manutenção do fechamento.
 

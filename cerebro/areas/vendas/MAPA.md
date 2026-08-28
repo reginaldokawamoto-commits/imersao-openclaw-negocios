@@ -7,6 +7,7 @@ vendas/
 ├── MAPA.md
 ├── contexto/
 │   ├── geral.md           ← Objetivo, KPIs, funil, ferramentas
+│   ├── regras-pagamento-consultas-procedimentos.md ← Regras de pagamento para consultas/procedimentos
 │   ├── people.md          ← Quem trabalha na área
 │   ├── decisions.md       ← Decisões da área
 │   └── lessons.md         ← Lições aprendidas
@@ -25,6 +26,7 @@ vendas/
 | Caminho | O que o agente encontra |
 |---------|------------------------|
 | `contexto/geral.md` | Objetivo da área, KPIs, funil, regras comerciais |
+| `contexto/regras-pagamento-consultas-procedimentos.md` | Regras de pagamento para consultas, procedimentos, convênios e reembolso |
 | `contexto/people.md` | Responsáveis e estrutura de decisão |
 | `contexto/decisions.md` | Decisões tomadas na área |
 | `contexto/lessons.md` | Lições aprendidas |
