@@ -93,13 +93,14 @@ Para cada atividade, registrar sempre que possível:
 |---|---|---|---|---|---|
 | Atendimento | A detalhar | A detalhar | A detalhar | A detalhar | Registrar exatamente quais etapas ficam com Paola. |
 | Vendas | A detalhar | A detalhar | A detalhar | A detalhar | Registrar abordagem, follow-up comercial e conversão. |
-| Contato com novo lead — origem/indicação | Todo novo lead | WhatsApp / telefone / CRM | Origem registrada; se houver indicação, nome completo do indicador registrado; se agendar e o indicador for paciente, indicador avisado e agradecido | Ativa | Perguntar sempre: “Você veio por indicação de alguém?” Caso sim, coletar nome completo do indicador, podendo ser paciente, amigo, médico ou outro contato. |
+| Cadastro/contato com novo lead — dados completos + origem/indicação | Todo novo lead ou paciente em cadastro | WhatsApp / telefone / CRM / iClinic | Cadastro com nome, telefone, data de nascimento, endereço, CPF, e-mail, Instagram, origem/de onde veio e indicação registrada; se houver indicação, nome completo do indicador registrado; se agendar e o indicador for paciente, indicador avisado e agradecido | Ativa | Na hora do cadastro, coletar sempre: nome, telefone, data de nascimento, endereço, CPF, e-mail e Instagram. Perguntar também: “De onde você veio/conheceu a clínica?” e “Você veio por indicação de alguém?” Caso sim, coletar nome completo do indicador, podendo ser paciente, amigo, médico ou outro contato. |
 | Salvar documentos e exames no Google Drive | Conforme recebimento | WhatsApp / e-mail / iClinic / Google Drive | Documento/exame salvo e anexado na pasta correta do respectivo paciente no Google Drive | Ativa | Nomear arquivos de forma identificável, conferir paciente antes de anexar e evitar deixar documentos soltos fora da pasta do paciente. |
 
 ### Histórico de mudanças
 
 | Data | Mudança | Origem da informação |
 |---|---|---|
+| 2026-09-02 | Atualizada atividade de cadastro/contato com novo lead: além de nome, telefone, data de nascimento, endereço, CPF, origem e indicação, Paola deve coletar também e-mail e Instagram. | Áudio de Reginaldo no Telegram. |
 | 2026-08-25 | Incluída atividade da Paola: salvar documentos e exames recebidos e anexar no Google Drive na pasta do respectivo paciente. | Áudio de Reginaldo no Telegram. |
 | 2026-08-25 | Incluída atividade obrigatória no contato com novo lead: perguntar sobre indicação, registrar nome completo do indicador e agradecer paciente indicador quando o lead agendar. | Áudio de Reginaldo no Telegram. |
 | 2026-08-13 | Incluída como pessoa acompanhada no mapa de responsabilidades. | Contexto da equipe. |
@@ -114,13 +115,14 @@ Para cada atividade, registrar sempre que possível:
 |---|---|---|---|---|---|
 | Follow-up iClinic | A detalhar | iClinic / Telegram | A detalhar | A detalhar | Registrar rotina, tipo de paciente, prazos e mensagens. |
 | Atendimento / rotina de acompanhamento | A detalhar | A detalhar | A detalhar | A detalhar | Detalhar limites entre atendimento, vendas e follow-up. |
-| Contato com novo lead — origem/indicação | Todo novo lead | WhatsApp / telefone / CRM | Origem registrada; se houver indicação, nome completo do indicador registrado; se agendar e o indicador for paciente, indicador avisado e agradecido | Ativa | Perguntar sempre: “Você veio por indicação de alguém?” Caso sim, coletar nome completo do indicador, podendo ser paciente, amigo, médico ou outro contato. |
+| Cadastro/contato com novo lead — dados completos + origem/indicação | Todo novo lead ou paciente em cadastro | WhatsApp / telefone / CRM / iClinic | Cadastro com nome, telefone, data de nascimento, endereço, CPF, e-mail, Instagram, origem/de onde veio e indicação registrada; se houver indicação, nome completo do indicador registrado; se agendar e o indicador for paciente, indicador avisado e agradecido | Ativa | Na hora do cadastro, coletar sempre: nome, telefone, data de nascimento, endereço, CPF, e-mail e Instagram. Perguntar também: “De onde você veio/conheceu a clínica?” e “Você veio por indicação de alguém?” Caso sim, coletar nome completo do indicador, podendo ser paciente, amigo, médico ou outro contato. |
 | Pesquisa de Instagram de pacientes ativos | Contínua / conforme lista de pacientes ativos | Instagram / lista de pacientes ativos | Perfil localizado e repassado/incluído na lista de Close Friends do Instagram da Dra. Lígia | Ativa | Objetivo: aproximar pacientes ativos dos conteúdos exclusivos/relacionamento via Close Friends. Deve respeitar privacidade e usar apenas informações necessárias para identificar o perfil correto. |
 
 ### Histórico de mudanças
 
 | Data | Mudança | Origem da informação |
 |---|---|---|
+| 2026-09-02 | Atualizada atividade de cadastro/contato com novo lead: além de nome, telefone, data de nascimento, endereço, CPF, origem e indicação, Tamires deve coletar também e-mail e Instagram. | Áudio de Reginaldo no Telegram. |
 | 2026-08-25 | Incluída atividade obrigatória no contato com novo lead: perguntar sobre indicação, registrar nome completo do indicador e agradecer paciente indicador quando o lead agendar. | Áudio de Reginaldo no Telegram. |
 | 2026-08-15 | Incluída atividade de pesquisar o Instagram dos pacientes ativos da Dra. Lígia para entrada na lista de Close Friends. | Áudio de Reginaldo no Telegram. |
 | 2026-08-13 | Incluída como pessoa acompanhada no mapa de responsabilidades. | Contexto da equipe. |
