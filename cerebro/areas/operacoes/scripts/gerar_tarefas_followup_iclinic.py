@@ -4,7 +4,11 @@
 Entrada: arquivo .xlsx exportado pelo iClinic.
 Saídas:
 - cerebro/areas/operacoes/followup/tarefas-followup.csv
-- cerebro/areas/operacoes/followup/checklist-paola-YYYY-MM-DD.md
+- cerebro/areas/operacoes/followup/checklist-tamires-YYYY-MM-DD.md
+
+Regra importante: as regras de negócio não ficam hardcoded neste script.
+A fonte de verdade é:
+  cerebro/areas/operacoes/projetos/template-regras-lembretes-iclinic.csv
 """
 from __future__ import annotations
 
@@ -13,6 +17,8 @@ from pathlib import Path
 import argparse
 import csv
 import hashlib
+import re
+import unicodedata
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, date
 
@@ -34,8 +40,27 @@ FIELDS = [
     "concluido_em",
 ]
 
+RULES_REL = Path("cerebro/areas/operacoes/projetos/template-regras-lembretes-iclinic.csv")
+FOLLOWUP_REL = Path("cerebro/areas/operacoes/followup")
+
+
+def excel_col_to_idx(cell_ref: str) -> int:
+    """Converte A1/BC12 em índice zero-based da coluna."""
+    letters = "".join(ch for ch in cell_ref if ch.isalpha()).upper()
+    idx = 0
+    for ch in letters:
+        idx = idx * 26 + (ord(ch) - ord("A") + 1)
+    return idx - 1
+
 
 def read_xlsx(path: Path) -> list[list[str]]:
+    """Lê XLSX preservando células vazias.
+
+    A implementação antiga iterava apenas células presentes no XML. Quando uma
+    célula vazia era omitida pelo Excel/iClinic, os valores da linha podiam
+    deslocar de coluna. Aqui usamos a referência da célula (A, B, C...) para
+    montar a linha na posição correta.
+    """
     with ZipFile(path) as z:
         shared: list[str] = []
         if "xl/sharedStrings.xml" in z.namelist():
@@ -47,8 +72,12 @@ def read_xlsx(path: Path) -> list[list[str]]:
         root = ET.fromstring(z.read(sheet_name))
         rows: list[list[str]] = []
         for row in root.findall(".//a:row", NS):
-            vals: list[str] = []
+            vals_by_col: dict[int, str] = {}
+            max_col = -1
             for cell in row.findall("a:c", NS):
+                ref = cell.get("r", "")
+                col_idx = excel_col_to_idx(ref) if ref else max_col + 1
+                max_col = max(max_col, col_idx)
                 v = cell.find("a:v", NS)
                 val = ""
                 if v is not None:
@@ -57,49 +86,98 @@ def read_xlsx(path: Path) -> list[list[str]]:
                         val = shared[int(raw)]
                     else:
                         val = raw
-                vals.append(val)
+                vals_by_col[col_idx] = val
+            vals = [vals_by_col.get(i, "") for i in range(max_col + 1)]
             if any(str(x).strip() for x in vals):
                 rows.append(vals)
         return rows
 
 
 def brdate_to_date(value: str) -> date:
-    return datetime.strptime(value, "%d/%m/%Y").date()
+    return datetime.strptime(value.strip(), "%d/%m/%Y").date()
 
 
-def task_id(paciente: str, procedimento: str, tipo: str, due: str) -> str:
-    raw = f"{paciente}|{procedimento}|{tipo}|{due}"
+def normalize(value: str) -> str:
+    value = unicodedata.normalize("NFKD", value or "")
+    value = "".join(ch for ch in value if not unicodedata.combining(ch))
+    value = re.sub(r"\s+", " ", value).strip().casefold()
+    return value
+
+
+def parse_offset(value: str) -> tuple[int, str] | None:
+    value = (value or "").strip().upper()
+    if not value or value in {"NÃO GERAR", "NAO GERAR", "N/A", "-"}:
+        return None
+    m = re.fullmatch(r"D\+(\d+)", value)
+    if not m:
+        raise ValueError(f"Prazo de regra inválido: {value!r}")
+    days = int(m.group(1))
+    return days, f"D+{days}"
+
+
+def load_rules(workspace: Path) -> dict[str, list[tuple[int, str, str, str]]]:
+    rules_path = workspace / RULES_REL
+    with rules_path.open(newline="", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+
+    mapping: dict[str, list[tuple[int, str, str, str]]] = {}
+    for row in rows:
+        proc = row.get("tipo_salvo_iclinic", "").strip()
+        if not proc:
+            continue
+        key = normalize(proc)
+        status = normalize(row.get("condicao", ""))
+        if "sem follow-up" in status or "nao gerar" in normalize(row.get("criar_tarefa_em", "")):
+            mapping[key] = []
+            continue
+
+        responsavel = (row.get("responsavel") or "Tamires").strip() or "Tamires"
+        entries: list[tuple[int, str, str, str]] = []
+        first = parse_offset(row.get("criar_tarefa_em", ""))
+        if first:
+            days, label = first
+            entries.append((days, label, row.get("acao", "").strip(), responsavel))
+        second = parse_offset(row.get("segunda_tarefa_em", ""))
+        if second:
+            days, label = second
+            action = row.get("segunda_acao", "").strip() or row.get("acao", "").strip()
+            entries.append((days, label, action, responsavel))
+        mapping[key] = entries
+    return mapping
+
+
+def rules_for(procedimento: str, rule_map: dict[str, list[tuple[int, str, str, str]]]) -> tuple[list[tuple[int, str, str, str]], bool]:
+    """Retorna regras para o procedimento e se veio de regra oficial.
+
+    Prioridade: match exato normalizado. Como fallback controlado, usa o maior
+    tipo da tabela contido no nome exportado (útil para códigos truncados), mas
+    não usa heurísticas antigas por palavra-chave para não recriar erro oculto.
+    """
+    proc_norm = normalize(procedimento)
+    if proc_norm in rule_map:
+        return rule_map[proc_norm], True
+
+    candidates = [(key, val) for key, val in rule_map.items() if key and (key in proc_norm or proc_norm in key)]
+    if candidates:
+        key, val = max(candidates, key=lambda kv: len(kv[0]))
+        return val, True
+
+    # Procedimento sem regra oficial não deve gerar tarefa automaticamente.
+    # Isso evita que uma heurística genérica crie follow-ups indevidos; o nome
+    # vai para o resumo como unmatched_procedimentos para decisão do Reginaldo.
+    return [], False
+
+
+def task_id(paciente: str, procedimento: str, tipo: str, due: str, atendimento: str = "", horario: str = "") -> str:
+    # Inclui data/horário de atendimento para evitar colisão se o mesmo paciente
+    # tiver o mesmo procedimento e o mesmo vencimento em contextos diferentes.
+    raw = f"{paciente}|{procedimento}|{tipo}|{due}|{atendimento}|{horario}"
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:10]
 
 
-def rules(procedimento: str) -> list[tuple[int, str, str]]:
-    p = procedimento.lower()
-    if "botox" in p:
-        return [
-            (1, "D+1", "Checar como passou após o procedimento, dor/reação, orientar sinais de alerta e reforçar que o efeito do Botox costuma ser progressivo."),
-            (7, "D+7", "Verificar evolução da dor/enxaqueca, intercorrências e se precisa de orientação."),
-            (30, "D+30", "Verificar resposta clínica e oportunidade de retorno/continuidade."),
-        ]
-    if "bloqueio" in p:
-        return [
-            (1, "D+1", "Checar dor, reação ao procedimento e orientar retorno se necessário."),
-            (7, "D+7", "Verificar evolução da dor e necessidade de nova orientação/retorno."),
-        ]
-    if "consulta" in p and "programa mev" in p:
-        return [
-            (1, "D+1", "Confirmar dúvidas após primeira consulta MEV, próximos passos e adesão inicial."),
-            (30, "D+30", "Verificar continuidade do programa e próxima consulta mensal."),
-        ]
-    if "consulta" in p:
-        return [(1, "D+1", "Confirmar se ficou alguma dúvida, exames/condutas combinadas e retorno.")]
-    if "retorno" in p:
-        return [(1, "D+1", "Checar se ficou alguma pendência do retorno e próximo passo do cuidado.")]
-    if "laser" in p:
-        return [
-            (1, "D+1", "Checar se houve reação ou dúvida após laser."),
-            (7, "D+7", "Verificar resposta ao laser e necessidade de continuidade."),
-        ]
-    return [(1, "D+1", "Checar evolução, dúvidas e necessidade de retorno/agendamento.")]
+def legacy_task_id(paciente: str, procedimento: str, tipo: str, due: str) -> str:
+    raw = f"{paciente}|{procedimento}|{tipo}|{due}"
+    return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:10]
 
 
 def load_existing(csv_path: Path) -> list[dict[str, str]]:
@@ -117,26 +195,26 @@ def save_tasks(csv_path: Path, tasks: list[dict[str, str]]) -> None:
         writer.writerows(tasks)
 
 
-def build_checklist(path: Path, tasks: list[dict[str, str]], due_date: str) -> None:
-    # Regra operacional: pendência não some.
-    # O checklist do dia deve trazer tudo que está pendente e vencido até a data
-    # do checklist, não apenas as tarefas com data exatamente igual ao dia.
+def build_checklist(path: Path, tasks: list[dict[str, str]], due_date: str, responsavel: str = "Tamires") -> None:
     due_tasks = sorted(
         [
             t for t in tasks
-            if t["status"] == "pendente" and t.get("data_followup", "") <= due_date
+            if t.get("status") == "pendente"
+            and t.get("data_followup", "") <= due_date
+            and t.get("responsavel", "").strip().lower() == responsavel.strip().lower()
         ],
-        key=lambda t: (t.get("data_followup", ""), t.get("paciente", ""), t.get("tipo_followup", "")),
+        key=lambda t: (t.get("data_followup", ""), t.get("paciente", ""), t.get("tipo_followup", ""), t.get("id", "")),
     )
     title_date = datetime.strptime(due_date, "%Y-%m-%d").strftime("%d/%m/%Y")
     lines = [
-        f"# Checklist Paola — {title_date}",
+        f"# Checklist {responsavel} — {title_date}",
         "",
         "## Como marcar",
         "",
         "Responder no Telegram com:",
         "",
         "- `feito <número>`",
+        "- `feito <número>-<número>`",
         "- `não respondeu <número>`",
         "- `reagendar <número> para DD/MM`",
         "- `atenção médica <número> - observação`",
@@ -151,9 +229,9 @@ def build_checklist(path: Path, tasks: list[dict[str, str]], due_date: str) -> N
         lines += [
             f'{idx}. **{task["paciente"]}** — {task["procedimento"]} — {task["tipo_followup"]}',
             f'   - Follow-up previsto: {datetime.strptime(task["data_followup"], "%Y-%m-%d").strftime("%d/%m/%Y")}',
-            f'   - Atendimento: {atendimento} às {task["horario"]}',
-            f'   - Convênio: {task["convenio"]}',
-            f'   - Ação: {task["acao_sugerida"]}',
+            f'   - Atendimento: {atendimento} às {task.get("horario", "")}',
+            f'   - Convênio: {task.get("convenio", "")}',
+            f'   - Ação: {task.get("acao_sugerida", "")}',
             "   - Status: ⬜ Pendente",
             f'   - ID: `{task["id"]}`',
             "",
@@ -173,29 +251,46 @@ def main() -> None:
         records: list[dict[str, str]] = []
     else:
         header = rows[0]
-        records = [dict(zip(header, row)) for row in rows[1:]]
+        records = [dict(zip(header, row + [""] * (len(header) - len(row)))) for row in rows[1:]]
 
-    outdir = args.workspace / "cerebro/areas/operacoes/followup"
+    outdir = args.workspace / FOLLOWUP_REL
     csv_path = outdir / "tarefas-followup.csv"
     existing = load_existing(csv_path)
     existing_ids = {r["id"] for r in existing}
+    rule_map = load_rules(args.workspace)
 
     new_tasks: list[dict[str, str]] = []
+    unmatched: set[str] = set()
     for rec in records:
+        required = ["Data", "Paciente", "Procedimento"]
+        missing = [key for key in required if not (rec.get(key) or "").strip()]
+        if missing:
+            raise SystemExit(f"Registro sem campos obrigatórios {missing}: {rec}")
+
         attended = brdate_to_date(rec["Data"])
-        for days, tipo, acao in rules(rec["Procedimento"]):
+        horario = rec.get("Horario") or rec.get("Horário") or ""
+        proc = rec.get("Procedimento", "")
+        rule_entries, official = rules_for(proc, rule_map)
+        if not official:
+            unmatched.add(proc)
+
+        for days, tipo, acao, responsavel in rule_entries:
             due = attended + timedelta(days=days)
             due_iso = due.isoformat()
+            tid = task_id(rec["Paciente"], proc, tipo, due_iso, attended.isoformat(), horario)
+            legacy_tid = legacy_task_id(rec["Paciente"], proc, tipo, due_iso)
+            if tid in existing_ids or legacy_tid in existing_ids:
+                continue
             new_tasks.append(
                 {
-                    "id": task_id(rec["Paciente"], rec["Procedimento"], tipo, due_iso),
+                    "id": tid,
                     "status": "pendente",
-                    "responsavel": "Paola",
+                    "responsavel": responsavel,
                     "data_atendimento": attended.isoformat(),
-                    "horario": rec["Horario"],
+                    "horario": horario,
                     "paciente": rec["Paciente"],
-                    "procedimento": rec["Procedimento"],
-                    "convenio": rec["Convênio"],
+                    "procedimento": proc,
+                    "convenio": rec.get("Convênio", ""),
                     "data_followup": due_iso,
                     "tipo_followup": tipo,
                     "acao_sugerida": acao,
@@ -204,7 +299,7 @@ def main() -> None:
                 }
             )
 
-    merged = existing + [t for t in new_tasks if t["id"] not in existing_ids]
+    merged = existing + new_tasks
     save_tasks(csv_path, merged)
 
     if args.checklist_date:
@@ -215,11 +310,18 @@ def main() -> None:
     else:
         checklist_date = (date.today() + timedelta(days=1)).isoformat()
 
-    checklist_path = outdir / f"checklist-paola-{checklist_date}.md"
-    build_checklist(checklist_path, merged, checklist_date)
+    checklist_path = outdir / f"checklist-tamires-{checklist_date}.md"
+    build_checklist(checklist_path, merged, checklist_date, "Tamires")
 
-    due_count = sum(1 for t in merged if t["data_followup"] <= checklist_date and t["status"] == "pendente")
-    print(f"records={len(records)} new_tasks={len(new_tasks)} total_tasks={len(merged)} checklist_date={checklist_date} due_pending={due_count}")
+    due_count = sum(
+        1 for t in merged
+        if t.get("data_followup", "") <= checklist_date
+        and t.get("status") == "pendente"
+        and t.get("responsavel", "").strip().lower() == "tamires"
+    )
+    print(f"records={len(records)} new_tasks={len(new_tasks)} total_tasks={len(merged)} checklist_date={checklist_date} due_pending_tamires={due_count}")
+    if unmatched:
+        print("unmatched_procedimentos=" + "; ".join(sorted(unmatched)))
     print(csv_path)
     print(checklist_path)
 

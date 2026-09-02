@@ -1,13 +1,13 @@
 # Ferramenta de lembretes pós-atendimento via iClinic
 
 ## Objetivo
-Criar uma forma de transformar marcações da agenda do iClinic em tarefas/lembretes operacionais para a secretária/Paola, garantindo que pacientes recebam follow-up no prazo correto após consultas, programas e procedimentos.
+Criar uma forma de transformar marcações da agenda do iClinic em tarefas/lembretes operacionais para a Tamires, garantindo que pacientes recebam follow-up no prazo correto após consultas, programas e procedimentos.
 
 ## Ideia central
 
 1. A agenda do iClinic registra o que aconteceu com o paciente.
 2. Cada tipo de marcação/evento terá uma regra operacional.
-3. A regra gera uma tarefa para a Paola com:
+3. A regra gera uma tarefa para a Tamires com:
    - paciente;
    - origem do evento;
    - prazo de ação;
@@ -23,7 +23,7 @@ Criar uma forma de transformar marcações da agenda do iClinic em tarefas/lembr
 
 **Regra desejada:** paciente deve ter nova consulta/agendamento em aproximadamente 30 dias.
 
-**Tarefa gerada para Paola:**
+**Tarefa gerada para Tamires:**
 - Data da tarefa: próxima janela definida pela regra, ex.: D+25 ou D+30.
 - Ação: entrar em contato com a paciente para agendar a próxima consulta ou verificar se já está agendada.
 - Observação: não deixar depender de controle manual.
@@ -32,9 +32,9 @@ Criar uma forma de transformar marcações da agenda do iClinic em tarefas/lembr
 
 **Evento no iClinic:** paciente realizou procedimento hoje.
 
-**Regra desejada:** no dia seguinte, logo pela manhã, Paola deve mandar mensagem para saber como o paciente está e organizar retorno.
+**Regra desejada:** no dia seguinte, logo pela manhã, Tamires deve mandar mensagem para saber como o paciente está e organizar retorno.
 
-**Tarefa gerada para Paola:**
+**Tarefa gerada para Tamires:**
 - Data da tarefa: D+1 pela manhã.
 - Ação: enviar mensagem de pós-procedimento.
 - Segunda ação possível: agendar retorno/consulta em prazo clínico definido, exemplo D+15.
@@ -50,7 +50,7 @@ tabela de regras por tipo de marcação
     ↓
 geração de tarefas
     ↓
-agenda/lista da Paola
+agenda/lista da Tamires
     ↓
 execução + status
 ```
@@ -77,8 +77,8 @@ Interpretação dos campos enviados:
 
 - **Nome:** nome exato do tipo salvo no iClinic.
 - **Dias:** prazo esperado para o paciente retornar, contado a partir da data em que a consulta/procedimento foi realizado.
-- **Lembrar em (dias):** quando a tarefa deve ser criada para a Paola, também contado a partir da data realizada no agendamento.
-- **Objetivo da tarefa:** Paola deve verificar se o retorno/próxima consulta já está agendado. Se não estiver, deve entrar em contato com o paciente para efetuar ou estimular o agendamento dentro do prazo correto.
+- **Lembrar em (dias):** quando a tarefa deve ser criada para a Tamires, também contado a partir da data realizada no agendamento.
+- **Objetivo da tarefa:** Tamires deve verificar se o retorno/próxima consulta já está agendado. Se não estiver, deve entrar em contato com o paciente para efetuar ou estimular o agendamento dentro do prazo correto.
 
 Fonte de dados operacional:
 
@@ -101,7 +101,7 @@ A ferramenta deve gerar uma lista de tarefas simples, por exemplo:
 
 ```text
 Data da tarefa: 12/06/2026, 08h30
-Responsável: Paola
+Responsável: Tamires
 Paciente: [nome]
 Origem: Procedimento realizado em 11/06/2026
 Ação: Enviar mensagem perguntando como está após o procedimento e verificar necessidade de agendar retorno.
@@ -115,18 +115,18 @@ Mais simples para começar.
 
 - Exporta agenda do iClinic.
 - Aplica regras em planilha/script.
-- Gera lista diária de tarefas para Paola.
+- Gera lista diária de tarefas para Tamires.
 
 **Vantagem:** rápido de testar.
 **Limite:** depende de exportação/importação manual ou semi-manual.
 
 ### Opção B — Integração com Google Agenda / tarefas
 
-- Cada regra cria um evento/tarefa na agenda da Paola.
+- Cada regra cria um evento/tarefa na agenda da Tamires.
 - Pode ter alerta no horário certo.
 
 **Vantagem:** entra no fluxo diário da secretária.
-**Limite:** precisa definir onde a Paola realmente acompanha as tarefas.
+**Limite:** precisa definir onde a Tamires realmente acompanha as tarefas.
 
 ### Opção C — Integração com CRM
 
@@ -139,7 +139,7 @@ Mais simples para começar.
 ### Opção D — Robô diário
 
 - Todo dia cedo, o robô lê a base/exportação.
-- Gera resumo de tarefas do dia para Paola e/ou Reginaldo.
+- Gera resumo de tarefas do dia para Tamires e/ou Reginaldo.
 
 **Vantagem:** reduz esquecimento e cria rotina.
 **Limite:** precisa fonte de dados confiável.
@@ -159,4 +159,4 @@ Começar com uma versão simples:
 - Print ou exportação da agenda do iClinic com exemplos dos tipos de marcação.
 - Lista dos nomes exatos usados para salvar cada tipo de atendimento/procedimento.
 - Quais prazos a Dra. Lígia quer para cada caso: D+1, D+7, D+15, D+30 etc.
-- Onde a Paola deve receber/acompanhar as tarefas: agenda, CRM, WhatsApp, planilha ou relatório diário.
+- Onde a Tamires deve receber/acompanhar as tarefas: agenda, CRM, WhatsApp, planilha ou relatório diário.
