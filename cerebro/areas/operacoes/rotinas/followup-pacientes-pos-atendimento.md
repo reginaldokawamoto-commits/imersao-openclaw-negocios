@@ -146,15 +146,18 @@ resolução.
 
 ### Regra obrigatória para respostas da Tamires no Telegram
 
-Quando Tamires responder `feito 1`, `feito 1-11`, `feito 1, 2, 3` ou formato equivalente, **não basta confirmar no chat**. O agente deve, na mesma hora:
+Quando Tamires responder `feito 1`, `feito 1-11`, `feito 1, 2, 3`, `Feito <1>` ou formato equivalente, **não basta confirmar no chat**. O agente deve, na mesma hora:
 
 1. localizar o checklist ativo mais recente (`checklist-tamires-YYYY-MM-DD.md`);
 2. converter os números informados nos IDs correspondentes;
 3. atualizar `tarefas-followup.csv` com status `concluido`, observação e `concluido_em`;
 4. regenerar o checklist do dia para remover os itens concluídos;
-5. responder confirmando quantos itens foram realmente baixados da base.
+5. validar que os IDs baixados estão `concluido` no CSV e que o checklist do dia seguinte não lista esses mesmos IDs;
+6. responder confirmando quantos itens foram realmente baixados da base.
 
-Script de apoio: `cerebro/areas/operacoes/scripts/atualizar_followup_paola.py`.
+Se a mensagem chegar **sem contexto/reply** e houver dúvida sobre qual checklist usar, não arquivar como “contexto não identificado”. Usar a data operacional mais provável: primeiro o checklist de hoje em `America/Sao_Paulo`; se não houver ou se ele não tiver a quantidade de itens informada, usar o checklist de ontem. Persistindo ambiguidade, avisar Reginaldo/Tamires com a dúvida antes de confirmar baixa. A falha crítica a evitar é confirmar verbalmente e deixar `tarefas-followup.csv` pendente.
+
+Script principal de apoio: `cerebro/areas/operacoes/scripts/marcar_tarefas_checklist.py`.
 
 Exemplo:
 
