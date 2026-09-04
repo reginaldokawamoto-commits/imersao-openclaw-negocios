@@ -6,11 +6,17 @@
 
 ## Em andamento
 
+### Organização de responsabilidades, projetos e processos — reunião 04/09/2026
+- **Status:** Pauta preparada
+- **Arquivo:** `reuniao-organizacao-responsabilidades-2026-09-04.md`
+- **Responsável:** Reginaldo + Dra. Lígia + equipe
+- **Objetivo:** alinhar organograma prático, deveres, responsabilidades, projetos ativos e processos prioritários da clínica.
+
 ### Documentação de Processos (Fase 1)
-- **Status:** Em andamento
-- **Prazo:** 30/03/2026
-- **Responsável:** André Costa
-- **Objetivo:** Documentar 80% dos processos recorrentes da empresa
+- **Status:** Em revisão — conteúdo antigo/demo precisa ser substituído pela realidade da Dra. Lígia Toledo
+- **Prazo:** A redefinir
+- **Responsável:** Reginaldo + Agente
+- **Objetivo:** Documentar processos recorrentes reais da clínica
 
 ### Implementação de Agente IA
 - **Status:** Em andamento
@@ -33,4 +39,4 @@
 
 ---
 
-_Atualizado: março 2026_
+_Atualizado: setembro 2026_
