@@ -152,6 +152,44 @@ Criar uma **fila única de procedimentos** com status obrigatório e próxima a�
 
 ---
 
+## 1.4.1 Decisão pendente — reembolso de bloqueios SulAmérica e Porto Seguro
+
+- **Área:** Operações / Vendas / Convênios / Financeiro
+- **Status:** decisão necessária
+- **Tema:** definir como a clínica vai conduzir bloqueios com possibilidade de reembolso para pacientes SulAmérica e Porto Seguro.
+
+### Contexto
+
+Já existe regra registrada para Porto Seguro: por enquanto, recebimento direto via hospital apenas no **Hospital Paulo Sacramento**; em outros hospitais, tratar honorários médicos como proposta particular com eventual reembolso solicitado pelo paciente, sem prometer aprovação, prazo ou valor.
+
+Agora precisa decidir especificamente o fluxo comercial/operacional dos **bloqueios** para SulAmérica e Porto Seguro.
+
+### Decisões da reunião
+
+- [ ] Bloqueios SulAmérica serão oferecidos como particular com possibilidade de reembolso?
+- [ ] Bloqueios Porto Seguro seguem a regra atual ou terão exceção por hospital/procedimento?
+- [ ] Qual texto padrão a equipe deve usar com o paciente?
+- [ ] Quem confere previamente elegibilidade/documentação para reembolso?
+- [ ] Quem explica ao paciente que reembolso não é garantido?
+- [ ] Quais documentos serão entregues: recibo, relatório médico, pedido, nota, relatório de justificativa?
+- [ ] Em quais hospitais esse fluxo é permitido/recomendado?
+- [ ] Como registrar no controle de procedimentos: particular, convênio, misto ou reembolso?
+- [ ] Quem aprova exceções antes de orientar o paciente? Reginaldo ou Dra. Lígia?
+
+### Recomendação
+
+Criar uma política escrita simples para evitar comunicação inconsistente:
+
+1. Separar **honorários médicos** de **custos hospitalares**.
+2. Informar que reembolso depende do plano/convênio e análise do próprio convênio.
+3. Nunca prometer valor, prazo ou garantia de reembolso.
+4. Ter modelo de mensagem aprovado para Paola/Tamires.
+5. Registrar todo caso no controle de procedimentos com status e próxima ação.
+6. Para Porto Seguro, manter como regra-base: Hospital Paulo Sacramento via hospital; fora disso, honorários via reembolso, salvo nova decisão formal.
+7. Para SulAmérica, definir na reunião se será fluxo padrão de reembolso para bloqueios e quais documentos serão preparados.
+
+---
+
 ## 1.5 CRM / leads / vendas
 
 - **Área:** Vendas / Atendimento
