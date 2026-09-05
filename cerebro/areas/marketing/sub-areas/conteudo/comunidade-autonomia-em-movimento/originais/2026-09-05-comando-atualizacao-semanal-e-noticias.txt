@@ -1,0 +1,33 @@
+Revise a programação da Comunidade Autonomia em Movimento para a semana de [DATA] a [DATA].
+
+Execute as seguintes tarefas:
+
+Analise os conteúdos já programados;
+
+Pesquise publicações relevantes dos últimos sete dias sobre Medicina do Estilo de Vida, dor, sono, alimentação, atividade física, estresse, relacionamentos ou substâncias de risco;
+
+Consulte prioritariamente fontes científicas e institucionais;
+
+Escolha no máximo uma notícia;
+
+Não escolha uma notícia apenas para preencher espaço;
+
+Verifique se a notícia tem aplicação prática e segura para os participantes;
+
+Informe as limitações da evidência;
+
+Produza uma mensagem curta e pronta para WhatsApp;
+
+Classifique-a como Amarela;
+
+Indique qual publicação da semana poderá ser substituída;
+
+Não faça a substituição automaticamente;
+
+Aguarde aprovação da equipe e da Dra. Lígia.
+
+Se não houver uma notícia realmente relevante, informe:
+
+“Nesta semana não foi identificada uma notícia com relevância e qualidade suficientes para substituir o conteúdo já programado.”
+
+Além da notícia, verifique se há repetição, informação desatualizada, data inadequada ou necessidade de ajuste nos conteúdos da semana.
