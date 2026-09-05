@@ -6,6 +6,7 @@
 - **Fonte:** Prompt mestre enviado por Reginaldo Kawamoto em 2026-09-05
 - **Original preservado:** `originais/2026-09-05-prompt-mestre-comunidade-mev.docx`
 - **Transcrição:** `originais/2026-09-05-prompt-mestre-comunidade-mev.txt`
+- **Comando de produção mensal:** `comando-producao-mensal.md`
 - **Status:** Diretriz editorial oficial para planejamento, pesquisa, produção e organização de conteúdos
 
 ## Papel do agente
