@@ -151,6 +151,15 @@ Esse guia define pilares, estrutura semanal, formatos, modelo obrigatório de pu
 6. Rodar piloto e medir: visualizações, respostas, enquetes, permanência e feedback qualitativo.
 7. Após 30 dias, decidir se evolui para gamificação/app/integração com LiveUp.
 
+
+## Produção mensal — Setembro/2026
+
+Calendário inicial da Comunidade Autonomia em Movimento produzido para início em 08/09/2026:
+
+- `cerebro/areas/marketing/sub-areas/conteudo/comunidade-autonomia-em-movimento/calendarios/2026-09-producao-mensal.md`
+
+Rotina semanal de curadoria de notícias agendada para começar em 14/09/2026, sempre às 08:00 em America/Sao_Paulo, sem substituição automática de conteúdo. Job OpenClaw: `89934e40-2bf7-41ce-828d-de204ca06684`.
+
 ## Métricas sugeridas
 
 - Taxa de entrada dos pacientes convidados.
