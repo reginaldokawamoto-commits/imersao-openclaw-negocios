@@ -8,6 +8,7 @@
 - **Transcrição:** `originais/2026-09-05-prompt-mestre-comunidade-mev.txt`
 - **Comando de produção mensal:** `comando-producao-mensal.md`
 - **Comando de atualização semanal e notícias:** `comando-atualizacao-semanal-e-noticias.md`
+- **Referência visual recebida:** `referencias/2026-09-05-preview-comunidade-autonomia-em-movimento.png`
 - **Status:** Diretriz editorial oficial para planejamento, pesquisa, produção e organização de conteúdos
 
 ## Papel do agente
