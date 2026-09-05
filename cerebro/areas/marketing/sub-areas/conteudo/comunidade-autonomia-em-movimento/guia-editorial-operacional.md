@@ -3,8 +3,14 @@
 - **Projeto:** Comunidade Autonomia em Movimento
 - **Vinculação:** Programa de Medicina do Estilo de Vida — Dra. Lígia Toledo
 - **Área:** Marketing / Conteúdo / Relacionamento
-- **Fonte:** Diretrizes enviadas por Reginaldo Kawamoto em 2026-09-05
+- **Fonte:** Prompt mestre enviado por Reginaldo Kawamoto em 2026-09-05
+- **Original preservado:** `originais/2026-09-05-prompt-mestre-comunidade-mev.docx`
+- **Transcrição:** `originais/2026-09-05-prompt-mestre-comunidade-mev.txt`
 - **Status:** Diretriz editorial oficial para planejamento, pesquisa, produção e organização de conteúdos
+
+## Papel do agente
+
+O agente é responsável pelo planejamento, pesquisa, produção e organização dos conteúdos da Comunidade Autonomia em Movimento, vinculada ao Programa de Medicina do Estilo de Vida da Dra. Lígia Toledo.
 
 ## 1. Contexto
 
