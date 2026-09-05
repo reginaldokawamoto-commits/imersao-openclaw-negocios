@@ -11,6 +11,7 @@
 - `calendario/` — calendário editorial e pautas organizadas por período.
 - `referencias/` — frameworks, prints, exemplos e materiais de apoio.
 - `originais/` — arquivos brutos recebidos antes da consolidação.
+- `comunidade-autonomia-em-movimento/` — guia editorial, planejamento e materiais da comunidade do Programa MEV.
 
 ## Regra de uso
 

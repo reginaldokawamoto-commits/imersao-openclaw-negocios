@@ -132,6 +132,15 @@ A definir com a Dra. Lígia, mas sugestão inicial:
 - Definir se a Dra. Lígia participa diretamente, em momentos específicos, ou se a comunicação é feita pela equipe.
 - Definir o tom: acolhedor, motivador, premium e cientificamente responsável.
 
+
+## Diretriz editorial oficial
+
+A produção de conteúdo da Comunidade Autonomia em Movimento deve seguir o guia editorial e operacional em:
+
+- `cerebro/areas/marketing/sub-areas/conteudo/comunidade-autonomia-em-movimento/guia-editorial-operacional.md`
+
+Esse guia define pilares, estrutura semanal, formatos, modelo obrigatório de publicação, regras de notícias, segurança médica, privacidade, gamificação, controle de repetição e checklist de revisão final.
+
 ## Próximos passos
 
 1. Validar modelo recomendado: comunidade fechada + janelas de interação.
