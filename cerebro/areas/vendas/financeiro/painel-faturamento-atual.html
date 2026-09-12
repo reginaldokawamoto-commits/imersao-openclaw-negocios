@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel de Faturamento — Dra. Lígia Toledo</title>
+  <style>
+    :root { --ink:#16312b; --muted:#61716c; --paper:#f7f8f5; --card:#fff; --line:#dce4df; --accent:#237a62; --soft:#e6f2ed; --amber:#a66515; }
+    * { box-sizing:border-box } body { margin:0; background:var(--paper); color:var(--ink); font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif }
+    main { max-width:1120px; margin:auto; padding:40px 22px 60px } h1 { font:700 32px/1.12 Georgia,serif; margin:0 0 8px } h2 { font:700 21px/1.2 Georgia,serif; margin:34px 0 14px } .sub,.note { color:var(--muted); margin:0 }.note{font-size:13px}.grid { display:grid; gap:14px }.metrics { grid-template-columns:repeat(4,1fr); margin-top:26px }.split { grid-template-columns:1.3fr 1fr }.card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; box-shadow:0 2px 8px #16312b08 }.label { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.06em }.value { font-size:25px; font-weight:750; margin-top:4px }.positive { color:var(--accent) } table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden } th,td { padding:11px 14px; border-bottom:1px solid var(--line); text-align:left } th { background:#edf3ef; font-size:12px; color:#405850; text-transform:uppercase; letter-spacing:.04em } td.num,th.num{text-align:right} tr:last-child td{border-bottom:0}.barrow { display:grid; grid-template-columns:115px 1fr 105px; gap:10px; align-items:center; margin:11px 0 }.bar { height:12px; border-radius:999px; background:#e5ece8; overflow:hidden }.fill { height:100%; border-radius:inherit; background:var(--accent) }.small { font-size:13px;color:var(--muted) }.insight { border-left:4px solid var(--accent); padding:13px 14px; background:var(--soft); border-radius:0 10px 10px 0; margin:10px 0 }.warning { border-left-color:var(--amber); background:#fff5e8 }.footer { margin-top:32px; font-size:12px; color:var(--muted) } @media(max-width:720px){ .metrics,.split{grid-template-columns:1fr 1fr}.barrow{grid-template-columns:92px 1fr 82px} } @media(max-width:430px){ .metrics,.split{grid-template-columns:1fr} main{padding:26px 14px} }
+  </style>
+</head>
+<body><main>
+  <header><h1>Painel de Faturamento</h1><p class="sub">Dra. Lígia Toledo Serviços Médicos · Base recebida de 25/06 a 11/09/2026</p></header>
+  <section class="grid metrics">
+    <article class="card"><div class="label">Faturamento recebido</div><div class="value">R$ 149.455,00</div><div class="small">77 lançamentos pagos</div></article>
+    <article class="card"><div class="label">Setembro até 11/09</div><div class="value">R$ 52.370,00</div><div class="small">13 lançamentos pagos</div></article>
+    <article class="card"><div class="label">Semana atual*</div><div class="value">R$ 49.920,00</div><div class="small">9 lançamentos pagos</div></article>
+    <article class="card"><div class="label">Maior categoria</div><div class="value">Procedimentos</div><div class="small">R$ 99.725,00 · 66,7%</div></article>
+  </section>
+  <p class="note">* Semana de 07 a 13/09; dados registrados até 11/09.</p>
+
+  <h2>Evolução mensal</h2>
+  <table><thead><tr><th>Mês</th><th class="num">Recebido</th><th class="num">Lançamentos</th><th class="num">Comparação</th></tr></thead><tbody>
+    <tr><td>Junho (a partir de 25/06)</td><td class="num">R$ 8.410,00</td><td class="num">7</td><td class="num">—</td></tr>
+    <tr><td>Julho</td><td class="num">R$ 31.590,00</td><td class="num">26</td><td class="num positive">+275,6%</td></tr>
+    <tr><td>Agosto</td><td class="num">R$ 57.085,00</td><td class="num">31</td><td class="num positive">+80,7%</td></tr>
+    <tr><td>Setembro (até 11/09)</td><td class="num">R$ 52.370,00</td><td class="num">13</td><td class="num positive">91,7% de agosto</td></tr>
+  </tbody></table>
+
+  <h2>Visão semanal</h2>
+  <table><thead><tr><th>Semana</th><th class="num">Recebido</th><th class="num">Lançamentos</th></tr></thead><tbody>
+    <tr><td>22–28/06</td><td class="num">R$ 2.710,00</td><td class="num">5</td></tr><tr><td>29/06–05/07</td><td class="num">R$ 7.100,00</td><td class="num">4</td></tr><tr><td>06–12/07</td><td class="num">R$ 14.490,00</td><td class="num">8</td></tr><tr><td>13–19/07</td><td class="num">R$ 5.350,00</td><td class="num">7</td></tr><tr><td>20–26/07</td><td class="num">R$ 7.500,00</td><td class="num">6</td></tr><tr><td>27/07–02/08</td><td class="num">R$ 2.850,00</td><td class="num">3</td></tr><tr><td>03–09/08</td><td class="num">R$ 10.650,00</td><td class="num">8</td></tr><tr><td>10–16/08</td><td class="num">R$ 27.950,00</td><td class="num">7</td></tr><tr><td>17–23/08</td><td class="num">R$ 5.500,00</td><td class="num">6</td></tr><tr><td>24–30/08</td><td class="num">R$ 9.785,00</td><td class="num">7</td></tr><tr><td>31/08–06/09</td><td class="num">R$ 5.650,00</td><td class="num">7</td></tr><tr><td><strong>07–13/09*</strong></td><td class="num"><strong>R$ 49.920,00</strong></td><td class="num"><strong>9</strong></td></tr>
+  </tbody></table>
+
+  <section class="grid split"><div><h2>Mix de faturamento</h2><article class="card">
+    <div class="barrow"><span>Procedimentos</span><div class="bar"><div class="fill" style="width:100%"></div></div><strong>R$ 99.725</strong></div>
+    <div class="barrow"><span>Consultas</span><div class="bar"><div class="fill" style="width:33.4%"></div></div><strong>R$ 33.270</strong></div>
+    <div class="barrow"><span>Programas</span><div class="bar"><div class="fill" style="width:16.5%"></div></div><strong>R$ 16.460</strong></div>
+  </article></div><div><h2>Origens registradas</h2><article class="card">
+    <div class="barrow"><span>Indicação</span><div class="bar"><div class="fill" style="width:100%"></div></div><strong>R$ 123.345</strong></div>
+    <div class="barrow"><span>Particular</span><div class="bar"><div class="fill" style="width:8.6%"></div></div><strong>R$ 10.550</strong></div>
+    <div class="barrow"><span>Instagram</span><div class="bar"><div class="fill" style="width:2.8%"></div></div><strong>R$ 3.400</strong></div>
+    <div class="barrow"><span>Paciente</span><div class="bar"><div class="fill" style="width:2.3%"></div></div><strong>R$ 2.800</strong></div>
+    <p class="small">Demais origens somam R$ 9.360,00.</p>
+  </article></div></section>
+
+  <h2>Insights para decisão</h2>
+  <div class="insight"><strong>Setembro começou forte.</strong> Até 11/09, o faturamento já atingiu 91,7% de todo agosto. A semana de 07–13/09 concentra R$ 49.920,00, mas ainda está aberta; comparar o fechamento apenas após 13/09.</div>
+  <div class="insight"><strong>Procedimentos sustentam o volume financeiro.</strong> Eles representam 66,7% do faturamento acumulado. Vale acompanhar separadamente o funil de consultas e programas, que alimenta essa linha de maior valor.</div>
+  <div class="insight"><strong>Indicação é a principal origem registrada.</strong> São R$ 123.345,00 (82,5%) em 46 lançamentos marcados como “Indicação”. Isso sugere força de rede e relacionamento, mas ainda não permite atribuição confiável por tipo de indicador.</div>
+  <div class="insight warning"><strong>Melhoria prioritária de dados:</strong> o campo “indicador” está preenchido em apenas 19 de 77 lançamentos (12,0% do faturamento). Há referências a médicos, paciente/amiga, secretária e Instagram, mas os rótulos estão misturados. Padronizar em: <em>médico, fisioterapeuta, paciente, colaborador, Instagram, Google, indicação hospitalar, outro</em>, além do nome da fonte quando aplicável.</div>
+  <p class="footer">Fonte: <code>cerebro/areas/vendas/financeiro/lancamentos.csv</code>. Considera exclusivamente lançamentos com status “Pago”. Atualizado em 12/09/2026.</p>
+</main></body></html>
