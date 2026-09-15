@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Criar uma rotina operacional para evitar perda de pacientes após consulta, procedimento ou acompanhamento, garantindo que a Tamires tenha um checklist claro do que precisa ser feito diariamente.
+Criar uma rotina operacional para evitar perda de pacientes após consulta, procedimento ou acompanhamento, garantindo que a Paola tenha um checklist claro do que precisa ser feito diariamente.
 
 A dor principal é não depender da memória da secretária para lembrar quem precisa receber contato, quando, por qual motivo e qual ação deve ser tomada.
 
