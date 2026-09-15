@@ -311,7 +311,9 @@ def main() -> None:
         checklist_date = (date.today() + timedelta(days=1)).isoformat()
 
     checklist_path = outdir / f"checklist-tamires-{checklist_date}.md"
+    checklist_paola_path = outdir / f"checklist-paola-{checklist_date}.md"
     build_checklist(checklist_path, merged, checklist_date, "Tamires")
+    build_checklist(checklist_paola_path, merged, checklist_date, "Paola")
 
     due_count = sum(
         1 for t in merged
@@ -319,11 +321,18 @@ def main() -> None:
         and t.get("status") == "pendente"
         and t.get("responsavel", "").strip().lower() == "tamires"
     )
-    print(f"records={len(records)} new_tasks={len(new_tasks)} total_tasks={len(merged)} checklist_date={checklist_date} due_pending_tamires={due_count}")
+    due_count_paola = sum(
+        1 for t in merged
+        if t.get("data_followup", "") <= checklist_date
+        and t.get("status") == "pendente"
+        and t.get("responsavel", "").strip().lower() == "paola"
+    )
+    print(f"records={len(records)} new_tasks={len(new_tasks)} total_tasks={len(merged)} checklist_date={checklist_date} due_pending_tamires={due_count} due_pending_paola={due_count_paola}")
     if unmatched:
         print("unmatched_procedimentos=" + "; ".join(sorted(unmatched)))
     print(csv_path)
     print(checklist_path)
+    print(checklist_paola_path)
 
 
 if __name__ == "__main__":
