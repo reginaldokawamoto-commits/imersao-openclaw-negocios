@@ -6,6 +6,14 @@ Gerar diariamente tarefas para Tamires a partir dos atendimentos/procedimentos r
 ## Frequência sugerida
 Diariamente pela manhã, antes do início dos contatos com pacientes.
 
+## Entrega obrigatória
+
+- **Horário:** 07h, horário de São Paulo.
+- **Destino:** conversa individual da Tamires no Telegram (ID `1392170583`).
+- **Proibido:** publicar este checklist em qualquer grupo.
+- O checklist deve trazer primeiro as tarefas da Tamires e, quando houver, uma
+  seção separada de cópia para acompanhamento das tarefas atribuídas à Paola.
+
 ## Entradas necessárias
 
 - Agenda/exportação do iClinic do dia anterior e/ou dos últimos dias.
