@@ -1,7 +1,7 @@
 # Produção mensal — Comunidade Autonomia em Movimento — Setembro/2026
 
-- **Período produzido:** 08/09/2026 a 30/09/2026
-- **Início da comunidade:** terça-feira, 08/09/2026
+- **Período produzido:** 14/09/2026 a 30/09/2026
+- **Início do envio de conteúdos:** segunda-feira, 14/09/2026
 - **Etapa assumida:** INÍCIO
 - **Participantes:** a confirmar
 - **Pilares trabalhados recentemente:** nenhum histórico operacional identificado para a comunidade
@@ -16,28 +16,23 @@ Setembro será o mês de entrada da comunidade. A linha editorial prioriza acolh
 
 A distribuição privilegia quatro semanas temáticas:
 
-1. **08 a 11/09 — Alimentação:** começar com uma escolha simples e possível.
-2. **14 a 18/09 — Atividade física:** movimento adaptável, seguro e sem comparação.
-3. **21 a 25/09 — Sono:** preparação do ambiente e rotina noturna possível.
-4. **28 a 30/09 — Integração dos pilares:** estresse, conexões sociais e redução de risco.
+1. **14 a 18/09 — Atividade física:** movimento adaptável, seguro e sem comparação.
+2. **21 a 25/09 — Sono:** preparação do ambiente e rotina noturna possível.
+3. **28 a 30/09 — Integração dos pilares:** estresse, conexões sociais e redução de risco.
 
 A curadoria semanal de notícias começa em **14/09/2026**. Em cada semana a partir dessa data, há um conteúdo indicado como potencial substituição, sem troca automática.
 
 ## Objetivo de cada semana
 
-### Semana 1 — 08 a 11/09 — Alimentação
-
-Ajudar o participante a iniciar a comunidade com uma prática alimentar simples, sem dieta rígida, culpa ou sensação de recomeço perfeito.
-
-### Semana 2 — 14 a 18/09 — Atividade física
+### Semana 1 — 14 a 18/09 — Atividade física
 
 Apresentar movimento como cuidado adaptável e possível, especialmente para pessoas com dor, cansaço ou receio de exagerar.
 
-### Semana 3 — 21 a 25/09 — Sono
+### Semana 2 — 21 a 25/09 — Sono
 
 Estimular preparação gradual para dormir melhor, com foco em ambiente, ritmo e pequenas escolhas noturnas.
 
-### Semana 4 — 28 a 30/09 — Integração dos pilares
+### Semana 3 — 28 a 30/09 — Integração dos pilares
 
 Conectar manejo do estresse, relações sociais e redução de comportamentos de risco como escolhas de autonomia para fechar o primeiro mês.
 
@@ -45,10 +40,6 @@ Conectar manejo do estresse, relações sociais e redução de comportamentos de
 
 | Data | Dia | Pilar | Tema | Formato | Classificação |
 |---|---|---|---|---|---|
-| 08/09 | Terça | Alimentação | Começar por uma escolha | Mensagem curta | Verde |
-| 09/09 | Quarta | Alimentação | Prato possível | Checklist | Verde |
-| 10/09 | Quinta | Alimentação | Percepção de rotina | Enquete | Verde |
-| 11/09 | Sexta | Alimentação | Final de semana flexível | Mini desafio | Verde |
 | 14/09 | Segunda | Atividade física | Retomar com 5 minutos | Mensagem curta | Verde |
 | 15/09 | Terça | Atividade física | Movimento e regularidade | Texto educativo | Amarela |
 | 16/09 | Quarta | Atividade física | Caminhada consciente adaptável | Roteiro de áudio | Verde |
@@ -74,155 +65,6 @@ A substituição só deve ocorrer após revisão da equipe e validação da Dra.
 ---
 
 # Conteúdos completos
-
-## 08/09/2026
-
-**DATA:** 08/09/2026
-
-**DIA DA SEMANA:** Terça-feira
-
-**PILAR:** Alimentação
-
-**OBJETIVO COMPORTAMENTAL:** Ajudar o participante a começar com uma escolha alimentar simples e realista.
-
-**FORMATO:** Mensagem curta
-
-**CLASSIFICAÇÃO:** Verde
-
-**TÍTULO:** Começar por uma escolha
-
-**MENSAGEM PRONTA PARA O WHATSAPP:**
-
-Hoje começamos a Comunidade Autonomia em Movimento. A proposta aqui não é fazer tudo perfeito, nem acumular mais uma lista de obrigações. É praticar pequenas escolhas que, repetidas com gentileza, ajudam a construir mais saúde e autonomia. Para hoje, escolha apenas um ponto da alimentação para observar: água, horário, presença de comida de verdade ou atenção ao comer. Não precisa mudar tudo. Comece por um gesto possível. 🌿
-
-**AÇÃO PRÁTICA DO DIA:** Escolher uma única melhoria alimentar pequena para praticar hoje.
-
-**INTERAÇÃO:** Qual escolha simples você pretende praticar hoje? Responda com uma palavra, se quiser.
-
-**MATERIAL COMPLEMENTAR:** Nenhum material.
-
-**TEXTO DO CARD:** Não se começa perfeito. Começa possível.
-
-**ROTEIRO:** Não se aplica.
-
-**FONTE:** Não se aplica.
-
-**OBSERVAÇÃO PARA A EQUIPE:** Mensagem de abertura. Não solicitar histórico clínico, peso, dieta ou diagnóstico.
-
----
-
-## 09/09/2026
-
-**DATA:** 09/09/2026
-
-**DIA DA SEMANA:** Quarta-feira
-
-**PILAR:** Alimentação
-
-**OBJETIVO COMPORTAMENTAL:** Ensinar uma estratégia visual simples para montar uma refeição mais consciente.
-
-**FORMATO:** Checklist
-
-**CLASSIFICAÇÃO:** Verde
-
-**TÍTULO:** O prato possível
-
-**MENSAGEM PRONTA PARA O WHATSAPP:**
-
-Uma alimentação melhor não precisa começar por uma regra rígida. Muitas vezes, começa por olhar para o prato com mais consciência. Na próxima refeição, observe três pontos: existe alguma fonte de proteína? Há algum alimento vegetal, como verdura, legume ou fruta? A quantidade escolhida parece compatível com a sua fome de hoje? Essa observação já é uma prática. Ela ajuda a sair do automático sem transformar a refeição em cobrança.
-
-**AÇÃO PRÁTICA DO DIA:** Usar o checklist de três perguntas em uma refeição.
-
-**INTERAÇÃO:** Depois da refeição, compartilhe apenas uma palavra: “observei”, “ajustei” ou “vou tentar na próxima”.
-
-**MATERIAL COMPLEMENTAR:** Card.
-
-**TEXTO DO CARD:** Antes de mudar tudo, observe uma refeição.
-
-**ROTEIRO:** Não se aplica.
-
-**FONTE:** Não se aplica.
-
-**OBSERVAÇÃO PARA A EQUIPE:** Não usar como prescrição nutricional; é exercício de consciência.
-
----
-
-## 10/09/2026
-
-**DATA:** 10/09/2026
-
-**DIA DA SEMANA:** Quinta-feira
-
-**PILAR:** Alimentação
-
-**OBJETIVO COMPORTAMENTAL:** Estimular percepção de barreiras alimentares sem exposição íntima.
-
-**FORMATO:** Enquete
-
-**CLASSIFICAÇÃO:** Verde
-
-**TÍTULO:** O que mais pesa na rotina?
-
-**MENSAGEM PRONTA PARA O WHATSAPP:**
-
-Quando falamos de alimentação, a dificuldade raramente é falta de informação. Muitas vezes, o desafio está no ambiente, no cansaço, na pressa ou na falta de planejamento. Perceber a barreira principal ajuda a escolher uma adaptação menor e mais eficiente. Hoje, em vez de pensar “preciso melhorar tudo”, escolha identificar o que mais atrapalha a sua rotina alimentar neste momento.
-
-**AÇÃO PRÁTICA DO DIA:** Identificar uma barreira principal da alimentação hoje.
-
-**INTERAÇÃO:** Enquete: O que mais atrapalha sua alimentação na rotina?
-- Falta de tempo
-- Cansaço
-- Pouco planejamento
-- Comer no automático
-- Final de semana/social
-
-**MATERIAL COMPLEMENTAR:** Enquete WhatsApp.
-
-**TEXTO DO CARD:** Nomear a barreira ajuda a escolher o próximo passo.
-
-**ROTEIRO:** Não se aplica.
-
-**FONTE:** Não se aplica.
-
-**OBSERVAÇÃO PARA A EQUIPE:** Não pedir detalhes sobre compulsão, doenças, exames ou dietas.
-
----
-
-## 11/09/2026
-
-**DATA:** 11/09/2026
-
-**DIA DA SEMANA:** Sexta-feira
-
-**PILAR:** Alimentação
-
-**OBJETIVO COMPORTAMENTAL:** Preparar o final de semana com flexibilidade e reduzir mentalidade de tudo ou nada.
-
-**FORMATO:** Mini desafio
-
-**CLASSIFICAÇÃO:** Verde
-
-**TÍTULO:** Um acordo para o fim de semana
-
-**MENSAGEM PRONTA PARA O WHATSAPP:**
-
-O final de semana não precisa ser tratado como pausa total no cuidado. Também não precisa ser rígido. Uma escolha diferente em uma refeição não apaga o que você está construindo. Para atravessar esses dias com mais consciência, faça um pequeno acordo: “se eu sair da rotina em uma refeição, na próxima eu volto para uma escolha simples”. Retomar rápido é uma habilidade importante. Não é perfeição. É direção. ✨
-
-**AÇÃO PRÁTICA DO DIA:** Criar um plano “se acontecer X, farei Y” para o final de semana.
-
-**INTERAÇÃO:** Complete mentalmente ou no grupo: “Se eu sair da rotina, eu retomo com ______.”
-
-**MATERIAL COMPLEMENTAR:** Card.
-
-**TEXTO DO CARD:** Uma escolha diferente não anula a jornada.
-
-**ROTEIRO:** Não se aplica.
-
-**FONTE:** Não se aplica.
-
-**OBSERVAÇÃO PARA A EQUIPE:** Evitar termos como “jacar”, “dia do lixo” ou compensação.
-
----
 
 ## 14/09/2026
 
