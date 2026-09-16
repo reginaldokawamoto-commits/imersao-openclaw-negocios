@@ -16,6 +16,8 @@ atendimento/
 ├── skills/
 │   └── _index.md
 ├── projetos/
+├── processos/
+│   └── confirmacao-de-consulta.md ← Script e regras de confirmação de consulta
 ├── bot/
 │   ├── base-conhecimento.md
 │   └── duvidas-pendentes.md
@@ -32,4 +34,8 @@ atendimento/
 | `rotinas/` | Crons configurados (checagem diária, consolidação FAQ 18h) |
 | `skills/` | Skills da área (ver `_index.md`) |
 | `projetos/` | Projetos ativos e concluídos |
+| `processos/` | Playbooks operacionais de atendimento |
 | `bot/` | FAQ do bot de suporte e dúvidas pendentes |
+# Processos
+
+- [Abertura do atendimento presencial](processos/abertura-atendimento-presencial.md)
