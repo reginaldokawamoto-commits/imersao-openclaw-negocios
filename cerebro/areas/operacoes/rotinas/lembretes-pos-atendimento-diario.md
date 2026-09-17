@@ -3,8 +3,19 @@
 ## Objetivo
 Gerar diariamente tarefas para Tamires a partir dos atendimentos/procedimentos registrados no iClinic, evitando perda de follow-up.
 
-## Frequência sugerida
-Diariamente pela manhã, antes do início dos contatos com pacientes.
+## Frequência e separação de etapas
+
+O processo possui duas rotinas independentes. A entrega não pode substituir a
+coleta do iClinic.
+
+1. **23h (São Paulo) — coleta:** baixar o relatório *Pacientes por período* do
+   próprio dia, validar data e arquivo e gerar as tarefas para o dia seguinte.
+2. **07h (São Paulo) — entrega:** ler exclusivamente a base já atualizada e
+   enviar o checklist individual da Tamires.
+
+Se a coleta noturna não produzir o arquivo do dia, a entrega da manhã deve
+registrar falha e escalar a correção; nunca apresentar uma lista antiga como se
+fosse a atualização do dia anterior.
 
 ## Entrega obrigatória
 
@@ -16,17 +27,20 @@ Diariamente pela manhã, antes do início dos contatos com pacientes.
 
 ## Entradas necessárias
 
-- Agenda/exportação do iClinic do dia anterior e/ou dos últimos dias.
+- Exportação do iClinic *Pacientes por período* do dia anterior, salva em
+  `relatorios/iclinic/downloads/pacientes_periodo_YYYY-MM-DD.xlsx`.
 - Tabela de regras: `cerebro/areas/operacoes/projetos/template-regras-lembretes-iclinic.csv`.
 
 ## Processo
 
-1. Verificar registros realizados no iClinic.
+1. Às 23h, verificar registros realizados no iClinic e baixar o relatório do
+   próprio dia.
 2. Identificar o tipo salvo na agenda.
 3. Aplicar a regra correspondente usando **obrigatoriamente** a tabela oficial `template-regras-lembretes-iclinic.csv`.
 4. Criar tarefa para Tamires com data, paciente, origem e ação.
 5. Marcar tarefas geradas para evitar duplicidade.
-6. Revisar pendências vencidas.
+6. Às 07h, revisar pendências vencidas e entregar o checklist somente depois
+   de confirmar a existência do relatório mais recente.
 7. Validar se existem procedimentos sem regra oficial. Procedimento sem regra não deve gerar follow-up genérico automaticamente; deve entrar em revisão.
 8. Quando Tamires responder `feito <número>` ou `feito <início>-<fim>`, atualizar obrigatoriamente a base `followup/tarefas-followup.csv` usando o ID do checklist do dia. Não basta responder no Telegram.
 9. Depois de marcar como feito, regenerar o checklist do dia e o próximo checklist para garantir que tarefas concluídas não reapareçam como pendentes.
