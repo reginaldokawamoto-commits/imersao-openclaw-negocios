@@ -17,6 +17,7 @@ from pathlib import Path
 import argparse
 import csv
 import hashlib
+import json
 import re
 import unicodedata
 import xml.etree.ElementTree as ET
@@ -244,7 +245,14 @@ def main() -> None:
     parser.add_argument("xlsx", type=Path)
     parser.add_argument("--workspace", type=Path, default=Path("/root/cerebro-minhaempresa"))
     parser.add_argument("--checklist-date", help="YYYY-MM-DD. Default: D+1 do primeiro registro.")
+    parser.add_argument(
+        "--expected-report-date",
+        help="YYYY-MM-DD. Bloqueia importação se o arquivo não contiver exclusivamente atendimentos desta data.",
+    )
     args = parser.parse_args()
+
+    if not args.xlsx.is_file() or args.xlsx.stat().st_size == 0:
+        raise SystemExit(f"Relatório iClinic inexistente ou vazio: {args.xlsx}")
 
     rows = read_xlsx(args.xlsx)
     if not rows:
@@ -252,6 +260,21 @@ def main() -> None:
     else:
         header = rows[0]
         records = [dict(zip(header, row + [""] * (len(header) - len(row)))) for row in rows[1:]]
+
+    if args.expected_report_date:
+        expected = datetime.strptime(args.expected_report_date, "%Y-%m-%d").date()
+        found_dates: set[date] = set()
+        for rec in records:
+            raw_date = (rec.get("Data") or "").strip()
+            if not raw_date:
+                raise SystemExit(f"Relatório sem data de atendimento: {args.xlsx}")
+            found_dates.add(brdate_to_date(raw_date))
+        if found_dates and found_dates != {expected}:
+            listed = ", ".join(sorted(d.isoformat() for d in found_dates))
+            raise SystemExit(
+                f"Relatório incompatível: esperado {expected.isoformat()}, encontrado {listed}. "
+                "Nenhuma tarefa foi alterada."
+            )
 
     outdir = args.workspace / FOLLOWUP_REL
     csv_path = outdir / "tarefas-followup.csv"
@@ -314,6 +337,20 @@ def main() -> None:
     checklist_paola_path = outdir / f"checklist-paola-{checklist_date}.md"
     build_checklist(checklist_path, merged, checklist_date, "Tamires")
     build_checklist(checklist_paola_path, merged, checklist_date, "Paola")
+
+    # Selo de integridade consumido pela entrega matinal. Sem este selo, a
+    # automação de envio não pode despachar um checklist possivelmente antigo.
+    manifest = {
+        "report_file": str(args.xlsx.resolve()),
+        "report_date": args.expected_report_date or "",
+        "checklist_date": checklist_date,
+        "record_count": len(records),
+        "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
+        "sha256": hashlib.sha256(args.xlsx.read_bytes()).hexdigest(),
+    }
+    (outdir / f"integridade-checklist-{checklist_date}.json").write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
 
     due_count = sum(
         1 for t in merged

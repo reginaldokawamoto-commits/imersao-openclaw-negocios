@@ -17,6 +17,25 @@ Se a coleta noturna não produzir o arquivo do dia, a entrega da manhã deve
 registrar falha e escalar a correção; nunca apresentar uma lista antiga como se
 fosse a atualização do dia anterior.
 
+## Portão de integridade obrigatório
+
+Antes de qualquer envio às 07h, executar:
+
+```bash
+python3 cerebro/areas/operacoes/scripts/emitir_checklist_iclinic.py
+```
+
+O comando só emite conteúdo quando valida, em conjunto:
+
+- arquivo da véspera existente e não vazio;
+- data do arquivo compatível com a data esperada;
+- selo de integridade criado na geração noturna;
+- hash do relatório igual ao hash validado;
+- checklists da Tamires e da Paola regenerados.
+
+Se qualquer condição falhar, o envio é bloqueado e Reginaldo recebe alerta de
+falha. Não há fallback para lista antiga.
+
 ## Entrega obrigatória
 
 - **Horário:** 07h, horário de São Paulo.
