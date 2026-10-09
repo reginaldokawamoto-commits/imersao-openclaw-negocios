@@ -1,0 +1,15 @@
+{
+  "updated_at_utc": "2026-10-09T18:03:24.792509+00:00",
+  "spreadsheet_name": "Financeiro - Fechamentos Dra. Lígia",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/122ARYktTi1RsuCnJNXIV_Bhzg-8lmofOb64yxydmxX8",
+  "rows_local": 105,
+  "rows_previously_in_drive": 136,
+  "rows_canonical": 136,
+  "rows_verified_in_drive": 136,
+  "ids_verified": 136,
+  "total_verified": "333148.44",
+  "latest_date": "2026-10-09",
+  "repaired_legacy_csv_rows": 17,
+  "backup_sheet": "Backup Lançamentos 20261009",
+  "mode": "synchronized"
+}

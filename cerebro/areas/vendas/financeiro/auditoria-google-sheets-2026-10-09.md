@@ -38,4 +38,9 @@ Os 10 lançamentos registrados localmente entre 01 e 09/10 — total de **R$ 50.
 4. Criar rotina de sincronização com validação: quantidade de linhas, último ID, valor acumulado e data de atualização.
 5. Alertar imediatamente se a planilha ficar mais de 24 horas sem refletir novos fechamentos.
 
-> Nenhum dado foi escrito no Google Drive nesta auditoria.
+## Correção executada em 09/10/2026
+
+- A aba `Lançamentos` foi recomposta a partir da base local e dos registros históricos existentes no Drive.
+- Antes da atualização, foi criada a aba de segurança `Backup Lançamentos 20261009` com o conteúdo anterior.
+- Resultado validado após gravação: **136 lançamentos**, total de **R$ 333.148,44**, com último lançamento em **09/10/2026**.
+- Uma rotina determinística foi criada para executar todos os dias às **23:15 (America/Sao_Paulo)**. Ela reconcilia IDs, quantidade de linhas, valor acumulado e data final; qualquer falha gera alerta ao Reginaldo.
