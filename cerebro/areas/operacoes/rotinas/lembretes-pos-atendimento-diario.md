@@ -17,6 +17,22 @@ Se a coleta noturna não produzir o arquivo do dia, a entrega da manhã deve
 registrar falha e escalar a correção; nunca apresentar uma lista antiga como se
 fosse a atualização do dia anterior.
 
+### Executor obrigatório
+
+Executar a coleta somente por este comando, que recebe uma data explícita e
+cria o selo de integridade apenas depois de baixar, validar e gerar os dois
+checklists:
+
+```bash
+python3 cerebro/areas/operacoes/scripts/coletar_e_gerar_followup_iclinic.py
+```
+
+Para recuperar um dia específico:
+
+```bash
+python3 cerebro/areas/operacoes/scripts/coletar_e_gerar_followup_iclinic.py --report-date YYYY-MM-DD
+```
+
 ## Portão de integridade obrigatório
 
 Antes de qualquer envio às 07h, executar:
@@ -54,15 +70,21 @@ falha. Não há fallback para lista antiga.
 
 1. Às 23h, verificar registros realizados no iClinic e baixar o relatório do
    próprio dia.
-2. Identificar o tipo salvo na agenda.
-3. Aplicar a regra correspondente usando **obrigatoriamente** a tabela oficial `template-regras-lembretes-iclinic.csv`.
-4. Criar tarefa para Tamires com data, paciente, origem e ação.
-5. Marcar tarefas geradas para evitar duplicidade.
-6. Às 07h, revisar pendências vencidas e entregar o checklist somente depois
-   de confirmar a existência do relatório mais recente.
-7. Validar se existem procedimentos sem regra oficial. Procedimento sem regra não deve gerar follow-up genérico automaticamente; deve entrar em revisão.
-8. Quando Tamires responder `feito <número>` ou `feito <início>-<fim>`, atualizar obrigatoriamente a base `followup/tarefas-followup.csv` usando o ID do checklist do dia. Não basta responder no Telegram.
-9. Depois de marcar como feito, regenerar o checklist do dia e o próximo checklist para garantir que tarefas concluídas não reapareçam como pendentes.
+2. Para qualquer tipo de **Consulta**, criar duas tarefas: **D+1** para
+   contato, verificação de bem-estar e confirmação/organização do próximo
+   agendamento; e **D+7** para confirmar se o agendamento ocorreu e retomar o
+   contato caso permaneça pendente.
+3. Identificar o tipo salvo na agenda.
+4. Aplicar a regra correspondente usando **obrigatoriamente** a tabela oficial `template-regras-lembretes-iclinic.csv`.
+5. Criar tarefa para Tamires com data, paciente, origem e ação.
+6. Marcar tarefas geradas para evitar duplicidade.
+7. Às 07h, entregar somente as tarefas cujo follow-up vence naquele dia,
+   depois de confirmar a existência do relatório mais recente. Pendências
+   vencidas entram em auditoria separada e nunca podem reaparecer como novas
+   tarefas no checklist diário.
+8. Validar se existem procedimentos sem regra oficial. Procedimento sem regra não deve gerar follow-up genérico automaticamente; deve entrar em revisão.
+9. Quando Tamires responder `feito <número>` ou `feito <início>-<fim>`, atualizar obrigatoriamente a base `followup/tarefas-followup.csv` usando o ID do checklist do dia. Não basta responder no Telegram.
+10. Depois de marcar como feito, regenerar o checklist do dia e o próximo checklist para garantir que tarefas concluídas não reapareçam como pendentes.
 
 ## Auditoria anti-regressão
 

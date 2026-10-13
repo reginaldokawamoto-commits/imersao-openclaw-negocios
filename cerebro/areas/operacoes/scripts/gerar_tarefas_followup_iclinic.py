@@ -201,7 +201,10 @@ def build_checklist(path: Path, tasks: list[dict[str, str]], due_date: str, resp
         [
             t for t in tasks
             if t.get("status") == "pendente"
-            and t.get("data_followup", "") <= due_date
+            # Checklist diário é uma atribuição do dia, não uma fila histórica.
+            # Pendências vencidas são auditadas em fluxo separado para não
+            # reaparecerem à equipe como se fossem tarefas novas.
+            and t.get("data_followup", "") == due_date
             and t.get("responsavel", "").strip().lower() == responsavel.strip().lower()
         ],
         key=lambda t: (t.get("data_followup", ""), t.get("paciente", ""), t.get("tipo_followup", ""), t.get("id", "")),
@@ -220,7 +223,7 @@ def build_checklist(path: Path, tasks: list[dict[str, str]], due_date: str, resp
         "- `reagendar <número> para DD/MM`",
         "- `atenção médica <número> - observação`",
         "",
-        "## Tarefas pendentes até hoje",
+        "## Tarefas previstas para hoje",
         "",
     ]
     if not due_tasks:

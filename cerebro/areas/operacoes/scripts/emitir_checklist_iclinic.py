@@ -28,7 +28,7 @@ def checklist_text(path: Path, label: str) -> str:
     lines: list[str] = []
     capture = False
     for line in raw.splitlines():
-        if line == "## Tarefas pendentes até hoje":
+        if line in {"## Tarefas pendentes até hoje", "## Tarefas previstas para hoje"}:
             capture = True
             continue
         if not capture:

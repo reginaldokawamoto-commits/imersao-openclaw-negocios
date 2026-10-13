@@ -94,7 +94,9 @@ def render_checklist(path: Path, tasks: list[dict[str, str]], responsavel: str, 
             t for t in tasks
             if t.get("status") == "pendente"
             and t.get("responsavel", "").strip().lower() == responsavel.strip().lower()
-            and t.get("data_followup", "") <= checklist_date
+            # Não reincorporar pendências antigas ao checklist diário. Elas
+            # precisam de auditoria e nova priorização, não de reenvio cego.
+            and t.get("data_followup", "") == checklist_date
         ],
         key=lambda t: (t.get("data_followup", ""), t.get("paciente", ""), t.get("tipo_followup", ""), t.get("id", "")),
     )
@@ -112,7 +114,7 @@ def render_checklist(path: Path, tasks: list[dict[str, str]], responsavel: str, 
         "- `reagendar <número> para DD/MM`",
         "- `atenção médica <número> - observação`",
         "",
-        "## Tarefas pendentes até hoje",
+        "## Tarefas previstas para hoje",
         "",
     ]
     if not due_tasks:
