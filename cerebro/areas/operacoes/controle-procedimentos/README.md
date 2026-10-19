@@ -2,6 +2,12 @@
 
 Objetivo: dar visibilidade semanal ao Reginaldo sobre todas as solicitações de procedimento, separando particular, convênio e casos mistos, para cobrar execução da secretária e reduzir perda de fechamento/autorização.
 
+## Fonte oficial
+
+A fonte operacional é a aba [**Controle de Procedimentos**](https://docs.google.com/spreadsheets/d/122ARYktTi1RsuCnJNXIV_Bhzg-8lmofOb64yxydmxX8/edit#gid=1236342738) da planilha compartilhada da operação. O arquivo `template-controle-procedimentos.csv` serve somente como referência de estrutura e **não pode ser usado como fonte de relatório**.
+
+A extração semanal é feita por `scripts/gerar_relatorio_followup_procedimentos.py`. Se a aba, os cabeçalhos ou o acesso falharem, a rotina deve falhar explicitamente; nunca deve retornar “zero casos” a partir do template.
+
 ## Fluxos principais
 
 ### 1. Procedimento 100% particular

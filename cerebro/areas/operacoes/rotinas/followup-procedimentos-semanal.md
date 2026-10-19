@@ -2,7 +2,9 @@
 
 **Frequência sugerida:** semanal, segunda-feira de manhã.
 
-**Fonte:** `cerebro/areas/operacoes/controle-procedimentos/template-controle-procedimentos.csv` ou a planilha oficial equivalente.
+**Fonte:** aba [**Controle de Procedimentos**](https://docs.google.com/spreadsheets/d/122ARYktTi1RsuCnJNXIV_Bhzg-8lmofOb64yxydmxX8/edit#gid=1236342738) da planilha operacional oficial. A extração é executada por `cerebro/areas/operacoes/scripts/gerar_relatorio_followup_procedimentos.py`.
+
+> O arquivo `template-controle-procedimentos.csv` é somente um modelo de colunas e nunca deve ser lido como dado operacional.
 
 ## Objetivo
 
