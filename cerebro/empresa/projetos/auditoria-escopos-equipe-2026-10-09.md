@@ -25,6 +25,7 @@
 | Pós-procedimento e andamento administrativo | C | **E** | A por exceção | C/A clínica | Paola realiza contato e documentação do procedimento; sinal clínico vai à Dra. Lígia. |
 | Programa MEV, retornos e repescagem | **E** | I | A por regra/comercial | C/A clínica | Tamires acompanha adesão, agenda e status; conteúdo clínico depende de validação. |
 | Instagram de pacientes/Close Friends e relacionamento | **E** | I | A | C | Tamires executa lista autorizada, respeitando privacidade; não aborda perfil sem confirmação. |
+| Higienização de seguidores do Instagram | **E** | I | A | I | Tamires analisa manualmente até 50 perfis por dia antes de remover; preserva pacientes, contatos relevantes e perfis que exijam confirmação. |
 | Comunidade MEV — publicação operacional | **E** | C | A operacional | **A técnica** | Tamires publica somente material já aprovado; não produz/valida conteúdo médico. |
 | Conteúdo, mídia e fornecedores | I | I | **E/A operacional** | **A técnica/institucional** | Reginaldo conduz marketing; Dra. Lígia aprova temas médicos sensíveis. |
 | Financeiro, indicadores e prioridades semanais | I | I | **E/A** | C/A estratégica | Reginaldo recebe indicadores e pendências por exceção, não a lista bruta diária. |
@@ -39,6 +40,7 @@
 - Realizar contatos de pós-atendimento, retorno e continuidade de programa MEV, usando status padronizados.
 - Fazer repescagem de pacientes a partir de lista validada.
 - Pesquisar perfis de pacientes ativos para Close Friends, com cuidado de privacidade.
+- Higienizar diariamente até **50 seguidores** do Instagram da Dra. Lígia: analisar cada perfil antes da remoção, confirmar que não é paciente nem contato relevante e remover somente os perfis inelegíveis.
 - Operar o envio na Comunidade MEV após aprovação clínica/técnica e operacional.
 
 **Não deve ficar com Tamires**
@@ -47,6 +49,8 @@
 - Aprovação de conteúdo médico.
 
 **Ponto de controle:** checklist diário precisa ter fonte validada, data, responsável, próxima ação e baixa no sistema. Se a lista não estiver validada, o envio deve ser bloqueado e escalado — nunca substituído por lista antiga.
+
+**Ponto de controle da higienização de seguidores:** a exclusão é manual e limitada a 50 perfis/dia. Em caso de dúvida sobre vínculo como paciente, indicação, parceiro ou contato relevante, não remover; deixar para validação.
 
 ### 2. Paola — entrada, documentos e execução operacional
 
