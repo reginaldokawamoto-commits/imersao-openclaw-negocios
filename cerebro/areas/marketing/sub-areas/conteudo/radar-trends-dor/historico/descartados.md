@@ -8,3 +8,6 @@
 | 2026-10-31 | Nova presidência da IASP por Mary Suma Cardosa | Fato institucional relevante, mas sem desdobramento clínico/editorial direto para a persona neste ciclo. |
 | 2026-10-31 | Estudo de coordenação de cuidado em dor crônica | Início de ensaio, não resultado de eficácia ou mudança de prática. |
 | 2026-10-31 | BCI como “nova cura” | Enquadramento promocional incompatível com a revisão recente, que descreve evidência ainda inicial. |
+| 2026-11-03 | TAICHIKNEE (tai chi on-line para dor por osteoartrose de joelho) | Divulgação de protocolo de ensaio, sem resultados de eficácia. |
+| 2026-11-03 | Mapeamento neuroimune da dor na endometriose | Repercussão atual de artigo publicado em 09/10; pesquisa mecanística, não tratamento. |
+| 2026-11-03 | Pain Catastrophizing Scale em canarês para osteoartrose de joelho | Estudo local de mensuração, com aplicabilidade editorial e clínica local limitada. |
