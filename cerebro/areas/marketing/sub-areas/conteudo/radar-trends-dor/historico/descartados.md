@@ -11,3 +11,6 @@
 | 2026-11-03 | TAICHIKNEE (tai chi on-line para dor por osteoartrose de joelho) | Divulgação de protocolo de ensaio, sem resultados de eficácia. |
 | 2026-11-03 | Mapeamento neuroimune da dor na endometriose | Repercussão atual de artigo publicado em 09/10; pesquisa mecanística, não tratamento. |
 | 2026-11-03 | Pain Catastrophizing Scale em canarês para osteoartrose de joelho | Estudo local de mensuração, com aplicabilidade editorial e clínica local limitada. |
+| 2026-11-05 | Ritmo circadiano e hipersensibilidade na dor neuropática | Estudo em camundongos machos; não sustenta pauta clínica ou orientação de sono. |
+| 2026-11-05 | Antipsicóticos e trajetórias de dor em internação | Coorte retrospectiva hospitalar sujeita a confusão; alto risco de leitura como endosso farmacológico. |
+| 2026-11-05 | Antagonistas P2X para analgesia | Revisão predominantemente pré-clínica, sem aplicabilidade local atual. |
