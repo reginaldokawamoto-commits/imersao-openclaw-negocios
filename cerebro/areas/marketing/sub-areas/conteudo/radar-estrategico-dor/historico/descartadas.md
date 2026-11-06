@@ -13,3 +13,7 @@
 | 2026-11-03 | Dor no joelho após exercício e dúvida sobre joelheira/faixa | Predominantemente aguda e centrada em orientação de treino; não sustenta pauta de dor persistente. |
 | 2026-11-03 | Dor no ombro após treino | Já selecionada no ciclo imediatamente anterior; não há evidência nova que justifique repetição consecutiva. |
 | 2026-11-03 | Postura cervical | Dúvida estética/postural, sem evidência suficiente de jornada de dor persistente alinhada ao ICP. |
+| 2026-11-06 | Enxaqueca crônica após múltiplas tentativas | Tema e fonte já selecionados em 28/10; não houve evidência nova independente para repetição consecutiva. |
+| 2026-11-06 | Dor lombar crônica refratária / dor dorsal de longa duração | Eixo já selecionado; a evidência adicional é relato único e não justifica nova pauta. |
+| 2026-11-06 | Fibromialgia, fadiga e busca por medicação | Tema selecionado em 31/10; sem nova evidência independente que altere a prioridade. |
+| 2026-11-06 | Queimação difusa intensa com sintomas associados | Relato único, potencialmente grave e em investigação; não converter em pauta de marketing. |
