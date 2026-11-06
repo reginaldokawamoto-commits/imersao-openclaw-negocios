@@ -14,3 +14,6 @@
 | 2026-11-05 | Ritmo circadiano e hipersensibilidade na dor neuropática | Estudo em camundongos machos; não sustenta pauta clínica ou orientação de sono. |
 | 2026-11-05 | Antipsicóticos e trajetórias de dor em internação | Coorte retrospectiva hospitalar sujeita a confusão; alto risco de leitura como endosso farmacológico. |
 | 2026-11-05 | Antagonistas P2X para analgesia | Revisão predominantemente pré-clínica, sem aplicabilidade local atual. |
+| 2026-11-06 | Plasma rico em plaquetas para artrose da base do polegar | Protocolo de ensaio, sem resultado de eficácia ou segurança. |
+| 2026-11-06 | Exercícios de core para lombalgia crônica inespecífica | Heterogeneidade alta e ausência de superioridade consistente; sem evolução editorial material em relação às pautas recentes. |
+| 2026-11-06 | Injeção de ponto-gatilho versus dry needling em pronto-socorro | Ensaio pequeno, de curto prazo e em cenário agudo; alto risco de extrapolação promocional. |
