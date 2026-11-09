@@ -14,3 +14,6 @@
 | 2026-11-05 | Lombalgia, opioides e função: resultado clínico além da escala de dor | 90 | Autonomia na vida real | Aguardar revisão médica/editorial |
 | 2026-11-06 | Dor persistente pós-operatória: técnica não é garantia | 88 | Plano de Cuidado como estratégia | Aguardar revisão médica/editorial |
 | 2026-11-06 | Dor pélvica na gestação e pós-parto: frequência não substitui avaliação | 84 | Autonomia na vida real | Aguardar revisão médica/editorial |
+| 2026-11-09 | Artrose de joelho: função também é desfecho | 89 | Autonomia na vida real | Aguardar revisão médica/editorial |
+| 2026-11-09 | Dor pélvica persistente: investigação antes de escalar procedimentos | 85 | Investigação antes da conduta | Aguardar revisão médica/editorial |
+| 2026-11-09 | Crioneurólise e crioablação: inovação exige indicação e evidência | 83 | Plano de Cuidado como estratégia | Aguardar revisão médica/editorial |

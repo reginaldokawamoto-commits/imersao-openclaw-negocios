@@ -17,3 +17,6 @@
 | 2026-11-06 | Plasma rico em plaquetas para artrose da base do polegar | Protocolo de ensaio, sem resultado de eficácia ou segurança. |
 | 2026-11-06 | Exercícios de core para lombalgia crônica inespecífica | Heterogeneidade alta e ausência de superioridade consistente; sem evolução editorial material em relação às pautas recentes. |
 | 2026-11-06 | Injeção de ponto-gatilho versus dry needling em pronto-socorro | Ensaio pequeno, de curto prazo e em cenário agudo; alto risco de extrapolação promocional. |
+| 2026-11-09 | PainWaive, headset EEG de consumo | Validação técnica para pesquisa, sem demonstração de diagnóstico, eficácia terapêutica ou uso clínico; repete pauta de IA/EEG. |
+| 2026-11-09 | Fotobiomodulação em disfunção temporomandibular | Ensaio pequeno e curto com intervenção combinada; alto risco de publicidade de equipamento/protocolo. |
+| 2026-11-09 | Lacosamida em dor neuropática | Comentário editorial, sem novo dado clínico primário para pauta responsável. |
