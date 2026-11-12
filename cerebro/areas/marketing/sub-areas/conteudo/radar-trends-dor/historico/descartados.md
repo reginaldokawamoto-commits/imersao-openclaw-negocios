@@ -20,3 +20,6 @@
 | 2026-11-09 | PainWaive, headset EEG de consumo | Validação técnica para pesquisa, sem demonstração de diagnóstico, eficácia terapêutica ou uso clínico; repete pauta de IA/EEG. |
 | 2026-11-09 | Fotobiomodulação em disfunção temporomandibular | Ensaio pequeno e curto com intervenção combinada; alto risco de publicidade de equipamento/protocolo. |
 | 2026-11-09 | Lacosamida em dor neuropática | Comentário editorial, sem novo dado clínico primário para pauta responsável. |
+| 2026-11-12 | Citomegalovírus e fibromialgia | Estudo caso-controle mostra associação, não causalidade; alto risco de narrativa infecciosa simplista e investigação indevida. |
+| 2026-11-12 | Botox/corticoide/lidocaína/dextrose para lombalgia discogênica | Coorte retrospectiva sem controle, protocolo com quatro componentes e seguimento curto; não isola benefício ou segurança. |
+| 2026-11-12 | PEACE para injeção epidural e ciática | Protocolo de ensaio, sem resultados clínicos; não é avanço terapêutico comprovado. |
