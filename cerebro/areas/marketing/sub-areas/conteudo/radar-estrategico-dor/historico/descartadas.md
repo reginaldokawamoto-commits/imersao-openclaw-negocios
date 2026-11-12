@@ -21,3 +21,5 @@
 | 2026-11-09 | Fibromialgia, fadiga e busca por medicação | Já selecionada em 31/10; não houve evidência nova independente verificável. |
 | 2026-11-09 | Dor persistente no ombro após tentativas anteriores | Pauta selecionada em 31/10; sem evidência recente diferenciada para repetição. |
 | 2026-11-09 | Menções de enxaqueca em conversas gerais | Fora de contexto de jornada de dor persistente/investigação; não constituem pergunta espontânea qualificável. |
+| 2026-11-12 | Dor e limitação relacionadas a artroplastia de quadril | Discussão centrada em experiências pessoais e pós-operatório; não há pergunta recorrente independente e seria inadequado induzir comparação ou promessa de resultado cirúrgico. |
+| 2026-11-12 | Lombar, fibromialgia, ombro e enxaqueca | Pautas já selecionadas em ciclos anteriores; não surgiu evidência recente independente que justificasse repetição. |
