@@ -81,6 +81,14 @@ def render(cases: list[dict[str, str]]) -> str:
     }
     negative_statuses = {"negado", "reclamacao_orientada", "aguardando_reclamacao_paciente", "reclamacao_feita", "reanalise_convenio"}
     negatives = sum(normalized(case["Status atual"]) in negative_statuses for case in active)
+    proposals = [
+        case for case in active
+        if normalized(case["Status atual"]) in {"proposta_enviada", "followup_comercial"}
+    ]
+    accepted_pending_schedule = [
+        case for case in active
+        if normalized(case["Status atual"]) in {"aceitou_orcamento", "autorizado", "agendamento_pendente"}
+    ]
     critical = [
         case
         for case in active
@@ -97,6 +105,8 @@ def render(cases: list[dict[str, str]]) -> str:
         f"• Convênio aguardando status: {by_flow['convenio']}.",
         f"• Negativas/reclamações: {negatives}.",
         f"• Casos mistos: {by_flow['misto']}.",
+        f"• Propostas em follow-up: {len(proposals)}.",
+        f"• Aceites/autorizações sem agenda: {len(accepted_pending_schedule)}.",
         f"• Críticos para cobrar hoje: {len(critical)}.",
     ]
     if critical:
@@ -105,7 +115,8 @@ def render(cases: list[dict[str, str]]) -> str:
             lines.append(
                 f"{index}. {case['Paciente']} — {case['Procedimento'] or 'procedimento a definir'} — "
                 f"{case['Status atual']} — {case['Próxima ação'] or 'definir próxima ação'} — "
-                f"{case['Responsável interno'] or 'responsável a definir'}"
+                f"{case['Responsável interno'] or 'responsável a definir'} — "
+                f"follow-up: {case['Próximo follow-up'] or 'sem data'}"
             )
     else:
         lines += ["", "Nenhum caso com follow-up vencido ou sem data de acompanhamento."]

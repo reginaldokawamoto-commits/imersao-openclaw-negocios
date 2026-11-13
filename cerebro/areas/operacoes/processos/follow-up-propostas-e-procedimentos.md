@@ -43,6 +43,11 @@ Se o paciente disser que só poderá fazer no mês seguinte, isso não é encerr
 | Solicitação enviada ao convênio | `solicitado_convenio` ou `aguardando_convenio` |
 | Falta documento/exame | `pendente_documento` |
 | Convênio autorizou | `autorizado` |
+| Convênio negou o procedimento/material | `negado` |
+| Paciente foi orientado sobre reclamação | `reclamacao_orientada` |
+| Aguardar o paciente registrar a reclamação | `aguardando_reclamacao_paciente` |
+| Reclamação registrada; aguardar resposta | `reclamacao_feita` |
+| Reanálise/recurso enviado ao convênio | `reanalise_convenio` |
 | Paciente/hospital ainda precisa definir data | `agendamento_pendente` |
 | Data marcada | `agendado` |
 | Paciente não fará por agora, mas poderá retomar | `pausado` |
@@ -95,6 +100,15 @@ Após 30 dias sem resposta, classificar como `perdido` ou `pausado` conforme con
 - Registrar a data prometida pelo paciente.
 - Próximo follow-up: no primeiro dia útil depois da data informada; nunca deixar em branco.
 
+### 6. Procedimento ou material negado pelo convênio
+
+- Status inicial: `negado`.
+- Próxima ação: orientar o paciente sobre o próximo passo administrativo definido pela clínica; registrar a orientação sem conteúdo clínico desnecessário.
+- Se a orientação for reclamação: usar `reclamacao_orientada` e agendar retorno em até 3 dias úteis.
+- Após o paciente confirmar o protocolo: usar `reclamacao_feita`; registrar somente data e número de protocolo, quando fornecido.
+- Se houver reanálise: usar `reanalise_convenio`; seguir duas vezes por semana até o desfecho.
+- Não encerrar caso negado sem registrar a orientação e a próxima data de acompanhamento.
+
 ## Scripts de WhatsApp
 
 ### Após envio do orçamento
@@ -128,6 +142,7 @@ Após 30 dias sem resposta, classificar como `perdido` ou `pausado` conforme con
 3. Após cada retorno, atualizar **status, último contato, próxima ação, próximo follow-up e observações** no mesmo dia.
 4. No fim do dia, revisar se algum caso aberto ficou sem próxima data.
 5. Casos sem resposta, convênio pendente e aceite sem agendamento devem continuar no controle até o desfecho.
+6. Negativas e reclamações só saem da fila após confirmação de desfecho, desistência explícita ou nova decisão registrada.
 
 ## Acompanhamento do Reginaldo
 
@@ -139,6 +154,10 @@ O resumo deve priorizar somente:
 - casos pausados que vencem no mês;
 - convênios/negativas que bloqueiam o agendamento;
 - responsáveis sem atualização.
+
+## Reunião semanal Reginaldo + Paola
+
+Seguir a [rotina de 15 minutos](../rotinas/reuniao-semanal-paola-procedimentos.md), sempre a partir do relatório gerado pela aba oficial. A reunião serve para remover bloqueios e definir próximos passos; não deve recontar todo o histórico dos casos.
 
 ## Ferramenta recomendada
 
