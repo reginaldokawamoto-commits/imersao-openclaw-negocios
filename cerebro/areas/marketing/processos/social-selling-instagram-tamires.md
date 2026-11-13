@@ -4,6 +4,15 @@
 
 Qualificar a base de seguidores, preservar contatos estratégicos e transformar a leitura diária de Stories e posts em aprendizados práticos para marketing e atendimento.
 
+## Referência operacional
+
+O documento-base recebido da operação está arquivado em
+[`referencias/2026-11_playbook-tamires-social-selling.docx`](referencias/2026-11_playbook-tamires-social-selling.docx).
+
+Esta rotina é a versão operacional a ser seguida pela Tamires. Quando houver
+conflito, prevalecem os princípios de privacidade, comunicação médica e os
+limites de relacionamento definidos neste arquivo.
+
 ## Princípios
 
 - A análise é manual e criteriosa; não usar automação de seguir, deixar de seguir, comentar ou reagir.
@@ -11,6 +20,85 @@ Qualificar a base de seguidores, preservar contatos estratégicos e transformar 
 - Interações devem ser reais, específicas e proporcionais ao conteúdo; nunca genéricas, repetitivas ou em massa.
 - O chamado **Efeito Hyper** é uma prática de relacionamento e sinalização de interesse legítimo. Não é promessa de alcance, entrega ou pontuação garantida pelo Instagram.
 - Não discutir dados clínicos, agendamento, valores ou casos individuais em comentários públicos.
+- Não qualificar ou abordar pessoas por suposições de renda, idade, condição de
+  saúde, aparência ou outros atributos pessoais. Usar apenas sinais voluntários
+  de interação, região declarada e contexto público não sensível.
+
+## Três fluxos de relacionamento
+
+### GS — Gatilho Social
+
+Depois de um Story com enquete, emoji ou pergunta, a Tamires pode abordar, em
+até 24 horas, pessoas que **voluntariamente interagiram** e cujo perfil seja
+compatível com uma conversa respeitosa.
+
+1. Conferir a interação no próprio Story e abrir o perfil.
+2. Registrar origem `GS` e o código/tema do Story, sem copiar resposta clínica
+   ou dado sensível para a planilha.
+3. Enviar uma mensagem individual, curta e digitada, citando o conteúdo e
+   fazendo no máximo uma pergunta sobre impacto na rotina — nunca sobre
+   diagnóstico, exame, medicamento ou indicação de procedimento.
+4. Se houver interesse explícito em saber como funciona o atendimento, pedir
+   consentimento antes de migrar para o WhatsApp oficial da clínica.
+5. Registrar no CRM a origem e um resumo mínimo não clínico do contexto.
+
+Não abordar menores de idade, concorrentes, perfis comerciais, contas
+inautênticas ou situações de urgência. Em relato de possível urgência, orientar
+procura de atendimento de urgência e escalar internamente; não conduzir a
+conversa como captação.
+
+### ANS — Acolhimento ao novo seguidor
+
+Em dois blocos diários, a Tamires revisa novos seguidores e pode enviar
+boas-vindas apenas para perfis reais e adequados ao relacionamento.
+
+- Mensagem de acolhimento, sem oferta de consulta, valores, procedimentos ou
+  pressão para responder.
+- Personalização limitada a um detalhe público e não sensível do perfil.
+- Não registrar ou inferir condições de saúde a partir do perfil.
+- Se a pessoa responder espontaneamente e manifestar interesse, seguir o fluxo
+  de conversa segura e, somente com consentimento, encaminhar ao WhatsApp.
+
+### VS — Visita sincera
+
+Em dois blocos diários, fazer interações genuínas e proporcionais com perfis
+que já acompanham ou interagem com a Dra. Lígia, incluindo Lista Ouro e Rede de
+Indicadores quando aplicável.
+
+- Reagir a um Story ou post recente, no máximo uma ou duas interações por
+  pessoa no mesmo momento.
+- Não comentar corpo, crianças, religião, política, luto, internação ou assunto
+  clínico individual.
+- Para parceiros profissionais, a interação é institucional e sem proposta
+  comercial pública; qualquer aproximação comercial é avisada ao Reginaldo.
+- Para pacientes, a interação é apenas de relacionamento; não falar de
+  tratamento, agenda ou retorno por comentário ou Direct informal.
+
+## Cadência diária de atividades
+
+| Horário sugerido | Atividade |
+|---|---|
+| 08h30 | Responder conversas já abertas, priorizando quem aguarda retorno; encaminhar casos sensíveis. |
+| 09h–10h | Executar GS pendente de Story publicado nas últimas 24 horas. |
+| 10h–11h | VS — bloco 1, priorizando interações recentes e contatos estratégicos. |
+| 12h | ANS — bloco 1 para novos seguidores adequados. |
+| 14h–15h | Continuar conversas, encaminhar interessados consentidos ao WhatsApp e registrar origem. |
+| 16h–17h | VS — bloco 2, Lista Ouro e Rede de Indicadores. |
+| 18h | ANS — bloco 2 e atualização da planilha. |
+
+O atendimento ativo ocorre em dias úteis, dentro do horário de 9h a 18h.
+
+## Limites de contato e encaminhamento
+
+- Aplicar a regra das **três ativações**: uma mensagem e até duas visitas
+  sinceras sem resposta. Depois, parar.
+- Uma resposta curta ou pedido para não receber mensagens encerra a abordagem.
+- Não usar urgência artificial, desconto, promoção, promessa clínica ou texto
+  repetido em massa.
+- No WhatsApp, usar o roteiro oficial de atendimento; só a médica define
+  hipótese diagnóstica, indicação e Plano de Cuidado.
+- Em qualquer dúvida fora do script ou situação sensível, pausar e consultar o
+  Reginaldo antes de responder.
 
 ## Rotina diária — higienização de seguidores
 
