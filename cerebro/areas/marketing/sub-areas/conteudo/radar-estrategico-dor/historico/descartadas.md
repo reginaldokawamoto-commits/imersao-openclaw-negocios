@@ -23,3 +23,6 @@
 | 2026-11-09 | Menções de enxaqueca em conversas gerais | Fora de contexto de jornada de dor persistente/investigação; não constituem pergunta espontânea qualificável. |
 | 2026-11-12 | Dor e limitação relacionadas a artroplastia de quadril | Discussão centrada em experiências pessoais e pós-operatório; não há pergunta recorrente independente e seria inadequado induzir comparação ou promessa de resultado cirúrgico. |
 | 2026-11-12 | Lombar, fibromialgia, ombro e enxaqueca | Pautas já selecionadas em ciclos anteriores; não surgiu evidência recente independente que justificasse repetição. |
+| 2026-11-15 | Dor lombar/dor nas costas persistente | Fontes recentes eram editoriais, não perguntas espontâneas, e reiteram pauta lombar já selecionada sem evidência nova independente. |
+| 2026-11-15 | Dor crônica irradiada após exames e tentativas | Relato individual potencialmente complexo; sem confirmação independente e inadequado para induzir hipótese diagnóstica ou conduta. |
+| 2026-11-15 | Fibromialgia com investigação em curso e retorno a atividades | Relato individual, com suspeitas clínicas em investigação, que se sobrepõe à pauta selecionada em 31/10. |
