@@ -23,3 +23,6 @@
 | 2026-11-12 | Citomegalovírus e fibromialgia | Estudo caso-controle mostra associação, não causalidade; alto risco de narrativa infecciosa simplista e investigação indevida. |
 | 2026-11-12 | Botox/corticoide/lidocaína/dextrose para lombalgia discogênica | Coorte retrospectiva sem controle, protocolo com quatro componentes e seguimento curto; não isola benefício ou segurança. |
 | 2026-11-12 | PEACE para injeção epidural e ciática | Protocolo de ensaio, sem resultados clínicos; não é avanço terapêutico comprovado. |
+| 2026-11-15 | Adrenomedulina na cefaleia persistente pós-traumática | Ensaio pequeno de provocação experimental; hipótese de mecanismo, não tratamento testado. |
+| 2026-11-15 | Uso de medicamentos após chicote cervical como causalidade | Coorte observacional não permite atribuir persistência da dor ao medicamento. |
+| 2026-11-15 | Neuroestimulação/IA sem ensaio clínico novo | Sem evolução material verificável frente às pautas de tecnologia já registradas. |

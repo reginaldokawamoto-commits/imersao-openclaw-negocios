@@ -20,3 +20,5 @@
 | 2026-11-12 | App após fratura: cuidado digital não é atalho | 88 | Plano de Cuidado como estratégia | Aguardar revisão médica/editorial |
 | 2026-11-12 | Laser no túnel do carpo: evidência não é indicação automática | 83 | Investigação antes da conduta | Aguardar revisão médica/editorial |
 | 2026-11-12 | Lombalgia: plano coordenado para vida e trabalho | 81 | Autonomia na vida real | Aguardar revisão médica/editorial |
+| 2026-11-15 | Pós-lesão cervical: acompanhamento além da receita | 90 | Plano de Cuidado como estratégia | Aguardar revisão médica/editorial |
+| 2026-11-15 | Fibromialgia: aprovação não substitui leitura crítica | 85 | Investigação antes da conduta | Aguardar revisão médica/editorial |
