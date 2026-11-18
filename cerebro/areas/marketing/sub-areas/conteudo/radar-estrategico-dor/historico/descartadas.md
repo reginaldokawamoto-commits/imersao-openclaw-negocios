@@ -26,3 +26,8 @@
 | 2026-11-15 | Dor lombar/dor nas costas persistente | Fontes recentes eram editoriais, não perguntas espontâneas, e reiteram pauta lombar já selecionada sem evidência nova independente. |
 | 2026-11-15 | Dor crônica irradiada após exames e tentativas | Relato individual potencialmente complexo; sem confirmação independente e inadequado para induzir hipótese diagnóstica ou conduta. |
 | 2026-11-15 | Fibromialgia com investigação em curso e retorno a atividades | Relato individual, com suspeitas clínicas em investigação, que se sobrepõe à pauta selecionada em 31/10. |
+| 2026-11-18 | Dor lombar crônica refratária | Mesma discussão de 24/10 já selecionada em 28/10; não foi encontrada confirmação recente independente que justificasse repetição. |
+| 2026-11-18 | Enxaqueca com busca de explicação/controle | Sinais públicos repetem eixo selecionado em 28/10, sem evidência nova suficiente; fontes incluem recomendações anedóticas que não devem ser reproduzidas. |
+| 2026-11-18 | Dor crônica de joelho após múltiplas tentativas | Relato único cuja pergunta central é de carreira; não sustenta pauta de Medicina da Dor nem indicação individual. |
+| 2026-11-18 | Fibromialgia e renovação de medicação | Debate profissional, com trechos estigmatizantes; não é pergunta de paciente e repete eixo selecionado em 31/10. |
+| 2026-11-18 | Fisiatria, função e independência | Conteúdo institucional/de profissionais, não dúvida espontânea ou evidência de demanda de pacientes. |
