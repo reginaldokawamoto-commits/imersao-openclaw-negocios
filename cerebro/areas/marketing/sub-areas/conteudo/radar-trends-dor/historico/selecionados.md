@@ -22,3 +22,6 @@
 | 2026-11-12 | Lombalgia: plano coordenado para vida e trabalho | 81 | Autonomia na vida real | Aguardar revisão médica/editorial |
 | 2026-11-15 | Pós-lesão cervical: acompanhamento além da receita | 90 | Plano de Cuidado como estratégia | Aguardar revisão médica/editorial |
 | 2026-11-15 | Fibromialgia: aprovação não substitui leitura crítica | 85 | Investigação antes da conduta | Aguardar revisão médica/editorial |
+| 2026-11-18 | SPECT-CT na lombalgia: mais imagem não é resposta automática | 87 | Investigação antes da conduta | Aguardar revisão médica/editorial |
+| 2026-11-18 | Enxaqueca e endometriose: conexão possível, avaliação precisa | 84 | Plano de Cuidado como estratégia | Aguardar revisão médica/editorial |
+| 2026-11-18 | Resistência antimicrobiana: dor não é sinônimo de infecção | 80 | Investigação antes da conduta | Aguardar revisão médica/editorial |

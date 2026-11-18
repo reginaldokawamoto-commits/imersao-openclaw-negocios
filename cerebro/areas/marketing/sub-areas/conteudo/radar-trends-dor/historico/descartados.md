@@ -26,3 +26,6 @@
 | 2026-11-15 | Adrenomedulina na cefaleia persistente pós-traumática | Ensaio pequeno de provocação experimental; hipótese de mecanismo, não tratamento testado. |
 | 2026-11-15 | Uso de medicamentos após chicote cervical como causalidade | Coorte observacional não permite atribuir persistência da dor ao medicamento. |
 | 2026-11-15 | Neuroestimulação/IA sem ensaio clínico novo | Sem evolução material verificável frente às pautas de tecnologia já registradas. |
+| 2026-11-18 | Realidade virtual para dor crônica | Revisão de apenas oito estudos, heterogênea; repete sem evolução material a linha de tecnologias digitais/IA. |
+| 2026-11-18 | Perfis nociplástico-like/neuropático-like na artrite reumatoide | Estudo transversal baseado em questionários, sem atividade inflamatória; não estabelece mecanismos e favorece autorrótulo. |
+| 2026-11-18 | Acupuntura para dor após cesárea | Meta-análise com heterogeneidade extrema, risco de viés e certeza baixa a moderada; risco de promessa em contexto sensível. |
