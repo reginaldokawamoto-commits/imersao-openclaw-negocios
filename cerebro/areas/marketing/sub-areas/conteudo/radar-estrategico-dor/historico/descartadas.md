@@ -2,6 +2,11 @@
 
 | Data | Candidata | Motivo |
 |---|---|---|
+| 2026-11-21 | Enxaqueca com aura e receio diante de crises recentes | Eixo de enxaqueca já selecionado em 28/10; recorte potencialmente agudo e individual, sem base para normalizar sintomas ou sugerir conduta. |
+| 2026-11-21 | Dor de cabeça persistente com limitação funcional | Relato individual, clinicamente heterogêneo e sem confirmação independente; não permite inferir mecanismo ou causa. |
+| 2026-11-21 | Fibromialgia e dúvida sobre plataforma privada | Repete pauta de dor difusa/fadiga selecionada em 31/10 e a pergunta é comparação de serviço específico, inadequada como pauta de marca. |
+| 2026-11-21 | Dor lateral no joelho ao correr | Possível lesão relacionada a treino, sem trajetória persistente documentada ou confirmação independente; risco de induzir autodiagnóstico/retorno ao esporte. |
+| 2026-11-21 | Condromalácia, dor no joelho e retorno à corrida | Relato individual de reabilitação, sem confirmação independente; comentários anedóticos não são orientação clínica. |
 | 2026-10-28 | Dor lombar após levantamento terra | Questão imediata de treino; risco de induzir orientação genérica fora de avaliação individual. |
 | 2026-10-28 | Dor lombar possivelmente renal | Fora do escopo de dor persistente/crônica. |
 | 2026-10-28 | Fibromialgia | Monitorar: faltaram duas evidências recentes em português que justificassem prioridade neste ciclo. |
