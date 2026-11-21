@@ -29,3 +29,6 @@
 | 2026-11-18 | Realidade virtual para dor crônica | Revisão de apenas oito estudos, heterogênea; repete sem evolução material a linha de tecnologias digitais/IA. |
 | 2026-11-18 | Perfis nociplástico-like/neuropático-like na artrite reumatoide | Estudo transversal baseado em questionários, sem atividade inflamatória; não estabelece mecanismos e favorece autorrótulo. |
 | 2026-11-18 | Acupuntura para dor após cesárea | Meta-análise com heterogeneidade extrema, risco de viés e certeza baixa a moderada; risco de promessa em contexto sensível. |
+| 2026-11-21 | PRP epidural transforaminal versus triancinolona para dor radicular lombar | Ensaio único com produto proprietário e vínculo institucional com empresa; não sustenta promoção de procedimento e repete linha intervencionista recente. |
+| 2026-11-21 | Respiração ritmada/metronômica versus respiração de yoga em dor crônica | Ensaio exploratório centrado em marcador fisiológico; insuficiente para recomendação clínica ou conteúdo de autocuidado. |
+| 2026-11-21 | Dor neuropática e sensibilização central na espondilite anquilosante | Revisão narrativa sem avanço terapêutico; alto risco de autorrótulo e repetição de linha já trabalhada. |
