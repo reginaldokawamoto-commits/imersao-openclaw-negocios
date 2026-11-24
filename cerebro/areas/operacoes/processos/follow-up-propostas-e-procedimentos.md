@@ -6,9 +6,13 @@ Garantir que toda proposta, orçamento ou solicitação de procedimento tenha um
 
 ## Fonte única de controle
 
-Usar exclusivamente a aba **Controle de Procedimentos** da [planilha operacional](https://docs.google.com/spreadsheets/d/122ARYktTi1RsuCnJNXIV_Bhzg-8lmofOb64yxydmxX8/edit#gid=1236342738).
+Usar o painel **Comercial – Procedimento Particular + Follow up** no **AIOS CRM** como fonte operacional única dos casos de proposta, solicitação ao convênio e follow-up.
 
-Não criar listas paralelas em WhatsApp, cadernos ou planilhas pessoais. O WhatsApp serve para conversar com o paciente; o controle precisa ser atualizado na planilha logo após cada contato.
+- O painel **Campanhas Meta Ads e Google Ads** é separado: concentra os leads de todas as campanhas (Google Ads, Meta Ads e demais origens de mídia) e mede o funil comercial desses leads.
+- O painel de **Procedimento Particular + Follow up** concentra os casos que já demandam orçamento, decisão do paciente, solicitação ao convênio, negativa/reclamação, autorização e organização de agendamento.
+- A planilha **Controle de Procedimentos** permanece como exportação de apoio e base dos relatórios enquanto a extração automática do AIOS estiver em implantação; ela não deve ser atualizada de forma paralela e manual sem refletir o mesmo caso no CRM.
+
+Não criar listas paralelas em WhatsApp, cadernos ou planilhas pessoais. O WhatsApp serve para conversar com o paciente; a evidência do contato precisa ser registrada no cartão do AIOS logo após cada interação.
 
 ## Regra inegociável
 
@@ -31,6 +35,7 @@ Se o paciente disser que só poderá fazer no mês seguinte, isso não é encerr
 11. Próxima ação
 12. Próximo follow-up
 13. Observações: registro datado e objetivo de cada conversa/contato — canal utilizado, síntese do que foi combinado, resposta do paciente, objeção, prazo prometido ou motivo da pausa/perda
+14. Data da próxima revisão semanal, quando o caso permanecer aberto
 
 ## Status que a equipe deve usar
 
@@ -147,13 +152,25 @@ Não basta marcar o caso como atualizado. Sem esse registro, ou sem nova data de
 
 ## Rotina operacional da Paola
 
-1. No início do dia, filtrar a aba por `Próximo follow-up` igual ou anterior a hoje.
+1. No início do dia, abrir o painel **Comercial – Procedimento Particular + Follow up** e filtrar os cartões com follow-up igual ou anterior a hoje.
 2. Fazer os contatos previstos.
 3. Após cada retorno, atualizar **status, último contato, próxima ação, próximo follow-up e observações** no mesmo dia.
 4. Para cada proposta particular aberta, fazer follow-up ao menos semanalmente, salvo se o paciente tiver combinado uma data diferente; nesse caso, seguir a data acordada e registrá-la nas observações.
-5. No fim do dia, revisar se algum caso aberto ficou sem próxima data ou sem registro da conversa.
+5. No fim do dia, revisar se algum caso aberto ficou sem próxima data, sem observação ou sem responsável.
 6. Casos sem resposta, convênio pendente e aceite sem agendamento devem continuar no controle até o desfecho.
 7. Negativas e reclamações só saem da fila após confirmação de desfecho, desistência explícita ou nova decisão registrada.
+
+## Acompanhamento semanal da Paola
+
+Uma vez por semana — ou na data combinada com o paciente — Paola deve revisar cada caso aberto no painel e atualizar:
+
+1. **Observações:** data, canal e resumo do que foi conversado;
+2. **Status:** etapa real do caso;
+3. **Próxima ação:** o que será feito a seguir;
+4. **Próximo follow-up:** data objetiva da nova revisão;
+5. **Responsável:** manter ou corrigir quem depende de ação.
+
+Caso aberto sem essas cinco informações é considerado **pendência de atualização**, mesmo que o paciente ainda esteja decidindo ou o convênio esteja em análise.
 
 ## Acompanhamento do Reginaldo
 
@@ -172,8 +189,8 @@ O resumo deve priorizar somente:
 
 Seguir a [rotina de 15 minutos](../rotinas/reuniao-semanal-paola-procedimentos.md), sempre a partir do relatório gerado pela aba oficial. A reunião serve para remover bloqueios e definir próximos passos; não deve recontar todo o histórico dos casos.
 
-## Ferramenta recomendada
+## Relatórios e controles
 
-Manter a **aba já existente no Google Sheets** como fonte única neste momento. Ela já suporta responsável, status, último contato, próxima ação e próximo follow-up, e o agente já consegue gerar uma lista de críticos a partir dela.
+O relatório semanal deve ser extraído do painel do AIOS e separar: propostas em follow-up, aceites sem agenda, convênios pendentes, negativas/reclamações, casos vencidos e cartões sem atualização semanal.
 
-Antes de adotar um CRM novo, consolidar o uso diário da aba por 30 dias. Depois disso, se a equipe estiver atualizando os campos corretamente, avaliar automação de lembretes e dashboard; criar outra ferramenta agora aumentaria o risco de duplicidade e desatualização.
+Até a automação estar validada, a exportação do painel deve alimentar a planilha de apoio e o relatório. O critério de validação é que a contagem de cartões, status e próximas datas corresponda ao AIOS antes de qualquer resumo ser enviado.
