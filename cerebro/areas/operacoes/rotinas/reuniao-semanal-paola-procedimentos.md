@@ -27,7 +27,7 @@ memória ou template.
 | Tempo | Tema | Resultado obrigatório |
 |---|---|---|
 | 0–2 min | Painel | Quantos casos ativos, vencidos e sem atualização. |
-| 2–6 min | Propostas | Cada orçamento sem resposta: seguir, pausar ou encerrar; definir próxima data. |
+| 2–6 min | Propostas | Cada orçamento sem resposta: conferir a última observação, seguir, pausar ou encerrar; definir próxima data. |
 | 6–9 min | Aceites sem agenda | Remover a trava: hospital, data, pagamento, reembolso ou documento. |
 | 9–12 min | Convênios, negativas e reclamações | Definir a ação da semana e o retorno programado. |
 | 12–15 min | Compromissos | Paola confirma as 3–5 prioridades; Reginaldo assume decisões/dependências dele. |
@@ -43,6 +43,10 @@ memória ou template.
 
 Se uma dessas perguntas ficar sem resposta, o caso não pode sair da reunião sem
 registro de `próxima ação` e `próximo follow-up`.
+
+Para cada proposta particular ainda aberta, conferir também se a observação mais recente
+tem data, canal, síntese do que foi conversado e a data combinada para o próximo contato.
+Sem essa evidência, o follow-up fica pendente de comprovação.
 
 ## Saída da reunião
 
@@ -74,3 +78,4 @@ curta no formato abaixo:
 - Negativas sem orientação registrada.
 - Reclamações sem protocolo ou retorno.
 - Casos sem próxima ação/data: meta é zero.
+- Propostas particulares sem observação de contato nos últimos 7 dias, salvo data diferente combinada: meta é zero.

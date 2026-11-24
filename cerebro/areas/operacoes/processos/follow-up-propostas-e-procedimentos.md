@@ -30,7 +30,7 @@ Se o paciente disser que só poderá fazer no mês seguinte, isso não é encerr
 10. Último contato
 11. Próxima ação
 12. Próximo follow-up
-13. Observações: resposta do paciente, objeção, prazo prometido ou motivo da pausa/perda
+13. Observações: registro datado e objetivo de cada conversa/contato — canal utilizado, síntese do que foi combinado, resposta do paciente, objeção, prazo prometido ou motivo da pausa/perda
 
 ## Status que a equipe deve usar
 
@@ -62,9 +62,19 @@ Se o paciente disser que só poderá fazer no mês seguinte, isso não é encerr
 | D+1 | Perguntar se conseguiu avaliar e se há alguma dúvida administrativa | registrar resposta; próximo follow-up D+3 |
 | D+3 | Retomar de forma objetiva e perguntar se está de acordo para avançar para o agendamento | `followup_comercial`; próximo follow-up D+7 |
 | D+7 | Solicitar uma definição sem pressionar: seguir, pausar ou não realizar agora | definir próximo passo e data |
-| Depois de D+7 | Follow-up semanal por até 30 dias, se o paciente demonstrar interesse | sempre registrar nova data |
+| Depois de D+7 | Follow-up semanal, ou na data especificamente combinada com o paciente | registrar a conversa e sempre definir nova data |
 
-Após 30 dias sem resposta, classificar como `perdido` ou `pausado` conforme contexto. Não apagar o caso.
+Após 30 dias sem resposta, avaliar com Reginaldo se o caso deve ser `perdido` ou `pausado`. Não apagar o caso nem interromper o acompanhamento por conta própria.
+
+### Regra de registro de execução
+
+Todo contato de proposta particular deve deixar evidência na coluna **Observações** no mesmo dia, neste padrão:
+
+`DD/MM — canal — resumo objetivo do retorno/combinação — próxima ação — próxima data.`
+
+Exemplo: `24/11 — WhatsApp — paciente pediu retomada após conversar com a família — retomar proposta — 01/12.`
+
+Não basta marcar o caso como atualizado. Sem esse registro, ou sem nova data de follow-up, o contato será considerado **não comprovado** para a conferência do Reginaldo.
 
 ## Respostas esperadas e como registrar
 
@@ -140,9 +150,10 @@ Após 30 dias sem resposta, classificar como `perdido` ou `pausado` conforme con
 1. No início do dia, filtrar a aba por `Próximo follow-up` igual ou anterior a hoje.
 2. Fazer os contatos previstos.
 3. Após cada retorno, atualizar **status, último contato, próxima ação, próximo follow-up e observações** no mesmo dia.
-4. No fim do dia, revisar se algum caso aberto ficou sem próxima data.
-5. Casos sem resposta, convênio pendente e aceite sem agendamento devem continuar no controle até o desfecho.
-6. Negativas e reclamações só saem da fila após confirmação de desfecho, desistência explícita ou nova decisão registrada.
+4. Para cada proposta particular aberta, fazer follow-up ao menos semanalmente, salvo se o paciente tiver combinado uma data diferente; nesse caso, seguir a data acordada e registrá-la nas observações.
+5. No fim do dia, revisar se algum caso aberto ficou sem próxima data ou sem registro da conversa.
+6. Casos sem resposta, convênio pendente e aceite sem agendamento devem continuar no controle até o desfecho.
+7. Negativas e reclamações só saem da fila após confirmação de desfecho, desistência explícita ou nova decisão registrada.
 
 ## Acompanhamento do Reginaldo
 
@@ -154,6 +165,8 @@ O resumo deve priorizar somente:
 - casos pausados que vencem no mês;
 - convênios/negativas que bloqueiam o agendamento;
 - responsáveis sem atualização.
+- propostas particulares cujo último contato ou observação esteja há mais de 7 dias, sem data combinada diferente;
+- contatos lançados sem resumo da conversa, próxima ação ou próxima data.
 
 ## Reunião semanal Reginaldo + Paola
 

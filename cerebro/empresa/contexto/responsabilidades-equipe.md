@@ -87,6 +87,13 @@ Para cada atividade, registrar sempre que possível:
 
 ## Paola
 
+### Acompanhamento de propostas particulares e solicitações de procedimento
+
+- Fazer follow-up semanal de toda proposta particular aberta, ou na data combinada com o paciente.
+- No mesmo dia de cada contato, registrar na aba **Controle de Procedimentos**: data, canal, resumo objetivo da conversa, status, próxima ação e próximo follow-up.
+- A atualização sem observação da conversa e sem nova data não comprova a execução do follow-up.
+- Manter os casos em acompanhamento até agendamento, fechamento, pausa com data definida ou perda registrada; escalar bloqueios ao Reginaldo.
+
 ### Responsabilidades atuais
 
 | Atividade | Frequência | Ferramenta/canal | Critério de conclusão | Status | Observações |
