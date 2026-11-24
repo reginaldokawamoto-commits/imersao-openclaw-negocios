@@ -26,3 +26,5 @@
 | 2026-11-18 | Enxaqueca e endometriose: conexão possível, avaliação precisa | 84 | Plano de Cuidado como estratégia | Aguardar revisão médica/editorial |
 | 2026-11-18 | Resistência antimicrobiana: dor não é sinônimo de infecção | 80 | Investigação antes da conduta | Aguardar revisão médica/editorial |
 | 2026-11-21 | Cúrcuma na artrose de joelho: popularidade não substitui benefício clinicamente relevante | 90 | Investigação antes da conduta | Aguardar revisão médica/editorial |
+| 2026-11-24 | Neuralgia pós-herpética: a persistência da dor após o herpes merece plano, não banalização | 84 | Dor persistente não é destino | Aguardar revisão médica/editorial |
+| 2026-11-24 | Enxaqueca em revisão de alto impacto: atualização não deve virar atalho diagnóstico ou promessa de tecnologia | 80 | Investigação antes da conduta | Aguardar revisão médica/editorial |

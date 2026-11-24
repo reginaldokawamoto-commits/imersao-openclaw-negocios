@@ -32,3 +32,6 @@
 | 2026-11-21 | PRP epidural transforaminal versus triancinolona para dor radicular lombar | Ensaio único com produto proprietário e vínculo institucional com empresa; não sustenta promoção de procedimento e repete linha intervencionista recente. |
 | 2026-11-21 | Respiração ritmada/metronômica versus respiração de yoga em dor crônica | Ensaio exploratório centrado em marcador fisiológico; insuficiente para recomendação clínica ou conteúdo de autocuidado. |
 | 2026-11-21 | Dor neuropática e sensibilização central na espondilite anquilosante | Revisão narrativa sem avanço terapêutico; alto risco de autorrótulo e repetição de linha já trabalhada. |
+| 2026-11-24 | Cinta/órtese lombar para dor lombar crônica | Divulgação recente de revisão Cochrane publicada em setembro; não há avanço científico no ciclo. Evidência insuficiente para uso rotineiro e sem dados de eventos adversos. |
+| 2026-11-24 | Alografo intradiscal de núcleo pulposo para dor discogênica | Informação inicial sem validação independente suficiente de população, desfechos, conflitos e seguimento; alto risco de publicidade de procedimento. |
+| 2026-11-24 | Arteterapia em grupo para dor crônica | Estudo piloto de braço único, sem comparador; não sustenta eficácia ou recomendação. |
