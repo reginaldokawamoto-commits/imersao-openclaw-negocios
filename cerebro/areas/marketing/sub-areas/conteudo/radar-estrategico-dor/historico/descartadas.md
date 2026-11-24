@@ -2,6 +2,11 @@
 
 | Data | Candidata | Motivo |
 |---|---|---|
+| 2026-11-24 | Enxaqueca com aura e receio diante de crises recentes | Já avaliada em 21/11; recorte potencialmente agudo e eixo de enxaqueca já selecionado, sem nova confirmação independente. |
+| 2026-11-24 | Dor no joelho e retorno à corrida | Relatos de 18–19/11 centrados em possível lesão/treino, sem trajetória persistente documentada nem confirmação independente; não induzir orientação individual. |
+| 2026-11-24 | Dor crônica além da escala de intensidade | Artigo editorial de 17/11, não pergunta espontânea; sobrepõe-se ao eixo de impacto funcional selecionado em 31/10. |
+| 2026-11-24 | Dor persistente com exames sem explicação percebida | Conteúdo editorial, sem pergunta espontânea ou recorrência independente; já monitorado em 15/11. |
+| 2026-11-24 | Dor crônica com impacto em sono, trabalho e convívio | Fonte de 27/09 fora da janela prioritária e já base de pauta selecionada em 31/10; sem confirmação recente independente. |
 | 2026-11-21 | Enxaqueca com aura e receio diante de crises recentes | Eixo de enxaqueca já selecionado em 28/10; recorte potencialmente agudo e individual, sem base para normalizar sintomas ou sugerir conduta. |
 | 2026-11-21 | Dor de cabeça persistente com limitação funcional | Relato individual, clinicamente heterogêneo e sem confirmação independente; não permite inferir mecanismo ou causa. |
 | 2026-11-21 | Fibromialgia e dúvida sobre plataforma privada | Repete pauta de dor difusa/fadiga selecionada em 31/10 e a pergunta é comparação de serviço específico, inadequada como pauta de marca. |
