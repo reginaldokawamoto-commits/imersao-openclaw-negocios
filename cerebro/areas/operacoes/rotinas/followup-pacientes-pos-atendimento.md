@@ -186,6 +186,28 @@ A confirmar com Reginaldo e equipe:
 | Curativo | D+1 | Verificar intercorrência e necessidade de retorno |
 | Laser | Não gerar tarefa automática | Paciente costuma vir semanalmente em pacote/sessões; não aplicar follow-up geral. |
 
+## Regra comercial — retorno tardio após bloqueio em casos de convênio
+
+Quando um paciente que fez **bloqueio** estiver há longo período sem passar em
+consulta, a equipe deve verificar a modalidade de pagamento antes de orientar o
+retorno:
+
+1. **Pagamento via convênio:** o retorno será cobrado por **50% do valor vigente
+   da consulta médica particular**. Com a consulta em R$ 800,00, o valor atual é
+   **R$ 400,00**.
+2. **Pagamento particular do horário, mesmo com autorização de convênio pendente
+   para o procedimento:** esta regra não se aplica. Não cobrar o retorno de R$
+   400,00 por essa condição; seguir a regra comercial do atendimento particular.
+
+Antes de comunicar qualquer valor, confirmar modalidade de pagamento e consultar
+os [parâmetros comerciais](../contexto/precificacao-atendimento.md). O retorno
+deve ser calculado como `50% × valor vigente da consulta`; portanto, qualquer
+alteração no preço da consulta atualiza automaticamente o valor de referência da
+regra, sem manter valor fixo desatualizado.
+
+Em caso de dúvida sobre a modalidade, não presumir: registrar a pendência e
+validar com Reginaldo/Dra. Lígia antes de orientar o paciente.
+
 ## Regra de exceção para laser
 
 A partir de 18/08/2026, atendimentos/procedimentos de **Laser** não devem entrar no checklist automático de follow-up da Tamires. Esses pacientes normalmente vêm a cada 7 dias em pacotes de sessões, então o acompanhamento já acontece na própria agenda.
