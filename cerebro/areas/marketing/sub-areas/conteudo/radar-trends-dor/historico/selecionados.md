@@ -28,3 +28,4 @@
 | 2026-11-21 | Cúrcuma na artrose de joelho: popularidade não substitui benefício clinicamente relevante | 90 | Investigação antes da conduta | Aguardar revisão médica/editorial |
 | 2026-11-24 | Neuralgia pós-herpética: a persistência da dor após o herpes merece plano, não banalização | 84 | Dor persistente não é destino | Aguardar revisão médica/editorial |
 | 2026-11-24 | Enxaqueca em revisão de alto impacto: atualização não deve virar atalho diagnóstico ou promessa de tecnologia | 80 | Investigação antes da conduta | Aguardar revisão médica/editorial |
+| 2026-11-27 | Analgesia pós-operatória: uma técnica pode compor o plano, mas não substitui indicação nem segurança | 79 | Plano de Cuidado como estratégia | Aguardar revisão médica/editorial |

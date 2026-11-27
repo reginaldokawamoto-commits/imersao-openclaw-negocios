@@ -35,3 +35,6 @@
 | 2026-11-24 | Cinta/órtese lombar para dor lombar crônica | Divulgação recente de revisão Cochrane publicada em setembro; não há avanço científico no ciclo. Evidência insuficiente para uso rotineiro e sem dados de eventos adversos. |
 | 2026-11-24 | Alografo intradiscal de núcleo pulposo para dor discogênica | Informação inicial sem validação independente suficiente de população, desfechos, conflitos e seguimento; alto risco de publicidade de procedimento. |
 | 2026-11-24 | Arteterapia em grupo para dor crônica | Estudo piloto de braço único, sem comparador; não sustenta eficácia ou recomendação. |
+| 2026-11-27 | Cannabidiol + beta-cariofileno para dor neuropática/inflamatória | Revisão baseada em cinco estudos exclusivamente em roedores; não há evidência clínica de eficácia ou segurança. |
+| 2026-11-27 | Terapia manipulativa osteopática para cefaleia cervicogênica | Edição impressa recente, mas ensaio publicado online em abril; sem fato científico novo na janela e com risco de recomendação prematura de técnica. |
+| 2026-11-27 | Quercetina para neuropatia diabética dolorosa | Estudo exclusivamente em modelo de rato; achados pré-clínicos não sustentam conteúdo terapêutico para pacientes. |
