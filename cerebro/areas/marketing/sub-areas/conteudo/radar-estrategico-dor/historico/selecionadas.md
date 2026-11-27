@@ -8,3 +8,5 @@
 | 2026-10-31 | Dor difusa e fadiga persistentes: como avaliar sem reduzir a um rótulo ou a mais um remédio? | 88 | Selecionada |
 | 2026-10-31 | Como organizar cuidado quando a dor persistente afeta sono, trabalho e vida social? | 86 | Selecionada |
 | 2026-10-31 | Dor no ombro persistente: quando reavaliar antes de acumular soluções? | 87 | Selecionada |
+
+> Atualizado em 27/11/2026: nenhuma nova pergunta foi adicionada, pois não houve três candidatas com evidência suficiente neste ciclo.

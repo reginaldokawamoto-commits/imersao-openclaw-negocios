@@ -2,6 +2,11 @@
 
 | Data | Candidata | Motivo |
 |---|---|---|
+| 2026-11-27 | Enxaqueca com aura e receio diante de crises recentes | Já avaliada em 21/11 e 24/11; potencialmente aguda e sobreposta à pauta de enxaqueca selecionada, sem confirmação independente nova. |
+| 2026-11-27 | Dor no joelho e expectativa de voltar a correr | Fontes de 18–19/11 seguem centradas em possível lesão/treino, sem trajetória persistente documentada nem confirmação independente; não induzir orientação individual ou promessa de retorno. |
+| 2026-11-27 | Dor persistente com exames sem explicação percebida | Conteúdo educativo, sem pergunta espontânea ou recorrência pública independente; já monitorado em 15/11 e 24/11. |
+| 2026-11-27 | Dor crônica para além da escala de intensidade | Artigo editorial, não pergunta espontânea; sobrepõe-se ao eixo de impacto funcional selecionado em 31/10. |
+| 2026-11-27 | Dor persistente, função e objetivos de tratamento | Referências institucionais servem para segurança editorial, mas não comprovam dúvida espontânea nova do público. |
 | 2026-11-24 | Enxaqueca com aura e receio diante de crises recentes | Já avaliada em 21/11; recorte potencialmente agudo e eixo de enxaqueca já selecionado, sem nova confirmação independente. |
 | 2026-11-24 | Dor no joelho e retorno à corrida | Relatos de 18–19/11 centrados em possível lesão/treino, sem trajetória persistente documentada nem confirmação independente; não induzir orientação individual. |
 | 2026-11-24 | Dor crônica além da escala de intensidade | Artigo editorial de 17/11, não pergunta espontânea; sobrepõe-se ao eixo de impacto funcional selecionado em 31/10. |
